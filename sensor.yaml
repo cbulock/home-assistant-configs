@@ -1,0 +1,21 @@
+- platform: forecast
+  api_key: [REDACTED]
+  monitored_conditions:
+    - summary
+    - precip_probability
+    - temperature
+    - apparent_temperature
+    - wind_speed
+    - humidity
+- platform: nest
+  monitored_conditions:
+    - humidity
+
+# Example of how to do a template based sensor
+
+#- platform: template
+#  sensors:
+#    indoor_humidity:
+#      friendly_name: Indoor Humidity
+#      value_template: '{{ states.thermostat.kitchen.attributes.humidity }}'
+#      unit_of_measurement: '%'

@@ -1,0 +1,44 @@
+homeassistant:
+  name: Home
+  latitude: [REDACTED]
+  longitude: [REDACTED]
+  temperature_unit: F
+  time_zone: America/Detroit
+  customize: !include customize.yaml
+
+discovery:
+sun:
+updater:
+frontend:
+conversation:
+logbook:
+history:
+sensor: !include sensor.yaml
+group: !include group.yaml
+scene: !include scene.yaml
+automation: !include automation.yaml
+
+http:
+  api_password: [REDACTED]
+
+device_tracker:
+  platform: netgear
+  host: 10.0.0.1
+  username: admin
+  password: [REDACTED]
+  track_new_devices: no
+
+wink:
+  access_token: [REDACTED]
+  refresh_token: [REDACTED]
+
+notify:
+  platform: pushbullet
+  api_key: [REDACTED]
+
+nest:
+  username: [REDACTED]
+  password: [REDACTED]
+
+thermostat:
+  platform: nest

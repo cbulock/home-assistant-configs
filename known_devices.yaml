@@ -1,0 +1,27 @@
+husband:
+  name: Husband
+  mac: [REDACTED]
+  picture: /local/family/Husband.jpg
+  track: yes
+  hide_if_away: no
+
+wife:
+  name: Wife
+  mac: [REDACTED]
+  picture: /local/family/Wife.jpg
+  track: yes
+  hide_if_away: no
+
+daugher:
+  name: Daughter
+  mac: [REDACTED]
+  picture: /local/family/Daughter.jpg
+  track: yes
+  hide_if_away: no
+
+son:
+  name: Son
+  mac: [REDACTED]
+  picture: /local/family/Son.jpg
+  track: yes
+  hide_if_away: no

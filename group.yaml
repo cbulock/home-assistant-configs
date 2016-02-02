@@ -1,0 +1,32 @@
+living_room:
+  - sensor.front_door
+  - light.living_room_ceiling
+  - light.living_room_lamp
+  - switch.fireplace
+  - media_player.living_room
+master_bedroom:
+  - light.bedroom_lamp
+  - media_player.master_bedroom
+kitchen:
+  - sensor.rear_door
+  - sensor.breakfast_bar
+  - light.kitchen_lights
+  - light.breakfast_bar_lights
+  - light.hall_lights
+  - thermostat.kitchen
+  - media_player.breakfast_bar
+christmas:
+  - switch.christmas_tree
+  - switch.outdoor_christmas_lights
+  - switch.christmas_decoration
+bathrooms:
+  - light.downstairs_bathroom_lights
+  - light.kids_bathroom_lights
+  - light.master_bathroom_lights
+outdoors:
+  - light.outdoor_light_front_porch
+  - light.outdoor_light_garage_left
+  - light.outdoor_light_garage_right
+basement:
+  - sensor.basement_window
+

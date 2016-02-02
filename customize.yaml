@@ -1,0 +1,72 @@
+#Icons - https://materialdesignicons.com/
+
+#Weather
+sensor.weather_apparent_temperature:
+  friendly_name: Outside Feels Like
+sensor.weather_humidity:
+  friendly_name: Outdoor Humidity
+sensor.weather_temperature:
+  friendly_name: Outdoor Temp
+sensor.weather_wind_speed:
+  friendly_name: Wind Speed
+sensor.weather_precip_probability:
+  friendly_name: Precipitation Chance
+#Outdoors
+light.outdoor_light_front_porch:
+  friendly_name: Front Porch
+light.outdoor_light_garage_left:
+  friendly_name: Garage Left
+light.outdoor_light_garage_right:
+  friendly_name: Garage Right
+#Living Room
+light.living_room_ceiling:
+  friendly_name: Ceiling
+light.living_room_lamp:
+  friendly_name: Lamp
+media_player.living_room:
+  friendly_name: Chromecast
+light.bedroom_lamp:
+  friendly_name: Lamp
+switch.fireplace:
+  icon: mdi:fire
+#Master Bedroom
+media_player.master_bedroom:
+  friendly_name: Chromecast
+light.master_bathroom_lights:
+  friendly_name: Master
+#Bathrooms
+light.kids_bathroom_lights:
+  friendly_name: Kid's
+light.downstairs_bathroom_lights:
+  friendly_name: Downstairs
+#Kitchen
+media_player.breakfast_bar:
+  friendly_name: Chromecast Audio
+lights.breakfast_bar_lights:
+  friendly_name: Pendant Lights
+lights.kitchen_lights:
+  friendly_name: Ceiling
+thermostat.kitchen:
+  friendly_name: Thermostat
+lights.hall_lights:
+  friendly_name: Hall
+switch.siren__strobe:
+  hidden: true
+sensor.kitchen_humidity:
+  friendly_name: Indoor Humidity
+#Christmas
+switch.christmas_tree:
+  icon: mdi:pine-tree
+switch.christmas_decoration:
+  icon: mdi:ornament
+switch.outdoor_christmas_lights:
+  icon: mdi:lightbulb
+#Basement
+sensor.basement_window:
+  friendly_name: Window
+  icon: mdi:window-closed
+#Scenes
+scene.downstairs_normal:
+  hidden: true
+scene.downstairs_movie:
+  hidden: true

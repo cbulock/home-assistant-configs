@@ -1,0 +1,25 @@
+- alias: "Media player paused/stopped"
+  trigger:
+    - platform: state
+      entity_id: media_player.living_room
+      from: 'playing'
+  condition:
+    - platform: state
+      entity_id: sun.sun
+      state: 'below_horizon'
+  action:
+      service: scene.turn_on
+      entity_id: scene.downstairs_normal
+
+- alias: "Media player playing"
+  trigger:
+    - platform: state
+      entity_id: media_player.living_room
+      to: 'playing'
+  condition:
+    - platform: state
+      entity_id: sun.sun
+      state: 'below_horizon'
+  action:
+      service: scene.turn_on
+      entity_id: scene.downstairs_movie
