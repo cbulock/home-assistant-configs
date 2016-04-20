@@ -1,0 +1,15 @@
+- name: Home
+  latitude: [REDACTED]
+  longitude: [REDACTED]
+  radius: 50
+  icon: mdi:home
+- name: Cameron's Work
+  latitude: [REDACTED]
+  longitude: [REDACTED]
+  radius: 100
+  icon: mdi:briefcase
+- name: Rachael's Work
+  latitude: [REDACTED]
+  longitude: [REDACTED]
+  radius: 100
+  icon: mdi:briefcase

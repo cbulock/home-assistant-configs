@@ -1,25 +1,39 @@
-- alias: "Media player paused/stopped"
-  trigger:
-    - platform: state
-      entity_id: media_player.living_room
-      from: 'playing'
-  condition:
-    - platform: state
-      entity_id: sun.sun
-      state: 'below_horizon'
-  action:
-      service: scene.turn_on
-      entity_id: scene.downstairs_normal
-
 - alias: "Media player playing"
   trigger:
     - platform: state
       entity_id: media_player.living_room
       to: 'playing'
   condition:
-    - platform: state
-      entity_id: sun.sun
-      state: 'below_horizon'
+    - platform: time
+      after: '21:00'
+    - platform: time
+      before: '3:00'
   action:
       service: scene.turn_on
       entity_id: scene.downstairs_movie
+
+- alias: "Close Garage Door Overnight"
+  trigger:
+    - platform: sun
+      event: sunset
+  condition:
+    - platform: state
+      entity_id: garage_door.garage_door_opener
+      state: 'open'
+  action:
+      service: garage_door.close
+      entity_id: garage_door.garage_door_opener
+
+- alias: "Ensure Garage Door Stays Closed at Night"
+  trigger:
+    - platform: state
+      entity_id: garage.door_garage_door_opener
+      to: 'open'
+  condition:
+    - platform: sun
+      before: sunset
+      before_offset: '-00:30:00'
+  action:
+    service: homeassistant.turn_on
+    entity_id: script.close_garage
+

@@ -19,6 +19,9 @@ light.outdoor_light_garage_left:
 light.outdoor_light_garage_right:
   friendly_name: Garage Right
 #Living Room
+binary_sensor.front_door:
+  friendly_name: Door
+  icon: mdi:glassdoor
 light.living_room_ceiling:
   friendly_name: Ceiling
 light.living_room_lamp:
@@ -32,23 +35,33 @@ switch.fireplace:
 #Master Bedroom
 media_player.master_bedroom:
   friendly_name: Chromecast
-light.master_bathroom_lights:
-  friendly_name: Master
+#Kid's Bedrooms
+light.haileys_lamp:
+  friendly_name: Lamp
+light.bretts_lamp:
+  friendly_name: Lamp
 #Bathrooms
 light.kids_bathroom_lights:
-  friendly_name: Kid's
+  friendly_name: Lights
 light.downstairs_bathroom_lights:
-  friendly_name: Downstairs
+  friendly_name: Lights
+light.master_bathroom_lights:
+  friendly_name: Lights
 #Kitchen
+binary_sensor.rear_door:
+  friendly_name: Door
+  icon: mdi:glassdoor
+binary_sensor.breakfast_bar:
+  sensor_class: motion
 media_player.breakfast_bar:
   friendly_name: Chromecast Audio
-lights.breakfast_bar_lights:
+light.breakfast_bar_lights:
   friendly_name: Pendant Lights
-lights.kitchen_lights:
+light.kitchen_lights:
   friendly_name: Ceiling
 thermostat.kitchen:
   friendly_name: Thermostat
-lights.hall_lights:
+light.hall_lights:
   friendly_name: Hall
 switch.siren__strobe:
   hidden: true
@@ -61,12 +74,37 @@ switch.christmas_decoration:
   icon: mdi:ornament
 switch.outdoor_christmas_lights:
   icon: mdi:lightbulb
+#Loft
+light.loft_lights:
+  friendly_name: Ceiling
 #Basement
-sensor.basement_window:
-  friendly_name: Window
+binary_sensor.basement_window:
   icon: mdi:window-closed
+#Garage
+garage_door.garage_door_opener:
+  friendly_name: Door
+#Speedtest
+sensor.speedtest_ping:
+  friendly_name: Ping
+  icon: mdi:pulse
+sensor.speedtest_download:
+  friendly_name: Download
+  icon: mdi:arrow-down-bold
+sensor.speedtest_upload:
+  friendly_name: Upload
+  icon: mdi:arrow-up-bold
+#Washing Machine
+sensor.washing_machine:
+ friendly_name: Status
+sensor.washing_machine_cycle:
+ friendly_name: Cycle
+sensor.washing_machine_time:
+ friendly_name: Time Remaining
 #Scenes
 scene.downstairs_normal:
   hidden: true
 scene.downstairs_movie:
+  hidden: true
+#Scripts
+script.close_garage:
   hidden: true

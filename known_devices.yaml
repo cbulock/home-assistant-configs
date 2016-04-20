@@ -1,27 +1,27 @@
-husband:
-  name: Husband
+cameron:
+  name: Cameron
   mac: [REDACTED]
-  picture: /local/family/Husband.jpg
+  picture: /local/family/Cameron.jpg
   track: yes
   hide_if_away: no
 
-wife:
-  name: Wife
+rachael:
+  name: Rachael
   mac: [REDACTED]
-  picture: /local/family/Wife.jpg
+  picture: /local/family/Rachael.jpg
   track: yes
   hide_if_away: no
 
-daugher:
-  name: Daughter
+hailey:
+  name: Hailey
   mac: [REDACTED]
-  picture: /local/family/Daughter.jpg
+  picture: /local/family/Hailey.jpg
   track: yes
   hide_if_away: no
 
-son:
-  name: Son
+brett:
+  name: Brett
   mac: [REDACTED]
-  picture: /local/family/Son.jpg
+  picture: /local/family/Brett.jpg
   track: yes
   hide_if_away: no

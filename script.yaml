@@ -1,0 +1,9 @@
+close_garage:
+  alias: Close Garage When Left Open
+  sequence:
+    - delay:
+        minutes: 30
+    - alias: Close Garage
+      service: garage_door.close
+      data:
+        entity_id: garage_door.garage_door_opener

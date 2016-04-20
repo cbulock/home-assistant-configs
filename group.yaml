@@ -1,32 +1,80 @@
-living_room:
-  - sensor.front_door
+#Tabs
+Basement:
+  view: yes
+  entities:
+   - binary_sensor.basement_window
+
+Main Floor:
+  name: Main Floor
+  view: yes
+  entities:
+   - group.living_room
+   - group.kitchen
+   - group.downstairs_bathroom
+
+Upstairs:
+  view: yes
+  entities:
+   - group.master_bedroom
+   - group.loft
+   - group.kids_bathroom
+   - group.master_bathroom
+   - group.haileys_bedroom
+   - group.bretts_bedroom
+   - group.washing_machine
+
+Outdoors:
+  view: yes
+  entities:
+   - group.outdoor_lighting
+   - group.garage
+
+#General groups
+Living Room:
+  - binary_sensor.front_door
+  - lock.front_door_lock
   - light.living_room_ceiling
   - light.living_room_lamp
   - switch.fireplace
   - media_player.living_room
-master_bedroom:
+Master Bedroom:
   - light.bedroom_lamp
   - media_player.master_bedroom
-kitchen:
-  - sensor.rear_door
-  - sensor.breakfast_bar
+Hailey's Bedroom:
+  - light.haileys_lamp
+Brett's Bedroom:
+  - light.bretts_lamp
+Kitchen:
+  - binary_sensor.rear_door
+  - binary_sensor.breakfast_bar
   - light.kitchen_lights
   - light.breakfast_bar_lights
   - light.hall_lights
   - thermostat.kitchen
   - media_player.breakfast_bar
-christmas:
+Christmas:
   - switch.christmas_tree
   - switch.outdoor_christmas_lights
   - switch.christmas_decoration
-bathrooms:
-  - light.downstairs_bathroom_lights
+Kids Bathroom:
   - light.kids_bathroom_lights
+Downstairs Bathroom:
+  - light.downstairs_bathroom_lights
+Master Bathroom:
   - light.master_bathroom_lights
-outdoors:
+Loft:
+  - light.loft_lights
+Outdoor Lighting:
   - light.outdoor_light_front_porch
   - light.outdoor_light_garage_left
   - light.outdoor_light_garage_right
-basement:
-  - sensor.basement_window
-
+Garage:
+  - garage_door.garage_door_opener
+Internet:
+  - sensor.speedtest_ping
+  - sensor.speedtest_download
+  - sensor.speedtest_upload
+Washing Machine:
+  - sensor.washing_machine
+  - sensor.washing_machine_cycle
+  - sensor.washing_machine_time

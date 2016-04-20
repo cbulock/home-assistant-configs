@@ -1,5 +1,5 @@
 homeassistant:
-  name: Home
+  name: Bulock Home
   latitude: [REDACTED]
   longitude: [REDACTED]
   temperature_unit: F
@@ -15,18 +15,23 @@ logbook:
 history:
 sensor: !include sensor.yaml
 group: !include group.yaml
+zone: !include zone.yaml
 scene: !include scene.yaml
 automation: !include automation.yaml
+script: !include script.yaml
+weblink: !include weblink.yaml
 
 http:
   api_password: [REDACTED]
 
 device_tracker:
-  platform: netgear
-  host: 10.0.0.1
+  platform: unifi
+  host: 10.10.200.103
+  port: 8443
   username: admin
   password: [REDACTED]
   track_new_devices: no
+  interval_seconds: 30
 
 wink:
   access_token: [REDACTED]

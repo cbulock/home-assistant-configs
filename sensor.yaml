@@ -10,6 +10,11 @@
 - platform: nest
   monitored_conditions:
     - humidity
+#- platform: speedtest
+#  monitored_conditions:
+#    - ping
+#    - download
+#    - upload
 
 # Example of how to do a template based sensor
 

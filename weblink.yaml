@@ -1,0 +1,5 @@
+entities:
+  - name: Router Admin
+    url: http://10.0.0.1/
+  - name: Bulock Home Dashboard
+    url: http://home.bulock/
