@@ -1,0 +1,12 @@
+alias: "Ensure Garage Door Stays Closed at Night"
+trigger:
+  - platform: state
+    entity_id: garage.door_garage_door_opener
+    to: 'open'
+condition:
+  - condition: sun
+    before: sunset
+    before_offset: '-00:30:00'
+action:
+  service: homeassistant.turn_on
+  entity_id: script.close_garage

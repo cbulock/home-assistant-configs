@@ -1,11 +1,12 @@
 homeassistant:
   name: Bulock Home
-  latitude: [REDACTED]
-  longitude: [REDACTED]
+  latitude: !env_var HA_HOME_LATITUDE
+  longitude: !env_var HA_HOME_LONGITUDE
   temperature_unit: F
   time_zone: America/Detroit
   customize: !include customize.yaml
 
+http:
 discovery:
 sun:
 updater:
@@ -13,37 +14,32 @@ frontend:
 conversation:
 logbook:
 history:
+zeroconf:
 sensor: !include sensor.yaml
 group: !include group.yaml
 zone: !include zone.yaml
 scene: !include scene.yaml
 automation: !include automation.yaml
 script: !include script.yaml
+notify: !include notify.yaml
 weblink: !include weblink.yaml
-
-http:
-  api_password: [REDACTED]
 
 device_tracker:
   platform: unifi
-  host: 10.10.200.103
+  host: unifi
   port: 8443
   username: admin
-  password: [REDACTED]
+  password: !env_var HA_UNIFI_PW
   track_new_devices: no
   interval_seconds: 30
 
 wink:
-  access_token: [REDACTED]
-  refresh_token: [REDACTED]
-
-notify:
-  platform: pushbullet
-  api_key: [REDACTED]
+  access_token: !env_var HA_WINK_ACCESS
+  refresh_token: !env_var HA_WINK_REFRESH
 
 nest:
-  username: [REDACTED]
-  password: [REDACTED]
+  username: !env_var HA_NEST_USER
+  password: !env_var HA_NEST_PW
 
 thermostat:
   platform: nest

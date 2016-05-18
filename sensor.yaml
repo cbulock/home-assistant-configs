@@ -1,5 +1,5 @@
 - platform: forecast
-  api_key: [REDACTED]
+  api_key: !env_var HA_FORECAST_API
   monitored_conditions:
     - summary
     - precip_probability
@@ -10,11 +10,11 @@
 - platform: nest
   monitored_conditions:
     - humidity
-#- platform: speedtest
-#  monitored_conditions:
-#    - ping
-#    - download
-#    - upload
+- platform: speedtest
+  monitored_conditions:
+    - ping
+    - download
+    - upload
 
 # Example of how to do a template based sensor
 

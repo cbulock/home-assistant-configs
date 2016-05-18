@@ -1,0 +1,17 @@
+alias: "Lock door when away"
+trigger:
+  - platform: state
+    entity_id: group.all_devices
+    from: 'home'
+    to: 'not_home'
+condition:
+  - condition: state
+    entity_id: lock.front_door_lock
+    state: 'unlocked'
+action:
+  - service: lock.lock
+    entity_id: lock.front_door_lock
+  - service: notify.pushbullet
+    data:
+      title: "Front Door Locked"
+      message: "Front door was left unlocked. No one is home, door is now locked."

@@ -1,0 +1,9 @@
+alias: "Home Asssistant Update"
+trigger:
+  - platform: state
+    entity_id: updater.updater
+action:
+    service: notify.pushbullet
+    data:
+      title: "Home Assistant Update Available"
+      message: "New version {{ trigger.to_state.state }} of Home Assistant is available."

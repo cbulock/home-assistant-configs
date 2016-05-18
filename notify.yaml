@@ -1,0 +1,3 @@
+- platform: pushbullet
+  api_key: !env_var HA_PUSHBULLET
+  name: pushbullet

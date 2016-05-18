@@ -1,0 +1,6 @@
+*.env
+*.db
+*.log
+deps
+www
+.HA_VERSION

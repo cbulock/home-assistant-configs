@@ -1,0 +1,10 @@
+alias: "Washing Machine Finished Cycle"
+trigger:
+ - platform: state
+   entity_id: sensor.washing_machine
+   to: 'End of cycle'
+action:
+    service: notify.pushbullet
+    data:
+      title: "Washing Machine Notification"
+      message: "Washing machine cycle is complete"
