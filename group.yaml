@@ -64,6 +64,7 @@ Master Bathroom:
   - light.master_bathroom_lights
 Loft:
   - light.loft_lights
+  - media_player.roku_13c2av099652
 Outdoor Lighting:
   - light.outdoor_light_front_porch
   - light.outdoor_light_garage_left

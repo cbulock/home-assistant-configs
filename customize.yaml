@@ -77,6 +77,8 @@ switch.outdoor_christmas_lights:
 #Loft
 light.loft_lights:
   friendly_name: Ceiling
+media_player.roku_13c2av099652:
+  friendly_name: Roku
 #Basement
 binary_sensor.basement_window:
   icon: mdi:window-closed

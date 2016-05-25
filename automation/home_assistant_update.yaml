@@ -6,4 +6,4 @@ action:
     service: notify.pushbullet
     data:
       title: "Home Assistant Update Available"
-      message: "New version {{ trigger.to_state.state }} of Home Assistant is available."
+      message: "New version {{ states.updater.updater.state }} }} of Home Assistant is available."

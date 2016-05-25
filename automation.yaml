@@ -1,6 +1,0 @@
-- !include automation/media_player.yaml
-- !include automation/garage_door_close.yaml
-- !include automation/garage_door_overnight.yaml
-- !include automation/washer.yaml
-- !include automation/lock_door_when_away.yaml
-- !include automation/home_assistant_update.yaml
