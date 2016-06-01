@@ -1,4 +1,4 @@
-cameron:
+cbulock_nexus6:
   name: Cameron
   mac: 44:80:EB:AE:A1:C1
   picture: /local/family/Cameron.jpg
@@ -815,6 +815,41 @@ androiddae7469c0703fef0:
 android4ce8ed09e64d3862:
   name: android-4ce8ed09e64d3862
   mac: 10:BF:48:EA:8D:95
+  picture: 
+  track: no
+  hide_if_away: no
+
+e0ee1b440e76:
+  name: e0ee1b440e76
+  mac: E0:EE:1B:44:0E:76
+  picture: 
+  track: no
+  hide_if_away: no
+
+louisiphone6:
+  name: Louis-iPhone-6
+  mac: 28:5A:EB:0D:2D:FF
+  picture: 
+  track: no
+  hide_if_away: no
+
+cbulock_nexus 6:
+  name: cbulock
+  mac: 
+  picture: 
+  track: no
+  hide_if_away: no
+
+cbulock_cameron:
+  name: cbulock
+  mac: 
+  picture: 
+  track: no
+  hide_if_away: no
+
+cameron_shamu:
+  name: cameron
+  mac: 
   picture: 
   track: no
   hide_if_away: no

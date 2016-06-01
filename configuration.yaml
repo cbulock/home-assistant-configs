@@ -24,14 +24,23 @@ script: !include script.yaml
 notify: !include notify.yaml
 weblink: !include weblink.yaml
 
+mqtt:
+  broker: localhost
+  port: 8883
+  client_id: home-assistant
+  username: !env_var MQTT_USER
+  password: !env_var MQTT_PW
+  certificate: /etc/mosquitto/conf.d/ca.crt
+
 device_tracker:
-  platform: unifi
-  host: unifi
-  port: 8443
-  username: admin
-  password: !env_var HA_UNIFI_PW
-  track_new_devices: no
-  interval_seconds: 30
+  - platform: unifi
+    host: unifi
+    port: 8443
+    username: admin
+    password: !env_var HA_UNIFI_PW
+    track_new_devices: no
+    interval_seconds: 30
+  - platform: owntracks
 
 wink:
   access_token: !env_var HA_WINK_ACCESS
@@ -43,3 +52,8 @@ nest:
 
 thermostat:
   platform: nest
+
+zwave:
+  usb_path: /dev/ttyACM0
+  config_path: /usr/local/lib/python3.4/dist-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config
+

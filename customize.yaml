@@ -40,13 +40,25 @@ light.haileys_lamp:
   friendly_name: Lamp
 light.bretts_lamp:
   friendly_name: Lamp
-#Bathrooms
+#Upstairs Bathrooms
 light.kids_bathroom_lights:
-  friendly_name: Lights
-light.downstairs_bathroom_lights:
   friendly_name: Lights
 light.master_bathroom_lights:
   friendly_name: Lights
+#Downstairs Bathroom
+light.downstairs_bathroom_lights:
+  friendly_name: Lights
+binary_sensor.ecolink_doorwindow_sensor_sensor_2:
+  friendly_name: Downstairs Bathroom
+  sensor_class: motion
+sensor.ecolink_doorwindow_sensor_burglar_2:
+  hidden: true
+sensor.ecolink_doorwindow_sensor_sourcenodeid_2:
+  hidden: true
+sensor.ecolink_doorwindow_sensor_alarm_level_2:
+  hidden: true
+sensor.ecolink_doorwindow_sensor_alarm_type_2:
+  hidden: true
 #Kitchen
 binary_sensor.rear_door:
   friendly_name: Door
@@ -106,6 +118,10 @@ sensor.washing_machine_time:
 scene.downstairs_normal:
   hidden: true
 scene.downstairs_movie:
+  hidden: true
+scene.downstairs_bathroom_day:
+  hidden: true
+scene.downstairs_bathroom_night:
   hidden: true
 #Scripts
 script.close_garage:

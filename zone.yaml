@@ -3,12 +3,12 @@
   longitude: !env_var HA_HOME_LONGITUDE
   radius: 50
   icon: mdi:home
-- name: Cameron's Work
+- name: Work
   latitude: !env_var HA_CAMERON_WORK_LATITUDE
   longitude: !env_var HA_CAMERON_WORK_LONGITUDE
   radius: 100
   icon: mdi:briefcase
-- name: Rachael's Work
+- name: Work
   latitude: !env_var HA_RACHAEL_WORK_LATITUDE
   longitude: !env_var HA_RACHAEL_WORK_LONGITUDE
   radius: 100

@@ -1,3 +1,9 @@
 - platform: pushbullet
-  api_key: !env_var HA_PUSHBULLET
   name: pushbullet
+  api_key: !env_var HA_PUSHBULLET
+- platform: twilio_sms
+  name: sms
+  account_sid: !env_var TWILIO_SID
+  auth_token: !env_var TWILIO_TOKEN
+  from_number: !env_var SMS_FROM
+

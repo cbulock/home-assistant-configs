@@ -60,6 +60,7 @@ Kids Bathroom:
   - light.kids_bathroom_lights
 Downstairs Bathroom:
   - light.downstairs_bathroom_lights
+  - binary_sensor.ecolink_doorwindow_sensor_sensor_2
 Master Bathroom:
   - light.master_bathroom_lights
 Loft:
