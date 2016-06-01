@@ -4,7 +4,13 @@ trigger:
    entity_id: sensor.washing_machine
    to: 'End of cycle'
 action:
-    service: notify.pushbullet
+  - service: notify.sms
     data:
-      title: "Washing Machine Notification"
       message: "Washing machine cycle is complete"
+      target:
+        - !env_var SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Washing machine cycle is complete"
+      target:
+        - !env_var SMS_RACHAEL

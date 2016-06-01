@@ -11,7 +11,13 @@ condition:
 action:
   - service: lock.lock
     entity_id: lock.front_door_lock
-  - service: notify.pushbullet
+  - service: notify.sms
     data:
-      title: "Front Door Locked"
       message: "Front door was left unlocked. No one is home, door is now locked."
+      target:
+        - !env_var SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Front door was left unlocked. No one is home, door is now locked."
+      target:
+        - !env_var SMS_RACHAEL
