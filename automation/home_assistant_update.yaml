@@ -3,7 +3,8 @@ trigger:
   - platform: state
     entity_id: updater.updater
 action:
-    service: notify.pushbullet
+    service: notify.sms
     data:
-      title: "Home Assistant Update Available"
-      message: "New version {{ states.updater.updater.state }} }} of Home Assistant is available."
+      message: "New version {{ states.updater.updater.state }} of Home Assistant is available."
+      target:
+        - !env_var SMS_CAMERON

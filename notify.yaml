@@ -1,6 +1,3 @@
-- platform: pushbullet
-  name: pushbullet
-  api_key: !env_var HA_PUSHBULLET
 - platform: twilio_sms
   name: sms
   account_sid: !env_var TWILIO_SID
