@@ -1,0 +1,19 @@
+binary_sensor.rear_door:
+  friendly_name: Door
+  icon: mdi:glassdoor
+binary_sensor.breakfast_bar:
+  sensor_class: motion
+media_player.breakfast_bar:
+  friendly_name: Chromecast Audio
+light.breakfast_bar_lights:
+  friendly_name: Pendant Lights
+light.kitchen_lights:
+  friendly_name: Ceiling
+thermostat.kitchen:
+  friendly_name: Thermostat
+light.hall_lights:
+  friendly_name: Hall
+switch.siren__strobe:
+  hidden: true
+sensor.kitchen_humidity:
+  friendly_name: Indoor Humidity

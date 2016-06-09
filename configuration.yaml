@@ -4,7 +4,7 @@ homeassistant:
   longitude: !env_var HA_HOME_LONGITUDE
   temperature_unit: F
   time_zone: America/Detroit
-  customize: !include customize.yaml
+  customize: !include_dir_merge_named customizations
 
 http:
 discovery:
@@ -15,32 +15,19 @@ conversation:
 logbook:
 history:
 zeroconf:
-sensor: !include sensor.yaml
-group: !include group.yaml
+sensor: !include_dir_merge_list sensors
+group: !include_dir_named groups
 zone: !include zone.yaml
 scene: !include scene.yaml
 automation: !include_dir_list automation
 script: !include script.yaml
 notify: !include notify.yaml
 weblink: !include weblink.yaml
+device_tracker: !include device_tracker.yaml
 
 mqtt:
   broker: localhost
-  port: 8883
   client_id: home-assistant
-  username: !env_var MQTT_USER
-  password: !env_var MQTT_PW
-  certificate: /etc/mosquitto/conf.d/ca.crt
-
-device_tracker:
-  - platform: unifi
-    host: unifi
-    port: 8443
-    username: admin
-    password: !env_var HA_UNIFI_PW
-    track_new_devices: no
-    interval_seconds: 30
-  - platform: owntracks
 
 wink:
   access_token: !env_var HA_WINK_ACCESS

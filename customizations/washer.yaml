@@ -1,0 +1,6 @@
+sensor.washer_status:
+ friendly_name: Status
+sensor.washer_cycle:
+ friendly_name: Cycle
+sensor.washer_time_remaining:
+ friendly_name: Time Remaining

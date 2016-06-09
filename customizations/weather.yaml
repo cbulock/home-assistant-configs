@@ -1,0 +1,10 @@
+sensor.weather_apparent_temperature:
+  friendly_name: Outside Feels Like
+sensor.weather_humidity:
+  friendly_name: Outdoor Humidity
+sensor.weather_temperature:
+  friendly_name: Outdoor Temp
+sensor.weather_wind_speed:
+  friendly_name: Wind Speed
+sensor.weather_precip_probability:
+  friendly_name: Precipitation Chance

@@ -1,0 +1,6 @@
+- binary_sensor.front_door
+- lock.front_door_lock
+- light.living_room_ceiling
+- light.living_room_lamp
+- switch.fireplace
+- media_player.living_room

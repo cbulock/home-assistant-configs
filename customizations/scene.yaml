@@ -1,0 +1,8 @@
+scene.downstairs_normal:
+  hidden: true
+scene.downstairs_movie:
+  hidden: true
+scene.downstairs_bathroom_day:
+  hidden: true
+scene.downstairs_bathroom_night:
+  hidden: true

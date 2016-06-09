@@ -1,0 +1,13 @@
+binary_sensor.front_door:
+  friendly_name: Door
+  icon: mdi:glassdoor
+light.living_room_ceiling:
+  friendly_name: Ceiling
+light.living_room_lamp:
+  friendly_name: Lamp
+media_player.living_room:
+  friendly_name: Chromecast
+light.bedroom_lamp:
+  friendly_name: Lamp
+switch.fireplace:
+  icon: mdi:fire

@@ -1,0 +1,6 @@
+light.outdoor_light_front_porch:
+  friendly_name: Front Porch
+light.outdoor_light_garage_left:
+  friendly_name: Garage Left
+light.outdoor_light_garage_right:
+  friendly_name: Garage Right

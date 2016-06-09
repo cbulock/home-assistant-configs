@@ -1,0 +1,3 @@
+view: yes
+entities:
+ - binary_sensor.basement_window

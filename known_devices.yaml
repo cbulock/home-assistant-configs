@@ -824,32 +824,3 @@ e0ee1b440e76:
   mac: E0:EE:1B:44:0E:76
   picture: 
   track: no
-  hide_if_away: no
-
-louisiphone6:
-  name: Louis-iPhone-6
-  mac: 28:5A:EB:0D:2D:FF
-  picture: 
-  track: no
-  hide_if_away: no
-
-cbulock_nexus 6:
-  name: cbulock
-  mac: 
-  picture: 
-  track: no
-  hide_if_away: no
-
-cbulock_cameron:
-  name: cbulock
-  mac: 
-  picture: 
-  track: no
-  hide_if_away: no
-
-cameron_shamu:
-  name: cameron
-  mac: 
-  picture: 
-  track: no
-  hide_if_away: no

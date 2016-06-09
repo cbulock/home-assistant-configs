@@ -1,0 +1,10 @@
+- platform: mqtt
+  state_topic: "home/washer/status"
+  name: "Washer Status"
+- platform: mqtt
+  state_topic: "home/washer/cycle"
+  name: "Washer Cycle"
+- platform: mqtt
+  state_topic: "home/washer/time_remaining"
+  name: "Washer Time Remaining"
+  unit_of_measurement: "seconds"

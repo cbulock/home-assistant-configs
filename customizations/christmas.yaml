@@ -1,0 +1,6 @@
+switch.christmas_tree:
+  icon: mdi:pine-tree
+switch.christmas_decoration:
+  icon: mdi:ornament
+switch.outdoor_christmas_lights:
+  icon: mdi:lightbulb

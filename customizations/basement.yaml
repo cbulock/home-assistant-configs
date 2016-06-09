@@ -1,0 +1,2 @@
+binary_sensor.basement_window:
+  icon: mdi:window-closed

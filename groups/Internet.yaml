@@ -1,0 +1,3 @@
+- sensor.speedtest_ping
+- sensor.speedtest_download
+- sensor.speedtest_upload

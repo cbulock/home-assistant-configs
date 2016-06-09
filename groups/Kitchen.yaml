@@ -1,0 +1,7 @@
+- binary_sensor.rear_door
+- binary_sensor.breakfast_bar
+- light.kitchen_lights
+- light.breakfast_bar_lights
+- light.hall_lights
+- thermostat.kitchen
+- media_player.breakfast_bar
