@@ -1,0 +1,16 @@
+alias: "Turn on Downstairs Bathroom Light Day"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_2
+    from: 'off'
+    to: 'on'
+condition:
+  - condition: state
+    entity_id: light.downstairs_bathroom_lights
+    state: 'off'
+  - condition: time
+    after: '8:00'
+    before: '22:00'
+action:
+  - service: scene.turn_on
+    entity_id: scene.downstairs_bathroom_day

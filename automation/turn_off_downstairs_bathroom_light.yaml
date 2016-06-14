@@ -1,0 +1,18 @@
+alias: "Turn off Downstairs Bathroom Light"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_2
+    from: 'on'
+    to: 'off'
+condition:
+  - condition: state
+    entity_id: light.downstairs_bathroom_lights
+    state: 'on'
+action:
+  - delay:
+      minutes: 8
+  - condition: state
+    entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_2
+    state: 'off' 
+  - service: light.turn_off
+    entity_id: light.downstairs_bathroom_lights

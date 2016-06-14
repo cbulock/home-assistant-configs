@@ -824,3 +824,52 @@ e0ee1b440e76:
   mac: E0:EE:1B:44:0E:76
   picture: 
   track: no
+
+androidbc6f86dceaf2ec7a:
+  name: android-bc6f86dceaf2ec7a
+  mac: FC:19:10:70:F8:AD
+  picture: 
+  track: no
+  hide_if_away: no
+
+kikisiphone:
+  name: Kikis-IPhone
+  mac: CC:29:F5:52:6D:2C
+  picture: 
+  track: no
+  hide_if_away: no
+
+android7186e230944e71a9:
+  name: android-7186e230944e71a9
+  mac: FC:C2:DE:48:42:A2
+  picture: 
+  track: no
+  hide_if_away: no
+
+ipad:
+  name: iPad
+  mac: A8:88:08:8D:F1:26
+  picture: 
+  track: no
+  hide_if_away: no
+
+hp:
+  name: HP
+  mac: 30:10:B3:73:58:95
+  picture: 
+  track: no
+  hide_if_away: no
+
+android93b1544a25579aee:
+  name: android-93b1544a25579aee
+  mac: C4:42:02:3F:96:0F
+  picture: 
+  track: no
+  hide_if_away: no
+
+louisiphone6:
+  name: Louis-iPhone-6
+  mac: 28:5A:EB:0D:2D:FF
+  picture: 
+  track: no
+  hide_if_away: no
