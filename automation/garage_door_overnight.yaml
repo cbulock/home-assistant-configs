@@ -8,5 +8,8 @@ condition:
     before: sunset
     before_offset: '-00:30:00'
 action:
-  service: homeassistant.turn_on
-  entity_id: script.close_garage
+  - delay:
+      minutes: 30
+  - service: garage_door.close
+    data:
+      entity_id: garage_door.garage_door_opener
