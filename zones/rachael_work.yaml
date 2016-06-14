@@ -1,0 +1,5 @@
+- name: Work
+  latitude: !env_var HA_RACHAEL_WORK_LATITUDE
+  longitude: !env_var HA_RACHAEL_WORK_LONGITUDE
+  radius: 150
+  icon: mdi:briefcase

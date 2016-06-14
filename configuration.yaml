@@ -15,12 +15,12 @@ conversation:
 logbook:
 history:
 zeroconf:
+
 sensor: !include_dir_merge_list sensors
 group: !include_dir_named groups
-zone: !include zone.yaml
-scene: !include scene.yaml
+zone: !include_dir_merge_list zones
+scene: !include_dir_merge_list scenes
 automation: !include_dir_list automation
-script: !include script.yaml
 notify: !include notify.yaml
 weblink: !include weblink.yaml
 device_tracker: !include device_tracker.yaml
@@ -42,5 +42,5 @@ thermostat:
 
 zwave:
   usb_path: /dev/ttyACM0
+  polling_interval: 2000
   config_path: /usr/local/lib/python3.4/dist-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config
-

@@ -1,0 +1,17 @@
+- name: Downstairs normal
+  entities:
+    light.living_room_lamp:
+      state: on
+      brightness: 150
+    light.living_room_ceiling:
+      state: on
+      brightness: 200
+    light.kitchen_lights:
+      state: on
+      brightness: 220
+    light.breakfast_bar_lights:
+      state: on
+      brightness: 75
+    light.hall_lights:
+      state: on
+      brightness: 130

@@ -1,0 +1,5 @@
+- name: Home
+  latitude: !env_var HA_HOME_LATITUDE
+  longitude: !env_var HA_HOME_LONGITUDE
+  radius: 50
+  icon: mdi:home

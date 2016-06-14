@@ -1,0 +1,5 @@
+- name: Downstairs bathroom day
+  entities:
+    light.downstairs_bathroom_lights:
+      state: on
+      brightness: 220
