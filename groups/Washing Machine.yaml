@@ -1,3 +1,4 @@
 - sensor.washer_status
 - sensor.washer_cycle
 - sensor.washer_time_remaining
+- input_select.washer

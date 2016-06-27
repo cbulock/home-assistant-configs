@@ -6,11 +6,17 @@ trigger:
 action:
   - service: notify.sms
     data:
-      message: "Washing machine cycle is complete"
+      message: "Clothes are washed for {{ states.input_select.washer.state }}."
       target:
         - !env_var SMS_CAMERON
   - service: notify.sms
     data:
-      message: "Washing machine cycle is complete"
+      message: "Clothes are washed for {{ states.input_select.washer.state }}."
       target:
         - !env_var SMS_RACHAEL
+  - delay:
+      minutes: 5
+  - service: input_select.select_option
+    data:
+      entity_id: input_select.washer
+      option: "Unknown"  

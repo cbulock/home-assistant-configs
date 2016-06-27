@@ -1,0 +1,10 @@
+washer:
+  name: Whose clothes
+  options:
+    - Unknown
+    - Cameron
+    - Rachael
+    - Hailey
+    - Brett
+  initial: Unknown
+  icon: mdi:tshirt-crew

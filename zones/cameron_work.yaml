@@ -1,5 +1,5 @@
-- name: Work
+- name: Liquid Web
   latitude: !env_var HA_CAMERON_WORK_LATITUDE
   longitude: !env_var HA_CAMERON_WORK_LONGITUDE
-  radius: 150
+  radius: 200
   icon: mdi:briefcase

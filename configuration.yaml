@@ -24,6 +24,7 @@ automation: !include_dir_list automation
 notify: !include notify.yaml
 weblink: !include weblink.yaml
 device_tracker: !include device_tracker.yaml
+input_select: !include input_select.yaml
 
 mqtt:
   broker: localhost

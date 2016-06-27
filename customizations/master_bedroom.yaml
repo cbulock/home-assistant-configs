@@ -1,2 +1,4 @@
+light.master_bedroom_lamp:
+  friendly_name: Lamp
 media_player.master_bedroom:
   friendly_name: Chromecast

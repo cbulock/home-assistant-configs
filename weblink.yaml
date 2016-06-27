@@ -1,7 +1,5 @@
 entities:
   - name: Router Admin
     url: https://router
-  - name: Bulock Home Dashboard
-    url: http://home.bulock/
   - name: Wifi Admin
     url: https://unifi:8443
