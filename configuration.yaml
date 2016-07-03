@@ -2,6 +2,7 @@ homeassistant:
   name: Bulock Home
   latitude: !env_var HA_HOME_LATITUDE
   longitude: !env_var HA_HOME_LONGITUDE
+  elevation: !env_var HA_HOME_ELEVATION
   temperature_unit: F
   time_zone: America/Detroit
   customize: !include_dir_merge_named customizations

@@ -1,0 +1,8 @@
+- name: Outdoors off
+  entities:
+    light.outdoor_light_front_porch:
+      state: off
+    light.outdoor_light_garage_left:
+      state: off
+    light.outdoor_light_garage_right:
+      state: off

@@ -1,5 +1,5 @@
 - name: Emergent
   latitude: !env_var HA_RACHAEL_WORK_LATITUDE
   longitude: !env_var HA_RACHAEL_WORK_LONGITUDE
-  radius: 200
+  radius: 250
   icon: mdi:briefcase

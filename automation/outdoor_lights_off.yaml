@@ -1,0 +1,7 @@
+alias: "Outdoor Lights Off at Sunrise"
+trigger:
+  - platform: sun
+    event: sunrise
+action:
+    service: scene.turn_on
+    entity_id: scene.outdoors_off

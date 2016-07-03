@@ -1,0 +1,14 @@
+- name: Outdoors dim
+  entities:
+    light.outdoor_light_front_porch:
+      state: on
+      brightness: 110
+      color_temp: 285
+    light.outdoor_light_garage_left:
+      state: on
+      brightness: 110
+      color_temp: 285
+    light.outdoor_light_garage_right:
+      state: on
+      brightness: 110
+      color_temp: 285

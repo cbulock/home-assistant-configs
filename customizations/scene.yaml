@@ -6,3 +6,13 @@ scene.downstairs_bathroom_day:
   hidden: true
 scene.downstairs_bathroom_night:
   hidden: true
+scene.outdoors_bright:
+  hidden: true
+scene.outdoors_dim:
+  hidden: true
+scene.outdoors_off:
+  hidden: true
+scene.loft_dim:
+  hidden: true
+scene.loft_off:
+  hidden: true

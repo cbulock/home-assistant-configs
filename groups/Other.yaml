@@ -1,0 +1,5 @@
+view: yes
+entities:
+ - group.battery_levels
+ - group.weather
+ - group.internet

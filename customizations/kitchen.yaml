@@ -15,5 +15,3 @@ light.hall_lights:
   friendly_name: Hall
 switch.siren__strobe:
   hidden: true
-sensor.kitchen_humidity:
-  friendly_name: Indoor Humidity

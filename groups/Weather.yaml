@@ -1,0 +1,9 @@
+- sun.sun
+- sensor.kitchen_humidity
+- sensor.weather_humidity
+- sensor.indoor_temp
+- sensor.weather_temperature
+- sensor.weather_apparent_temperature
+- sensor.weather_precip_probability
+- sensor.weather_summary
+- sensor.weather_wind_speed

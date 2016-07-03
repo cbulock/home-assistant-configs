@@ -1,0 +1,15 @@
+alias: "Washing Machine Finished Cycle - Notify Brett"
+trigger:
+ - platform: state
+   entity_id: sensor.washer_status
+   to: 'End of cycle'
+condition:
+  - condition: state
+    entity_id: input_select.washer
+    state: 'Brett'
+action:
+  - service: notify.sms
+    data:
+      message: "Your clothes are done being washed."
+      target:
+        - !env_var SMS_BRETT

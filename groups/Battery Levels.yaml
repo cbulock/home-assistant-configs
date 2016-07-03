@@ -1,0 +1,7 @@
+- sensor.downstairs_bathroom_motion_batt
+- sensor.breakfast_bar_motion_batt
+- sensor.basement_window_batt
+- sensor.front_door_batt
+- sensor.front_door_lock_batt
+- sensor.rear_door_batt
+- sensor.siren_batt

@@ -1,0 +1,9 @@
+alias: "Outdoor Lights Dim Overnight"
+trigger:
+  - platform: time
+    hours: 0
+    minutes: 30
+    seconds: 0
+action:
+    service: scene.turn_on
+    entity_id: scene.outdoors_dim

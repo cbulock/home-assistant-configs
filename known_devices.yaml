@@ -859,3 +859,24 @@ louisiphone6:
   picture: 
   track: no
   hide_if_away: no
+
+android93b1544a25579aee:
+  name: android-93b1544a25579aee
+  mac: C4:42:02:3F:96:0F
+  picture: 
+  track: no
+  hide_if_away: no
+
+androiddc7c29aa5f34d1ec:
+  name: android-dc7c29aa5f34d1ec
+  mac: 24:00:BA:AF:0A:26
+  picture: 
+  track: no
+  hide_if_away: no
+
+terrellsmbp:
+  name: Terrells-MBP
+  mac: E4:CE:8F:47:6A:F4
+  picture: 
+  track: no
+  hide_if_away: no

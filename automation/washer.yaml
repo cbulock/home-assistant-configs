@@ -19,4 +19,4 @@ action:
   - service: input_select.select_option
     data:
       entity_id: input_select.washer
-      option: "Unknown"  
+      option: "Unknown"

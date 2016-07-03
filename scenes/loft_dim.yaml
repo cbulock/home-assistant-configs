@@ -1,0 +1,5 @@
+- name: Loft dim
+  entities:
+    light.loft_lights:
+      state: on
+      brightness: 2

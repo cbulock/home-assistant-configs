@@ -1,0 +1,4 @@
+- name: Loft off
+  entities:
+    light.loft_lights:
+      state: off
