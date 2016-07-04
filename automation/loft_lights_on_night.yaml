@@ -1,7 +1,7 @@
 alias: "Loft lights on at night"
 trigger:
   - platform: time
-    hours: 10
+    hours: 22
     minutes: 0
     seconds: 0
 condition:
