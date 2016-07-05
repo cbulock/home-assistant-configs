@@ -1,0 +1,16 @@
+sensor.downstairs_bathroom_motion_batt:
+  icon: mdi:battery
+sensor.breakfast_bar_motion_batt:
+  icon: mdi:battery
+sensor.basement_window_batt:
+  icon: mdi:battery
+sensor.front_door_batt:
+  icon: mdi:battery
+sensor.front_door_lock_batt:
+  icon: mdi:battery
+sensor.rear_door_batt:
+  icon: mdi:battery
+sensor.siren_batt:
+  icon: mdi:battery
+sensor.camerons_phone:
+  icon: mdi:battery
