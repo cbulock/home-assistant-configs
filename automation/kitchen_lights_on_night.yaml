@@ -1,0 +1,16 @@
+alias: "Turn on Kitchen Lighting at Night"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.breakfast_bar
+    from: 'off'
+    to: 'on'
+condition:
+  - condition: state
+    entity_id: light.kitchen_cabinets
+    state: 'off'
+  - condition: time
+    after: '1:00'
+    before: '8:00'
+action:
+  - service: scene.turn_on
+    entity_id: scene.kitchen_dim

@@ -1,0 +1,11 @@
+alias: "Lock Doors At Night"
+trigger:
+  - platform: sun
+    event: sunset
+condition:
+  - condition: state
+    entity_id: lock.front_door_lock
+    state: 'unlocked'
+action:
+  - service: lock.lock
+    entity_id: lock.front_door_lock
