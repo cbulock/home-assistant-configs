@@ -880,3 +880,38 @@ terrellsmbp:
   picture: 
   track: no
   hide_if_away: no
+
+androidbd5c0f2a883f27a2:
+  name: android-bd5c0f2a883f27a2
+  mac: A4:08:EA:0C:25:9C
+  picture: 
+  track: no
+  hide_if_away: no
+
+debbiesipad:
+  name: Debbies-iPad
+  mac: 04:15:52:57:E7:1A
+  picture: 
+  track: no
+  hide_if_away: no
+
+androidec9917443bea72ad:
+  name: android-ec9917443bea72ad
+  mac: 00:AE:FA:4C:2D:66
+  picture: 
+  track: no
+  hide_if_away: no
+
+d0e782bae489:
+  name: d0e782bae489
+  mac: D0:E7:82:BA:E4:89
+  picture: 
+  track: no
+  hide_if_away: no
+
+rubinsair:
+  name: Rubins-Air
+  mac: B8:E8:56:21:BE:D8
+  picture: 
+  track: no
+  hide_if_away: no

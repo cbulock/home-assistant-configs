@@ -16,3 +16,7 @@ scene.loft_dim:
   hidden: true
 scene.loft_off:
   hidden: true
+scene.kitchen_dim:
+  hidden: true
+scene.kitchen_off:
+  hidden: true

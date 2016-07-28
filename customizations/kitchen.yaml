@@ -9,6 +9,8 @@ light.breakfast_bar_lights:
   friendly_name: Pendant Lights
 light.kitchen_lights:
   friendly_name: Ceiling
+light.kitchen_cabinets:
+  friendly_name: Cabinets
 thermostat.kitchen:
   friendly_name: Thermostat
 light.hall_lights:

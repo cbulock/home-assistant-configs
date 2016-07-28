@@ -1,13 +1,5 @@
 light.downstairs_bathroom_lights:
   friendly_name: Lights
-binary_sensor.ecolink_doorwindow_sensor_sensor_2:
+binary_sensor.downstairs_bathroom_motion_sensor_sensor_2:
   friendly_name: Downstairs Bathroom
   sensor_class: motion
-sensor.ecolink_doorwindow_sensor_burglar_2:
-  hidden: true
-sensor.ecolink_doorwindow_sensor_sourcenodeid_2:
-  hidden: true
-sensor.ecolink_doorwindow_sensor_alarm_level_2:
-  hidden: true
-sensor.ecolink_doorwindow_sensor_alarm_type_2:
-  hidden: true
