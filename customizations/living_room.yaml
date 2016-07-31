@@ -7,6 +7,8 @@ light.living_room_lamp:
   friendly_name: Lamp
 media_player.living_room:
   friendly_name: Chromecast
+media_player.directv_rid025209806287:
+  friendly_name: DirecTV
 light.bedroom_lamp:
   friendly_name: Lamp
 switch.fireplace:

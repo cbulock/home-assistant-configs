@@ -1,7 +1,7 @@
 alias: "Media player playing"
 trigger:
   - platform: state
-    entity_id: media_player.living_room
+    entity_id: media_player.living_room, media_player.directv_rid025209806287
     to: 'playing'
 condition:
   - condition: time
