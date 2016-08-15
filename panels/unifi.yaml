@@ -1,0 +1,3 @@
+title: 'Wifi Admin'
+icon: 'mdi:router-wireless'
+url: 'https://unifi:8443/'

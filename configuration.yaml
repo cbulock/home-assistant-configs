@@ -26,6 +26,7 @@ notify: !include notify.yaml
 weblink: !include weblink.yaml
 device_tracker: !include device_tracker.yaml
 input_select: !include input_select.yaml
+panel_iframe: !include_dir_named panels
 
 mqtt:
   broker: localhost

@@ -21,7 +21,7 @@ hailey:
 
 brett:
   name: Brett
-  mac: 84:38:35:9a:21:f8
+  mac: 4c:57:ca:7c:58:84
   picture: /local/family/Brett.jpg
   track: yes
   hide_if_away: no
@@ -915,3 +915,4 @@ rubinsair:
   picture: 
   track: no
   hide_if_away: no
+
