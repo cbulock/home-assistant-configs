@@ -4,15 +4,12 @@ trigger:
     entity_id: binary_sensor.breakfast_bar
     from: 'on'
     to: 'off'
+    for:
+      minutes: 5
 condition:
   - condition: state
     entity_id: light.kitchen_cabinets
     state: 'on'
 action:
-  - delay:
-      minutes: 5
-  - condition: state
-    entity_id: binary_sensor.breakfast_bar
-    state: 'off' 
   - service: scene.turn_on
     entity_id: scene.kitchen_off
