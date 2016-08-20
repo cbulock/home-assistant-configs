@@ -1,0 +1,4 @@
+sensor.color_ink:
+ icon: mdi:water
+sensor.black_ink:
+ icon: mdi:water
