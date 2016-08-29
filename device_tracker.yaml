@@ -2,7 +2,7 @@
   host: unifi
   port: 8443
   username: admin
-  password: !env_var HA_UNIFI_PW
+  password: !secret HA_UNIFI_PW
   track_new_devices: no
   interval_seconds: 30
 - platform: owntracks

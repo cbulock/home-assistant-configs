@@ -1,5 +1,5 @@
 - name: Downtown
-  latitude: !env_var HA_DOWNTOWN_LATITUDE
-  longitude: !env_var HA_DOWNTOWN_LONGITUDE
+  latitude: !secret HA_DOWNTOWN_LATITUDE
+  longitude: !secret HA_DOWNTOWN_LONGITUDE
   radius: 200
   icon: mdi:city

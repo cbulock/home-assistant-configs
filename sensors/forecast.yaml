@@ -1,5 +1,5 @@
 - platform: forecast
-  api_key: !env_var HA_FORECAST_API
+  api_key: !secret HA_FORECAST_API
   monitored_conditions:
     - summary
     - precip_probability

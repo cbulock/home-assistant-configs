@@ -1,6 +1,6 @@
 - platform: twilio_sms
   name: sms
-  account_sid: !env_var TWILIO_SID
-  auth_token: !env_var TWILIO_TOKEN
-  from_number: !env_var SMS_FROM
+  account_sid: !secret TWILIO_SID
+  auth_token: !secret TWILIO_TOKEN
+  from_number: !secret SMS_FROM
 

@@ -7,4 +7,4 @@ action:
     data:
       message: "New version {{ states.updater.updater.state }} of Home Assistant is available."
       target:
-        - !env_var SMS_CAMERON
+        - !secret SMS_CAMERON

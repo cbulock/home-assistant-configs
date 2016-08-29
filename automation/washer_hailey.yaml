@@ -12,4 +12,4 @@ action:
     data:
       message: "Your clothes are done being washed."
       target:
-        - !env_var SMS_HAILEY
+        - !secret SMS_HAILEY

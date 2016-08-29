@@ -1,8 +1,8 @@
 homeassistant:
   name: Bulock Home
-  latitude: !env_var HA_HOME_LATITUDE
-  longitude: !env_var HA_HOME_LONGITUDE
-  elevation: !env_var HA_HOME_ELEVATION
+  latitude: !secret HA_HOME_LATITUDE
+  longitude: !secret HA_HOME_LONGITUDE
+  elevation: !secret HA_HOME_ELEVATION
   unit_system: imperial
   time_zone: America/Detroit
   customize: !include_dir_merge_named customizations
@@ -36,12 +36,12 @@ mqtt:
   client_id: home-assistant
 
 wink:
-  access_token: !env_var HA_WINK_ACCESS
-  refresh_token: !env_var HA_WINK_REFRESH
+  access_token: !secret HA_WINK_ACCESS
+  refresh_token: !secret HA_WINK_REFRESH
 
 nest:
-  username: !env_var HA_NEST_USER
-  password: !env_var HA_NEST_PW
+  username: !secret HA_NEST_USER
+  password: !secret HA_NEST_PW
 
 climate:
   platform: nest

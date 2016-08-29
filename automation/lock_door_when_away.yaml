@@ -15,9 +15,9 @@ action:
     data:
       message: "Front door was left unlocked. No one is home, door is now locked."
       target:
-        - !env_var SMS_CAMERON
+        - !secret SMS_CAMERON
   - service: notify.sms
     data:
       message: "Front door was left unlocked. No one is home, door is now locked."
       target:
-        - !env_var SMS_RACHAEL
+        - !secret SMS_RACHAEL
