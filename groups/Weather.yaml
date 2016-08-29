@@ -1,9 +1,9 @@
 - sun.sun
 - sensor.kitchen_humidity
-- sensor.weather_humidity
+- sensor.forecastio_humidity
 - sensor.indoor_temp
-- sensor.weather_temperature
-- sensor.weather_apparent_temperature
-- sensor.weather_precip_probability
-- sensor.weather_summary
-- sensor.weather_wind_speed
+- sensor.forecastio_temperature
+- sensor.forecastio_apparent_temperature
+- sensor.forecastio_precip_probability
+- sensor.forecastio_summary
+- sensor.forecastio_wind_speed

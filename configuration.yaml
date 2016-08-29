@@ -8,6 +8,9 @@ homeassistant:
   customize: !include_dir_merge_named customizations
 
 http:
+  cors_allowed_origins:
+      - https://dashboard.local.bulock.com
+
 discovery:
 sun:
 updater:
@@ -40,7 +43,7 @@ nest:
   username: !env_var HA_NEST_USER
   password: !env_var HA_NEST_PW
 
-thermostat:
+climate:
   platform: nest
 
 zwave:

@@ -1,7 +1,7 @@
 - platform: template
   sensors:
     indoor_temp:
-      value_template: '{{ states.thermostat.kitchen.attributes.current_temperature }}'
+      value_template: '{{ states.climate.kitchen.attributes.current_temperature }}'
       friendly_name: 'Indoor Temp'
       unit_of_measurement: '°F'
     downstairs_bathroom_motion_batt:

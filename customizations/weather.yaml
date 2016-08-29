@@ -1,18 +1,19 @@
-sensor.weather_apparent_temperature:
+sensor.forecastio_apparent_temperature:
   friendly_name: Outside Feels Like
-sensor.weather_humidity:
+sensor.forecastio_humidity:
   friendly_name: Outdoor Humidity
   icon: mdi:water-percent
 sensor.kitchen_humidity:
   friendly_name: Indoor Humidity
   icon: mdi:water-percent
-sensor.weather_temperature:
+sensor.forecastio_temperature:
   friendly_name: Outdoor Temp
-sensor.weather_wind_speed:
+sensor.forecastio_wind_speed:
   friendly_name: Wind Speed
   icon: mdi:weather-windy
-sensor.weather_precip_probability:
+sensor.forecastio_precip_probability:
   friendly_name: Precipitation Chance
   icon: mdi:water-percent
-sensor.weather_summary:
+sensor.forecastio_summary:
+  friendly_name: Summary
   icon: mdi:weather-cloudy
