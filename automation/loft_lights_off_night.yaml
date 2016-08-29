@@ -4,12 +4,6 @@ trigger:
     hours: 1
     minutes: 0
     seconds: 0
-condition:
-  - condition: time
-    weekday:
-      - mon
-      - tue
-      - wed
 action:
     service: scene.turn_on
     entity_id: scene.loft_off
