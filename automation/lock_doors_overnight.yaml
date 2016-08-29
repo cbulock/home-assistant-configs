@@ -1,0 +1,13 @@
+alias: "Keep Doors Locked Overnight"
+trigger:
+  - platform: state
+    entity_id: lock.front_door_lock
+    state: 'unlocked'
+    for:
+      minutes: 5
+condition:
+  - condition: sun
+    after: sunset
+action:
+  - service: lock.lock
+    entity_id: lock.front_door_lock
