@@ -1,5 +1,5 @@
 - sun.sun
-- sensor.kitchen_humidity
+- sensor.kitchenthermostathumidity
 - sensor.forecastio_humidity
 - sensor.indoor_temp
 - sensor.forecastio_temperature

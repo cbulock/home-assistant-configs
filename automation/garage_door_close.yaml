@@ -4,8 +4,8 @@ trigger:
     event: sunset
 condition:
   - condition: state
-    entity_id: garage_door.garage_door_opener
+    entity_id: garage_door.garage_door
     state: 'open'
 action:
     service: garage_door.close
-    entity_id: garage_door.garage_door_opener
+    entity_id: garage_door.garage_door

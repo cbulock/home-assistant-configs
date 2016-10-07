@@ -916,3 +916,101 @@ rubinsair:
   track: no
   hide_if_away: no
 
+
+kellensiphone:
+  name: Kellens-iPhone
+  mac: 48:3B:38:05:98:9F
+  picture: 
+  track: no
+  hide_if_away: no
+
+lisasiphone:
+  name: Lisas-iPhone
+  mac: 08:74:02:2E:3B:13
+  picture: 
+  track: no
+  hide_if_away: no
+
+haileesiphone:
+  name: Hailees-iPhone
+  mac: 1C:91:48:3B:D5:76
+  picture: 
+  track: no
+  hide_if_away: no
+
+e0cbee20f5cd:
+  name: e0cbee20f5cd
+  mac: E0:CB:EE:20:F5:CD
+  picture: 
+  track: no
+  hide_if_away: no
+
+lisasiphone_2:
+  name: Lisas-iPhone
+  mac: 1C:91:48:50:C7:72
+  picture: 
+  track: no
+  hide_if_away: no
+
+ipad_2:
+  name: iPad
+  mac: 90:B9:31:EE:27:B5
+  picture: 
+  track: no
+  hide_if_away: no
+
+lightify7d72f9:
+  name: Lightify-7D72F9
+  mac: 84:18:26:7D:72:F9
+  picture: 
+  track: no
+  hide_if_away: no
+
+alainasipod:
+  name: Alainas-iPod
+  mac: 00:56:CD:34:B8:16
+  picture: 
+  track: no
+  hide_if_away: no
+
+androidf2a3a9d7ce4f50e8:
+  name: android-f2a3a9d7ce4f50e8
+  mac: 4C:66:41:64:90:F8
+  picture: 
+  track: no
+  hide_if_away: no
+
+viziocastdisplay:
+  name: viziocastdisplay
+  mac: A4:8D:3B:B3:A5:EF
+  picture: 
+  track: no
+  hide_if_away: no
+
+androidcbcf989266c9fcba:
+  name: android-cbcf989266c9fcba
+  mac: C4:1C:FF:03:45:57
+  picture: 
+  track: no
+  hide_if_away: no
+
+xboxone:
+  name: XboxOne
+  mac: 30:59:B7:7C:E9:E6
+  picture: 
+  track: no
+  hide_if_away: no
+
+living_room_audio:
+  name: Living Room Audio
+  mac: A4:8D:3B:BD:1C:C3
+  picture: 
+  track: no
+  hide_if_away: no
+
+feliciasiphone:
+  name: Felicias-iphone
+  mac: 7C:01:91:96:4D:38
+  picture: 
+  track: no
+  hide_if_away: no

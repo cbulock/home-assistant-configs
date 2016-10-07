@@ -3,13 +3,12 @@ trigger:
   - platform: state
     entity_id: garage.door_garage_door_opener
     to: 'open'
+    for:
+      minutes: 10
 condition:
   - condition: sun
-    before: sunset
-    before_offset: '-00:30:00'
+    after: sunset
 action:
-  - delay:
-      minutes: 30
   - service: garage_door.close
     data:
-      entity_id: garage_door.garage_door_opener
+      entity_id: garage_door.garage_door

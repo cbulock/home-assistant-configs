@@ -14,6 +14,10 @@ action:
       message: "Clothes are washed for {{ states.input_select.washer.state }}."
       target:
         - !secret SMS_RACHAEL
+  - service: notify.html5
+    data:
+      title: "Clothes are washed"
+      message: "Clothes are washed for {{ states.input_select.washer.state }}."
   - delay:
       minutes: 5
   - service: input_select.select_option

@@ -7,11 +7,14 @@ media_player.breakfast_bar:
   friendly_name: Chromecast Audio
 light.breakfast_bar_lights:
   friendly_name: Pendant Lights
+  emulated_hue_name: Breakfast Bar Lights
 light.kitchen_lights:
   friendly_name: Ceiling
-light.kitchen_cabinets:
+  emulated_hue_name: Kitchen Ceiling
+light.kitchen_cabinet:
   friendly_name: Cabinets
-thermostat.kitchen:
+  emulated_hue_name: Kitchen Cabinets
+climate.kitchenthermostat:
   friendly_name: Thermostat
 light.hall_lights:
   friendly_name: Hall

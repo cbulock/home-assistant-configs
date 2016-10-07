@@ -1,7 +1,7 @@
 - platform: template
   sensors:
     indoor_temp:
-      value_template: '{{ states.climate.kitchen.attributes.current_temperature }}'
+      value_template: '{{ states.climate.kitchenthermostat.attributes.current_temperature }}'
       friendly_name: 'Indoor Temp'
       unit_of_measurement: '°F'
     downstairs_bathroom_motion_batt:
@@ -9,7 +9,7 @@
       friendly_name: 'Downstairs Bathroom Motion'
       unit_of_measurement: '%'
     breakfast_bar_motion_batt:
-      value_template: '{{ states.binary_sensor.breakfast_bar.attributes.battery_level }}'
+      value_template: '{{ states.binary_sensor.breakfast_bar_motion.attributes.battery_level }}'
       friendly_name: 'Breakfast Bar Motion'
       unit_of_measurement: '%'
     basement_window_batt:

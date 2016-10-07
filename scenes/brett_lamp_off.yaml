@@ -1,0 +1,4 @@
+- name: Brett lamp off
+  entities:
+    light.bretts_lamp:
+      state: off

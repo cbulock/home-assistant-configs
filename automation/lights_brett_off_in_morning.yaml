@@ -1,0 +1,9 @@
+alias: "Brett light off in morning"
+trigger:
+  - platform: time
+    hours: 7
+    minutes: 0
+    seconds: 0
+action:
+    service: scene.turn_on
+    entity_id: scene.brett_lamp_off

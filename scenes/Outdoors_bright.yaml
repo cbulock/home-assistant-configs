@@ -1,14 +1,14 @@
 - name: Outdoors bright
   entities:
-    light.outdoor_light_front_porch:
+    light.front_porch:
       state: on
       brightness: 190
       color_temp: 200
-    light.outdoor_light_garage_left:
+    light.garage_left:
       state: on
       brightness: 190
       color_temp: 200
-    light.outdoor_light_garage_right:
+    light.garage_right:
       state: on
       brightness: 190
       color_temp: 200

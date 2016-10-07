@@ -5,7 +5,7 @@ trigger:
     offset: '-00:10:00'
 condition:
   - condition: state
-    entity_id: light.outdoor_light_front_porch
+    entity_id: light.front_porch
     state: 'off'
 action:
     service: scene.turn_on

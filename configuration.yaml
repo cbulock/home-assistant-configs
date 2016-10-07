@@ -31,13 +31,17 @@ device_tracker: !include device_tracker.yaml
 input_select: !include input_select.yaml
 panel_iframe: !include_dir_named panels
 
+emulated_hue:
+  exposed_domains:
+    - switch
+    - light
+
 mqtt:
   broker: localhost
   client_id: home-assistant
 
 wink:
   access_token: !secret HA_WINK_ACCESS
-  refresh_token: !secret HA_WINK_REFRESH
 
 nest:
   username: !secret HA_NEST_USER
@@ -45,6 +49,12 @@ nest:
 
 climate:
   platform: nest
+
+garage_door:
+  platform: myq
+  name: Garage Door
+  username: !secret MYQ_USER
+  password: !secret MYQ_PW
 
 zwave:
   usb_path: /dev/ttyACM0

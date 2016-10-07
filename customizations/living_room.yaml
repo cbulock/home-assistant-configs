@@ -3,13 +3,15 @@ binary_sensor.front_door:
   icon: mdi:glassdoor
 light.living_room_ceiling:
   friendly_name: Ceiling
+  emulated_hue_name: Living Room Ceiling
 light.living_room_lamp:
   friendly_name: Lamp
+  emulated_hue_name: Living Room Lamp
 media_player.living_room:
   friendly_name: Chromecast
+media_player.living_room_audio:
+  friendly_name: Chromecast Audio
 media_player.directv_rid025209806287:
   friendly_name: DirecTV
-light.bedroom_lamp:
-  friendly_name: Lamp
 switch.fireplace:
   icon: mdi:fire

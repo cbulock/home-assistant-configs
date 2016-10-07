@@ -3,7 +3,7 @@ sensor.forecastio_apparent_temperature:
 sensor.forecastio_humidity:
   friendly_name: Outdoor Humidity
   icon: mdi:water-percent
-sensor.kitchen_humidity:
+sensor.kitchenthermostathumidity:
   friendly_name: Indoor Humidity
   icon: mdi:water-percent
 sensor.forecastio_temperature:

@@ -1,2 +1,3 @@
-garage_door.garage_door_opener:
+garage_door.garage_door:
   friendly_name: Door
+  emulated_hue_name: Garage Door
