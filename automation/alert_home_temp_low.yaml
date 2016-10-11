@@ -1,0 +1,16 @@
+alias: "Alert if home temp too low"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.indoor_temp
+    below: 50
+action:
+  - service: notify.sms
+    data:
+      message: "House is too cold. Current inddoor temp is {{ states.sensor.indoor_temp.state }}!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "House is too cold. Current inddoor temp is {{ states.sensor.indoor_temp.state }}!"
+      target:
+        - !secret SMS_RACHAEL

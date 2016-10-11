@@ -10,6 +10,11 @@ condition:
     state: 'off'
     for:
       minutes: 30
+  - condition: sun
+    after: sunset
+    after_offset: "-30:00"
+  - condition: time
+    before: '3:00'
 action:
   - service: scene.turn_on
     entity_id: scene.arrive_home
