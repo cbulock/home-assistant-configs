@@ -41,7 +41,10 @@ mqtt:
   client_id: home-assistant
 
 wink:
-  access_token: !secret HA_WINK_ACCESS
+  email: !secret WINK_EMAIL
+  password: !secret WINK_PASS
+  client_id: !secret WINK_CLIENT_ID
+  client_secret: !secret WINK_CLIENT_SECRET
 
 nest:
   username: !secret HA_NEST_USER

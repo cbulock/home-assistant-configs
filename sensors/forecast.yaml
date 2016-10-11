@@ -1,4 +1,4 @@
-- platform: forecast
+- platform: darksky
   api_key: !secret HA_FORECAST_API
   monitored_conditions:
     - summary
