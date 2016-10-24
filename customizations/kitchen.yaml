@@ -3,8 +3,6 @@ binary_sensor.rear_door:
   icon: mdi:glassdoor
 binary_sensor.breakfast_bar:
   sensor_class: motion
-media_player.breakfast_bar:
-  friendly_name: Chromecast Audio
 light.breakfast_bar_lights:
   friendly_name: Pendant Lights
   emulated_hue_name: Breakfast Bar Lights

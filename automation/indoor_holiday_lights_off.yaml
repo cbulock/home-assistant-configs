@@ -1,0 +1,9 @@
+alias: "Indoor Holiday Lights Off"
+trigger:
+  - platform: time
+    hours: 1
+    minutes: 0
+    seconds: 0
+action:
+    service: scene.turn_on
+    entity_id: scene.living_room_holiday_lights_off

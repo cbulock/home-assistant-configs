@@ -1,0 +1,18 @@
+alias: "Alert Front Door Left Open"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.front_door
+    to: 'on'
+    for:
+      minutes: 5
+action:
+  - service: notify.sms
+    data:
+      message: "Front door has been left open."
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Front door has been left open."
+      target:
+        - !secret SMS_RACHAEL

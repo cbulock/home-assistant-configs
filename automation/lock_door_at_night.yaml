@@ -3,9 +3,14 @@ trigger:
   - platform: sun
     event: sunset
 condition:
-  - condition: state
-    entity_id: lock.front_door_lock
-    state: 'unlocked'
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: lock.front_door_lock
+      state: 'unlocked'
+    - condition: state
+      entity_id: binary_sensor.front_door
+      state: 'off'
 action:
   - service: lock.lock
     entity_id: lock.front_door_lock

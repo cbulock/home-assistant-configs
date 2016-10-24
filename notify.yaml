@@ -3,7 +3,3 @@
   account_sid: !secret TWILIO_SID
   auth_token: !secret TWILIO_TOKEN
   from_number: !secret SMS_FROM
-- platform: html5
-  name: html5
-  gcm_api_key: !secret GCM_API_KEY
-  gcm_sender_id: !secret GCM_SENDER_ID

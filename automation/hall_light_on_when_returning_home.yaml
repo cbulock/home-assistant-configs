@@ -5,16 +5,16 @@ trigger:
     from: 'closed'
     to: 'open'
 condition:
-  - condition: state
-    entity_id: binary_sensor.breakfast_bar_motion
-    state: 'off'
-    for:
-      minutes: 30
-  - condition: sun
-    after: sunset
-    after_offset: "-30:00"
-  - condition: time
-    before: '3:00'
+    condition: and
+    conditions:
+    - condition: state
+      entity_id: binary_sensor.breakfast_bar_motion
+      state: 'off'
+      for:
+        minutes: 30
+    - condition: sun
+      after: sunset
+      after_offset: "-30:00"
 action:
   - service: scene.turn_on
     entity_id: scene.arrive_home

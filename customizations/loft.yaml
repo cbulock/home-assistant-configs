@@ -5,3 +5,5 @@ media_player.roku_13c2av099652:
   friendly_name: Roku
 media_player.loft:
   friendly_name: Chromecast
+media_player.loft_audio:
+  friendly_name: Chromecast Audio

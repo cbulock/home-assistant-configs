@@ -12,3 +12,5 @@
       state: on
       brightness: 190
       color_temp: 200
+    switch.outdoor_halloween_lights:
+      state: on

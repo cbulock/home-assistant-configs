@@ -6,3 +6,5 @@
       state: off
     light.garage_right:
       state: off
+    switch.outdoor_halloween_lights:
+      state: off

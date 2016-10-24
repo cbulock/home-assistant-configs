@@ -2,7 +2,6 @@ alias: "Turn off long running fireplace"
 trigger:
   - platform: state
     entity_id: switch.fireplace
-    from: 'off'
     to: 'on'
     for:
       hours: 3
