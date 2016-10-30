@@ -27,3 +27,6 @@
           92,
           0
       ]
+    switch.outdoor_halloween_lights:
+      state: on
+
