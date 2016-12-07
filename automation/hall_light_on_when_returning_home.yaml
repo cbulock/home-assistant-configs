@@ -1,20 +1,13 @@
 alias: "Turn on Hall Light When Arriving Home"
 trigger:
   - platform: state
-    entity_id: garage_door.garage_door
-    from: 'closed'
-    to: 'open'
+    entity_id: group.all_devices
+    from: 'not_home'
+    to: 'home'
 condition:
-    condition: and
-    conditions:
-    - condition: state
-      entity_id: binary_sensor.breakfast_bar_motion
-      state: 'off'
-      for:
-        minutes: 30
-    - condition: sun
-      after: sunset
-      after_offset: "-30:00"
+  - condition: sun
+    after: sunset
+    after_offset: "-30:00"
 action:
   - service: scene.turn_on
     entity_id: scene.arrive_home

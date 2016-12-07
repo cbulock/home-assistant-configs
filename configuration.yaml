@@ -17,8 +17,11 @@ updater:
 frontend:
 conversation:
 logbook:
-history:
 zeroconf:
+
+history:
+recorder:
+  db_url: mysql://hass:hass@nas/hass
 
 sensor: !include_dir_merge_list sensors
 group: !include_dir_named groups
@@ -37,7 +40,7 @@ emulated_hue:
     - light
 
 mqtt:
-  broker: localhost
+  broker: mqtt
   client_id: home-assistant
 
 wink:
@@ -53,8 +56,9 @@ nest:
 climate:
   platform: nest
 
-garage_door:
+cover:
   platform: myq
+  brand: chamberlain
   name: Garage Door
   username: !secret MYQ_USER
   password: !secret MYQ_PW

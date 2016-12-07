@@ -1,13 +1,13 @@
-- name: Holiday - Halloween
+- name: Holiday - Christmas
   entities:
     light.front_porch:
       state: on
       brightness: 255
       color_temp: 200
       rgb_color: [
-          255,
-          92,
-          0
+          0,
+          181,
+          15
       ]
     light.garage_left:
       state: on
@@ -15,7 +15,7 @@
       color_temp: 200
       rgb_color: [
           255,
-          92,
+          0,
           0
       ]
     light.garage_right:
@@ -23,10 +23,9 @@
       brightness: 255
       color_temp: 200
       rgb_color: [
-          255,
-          92,
-          0
+          0,
+          181,
+          15
       ]
     switch.outdoor_holiday_lights:
       state: on
-

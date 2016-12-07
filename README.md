@@ -17,8 +17,8 @@
 
 ### Data gathered through MQTT
  * Owntracks location
- * GE Washing Machine status (seperate RPi connected over Green Bean module)
- * HP printer ink levels
+ * [GE Washing Machine status](https://github.com/cbulock/Washing-Machine-Automation) (via a RPi connected to a [Green Bean module](http://market.firstbuild.com/products/greenbean))
+ * [HP printer ink levels](https://github.com/cbulock/printer_ink_levels) (via a RPi printer server)
 
 ### Other devices connected over network
  * Nest Thermostat

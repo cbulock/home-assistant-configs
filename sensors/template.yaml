@@ -5,7 +5,7 @@
       friendly_name: 'Indoor Temp'
       unit_of_measurement: '°F'
     downstairs_bathroom_motion_batt:
-      value_template: '{{ states.sensor.downstairs_bathroom_motion_sensor_alarm_level_2.attributes.battery_level }}'
+      value_template: '{{ states.sensor.downstairs_bathroom_motion_sensor_alarm_type_2_0.attributes.battery_level }}'
       friendly_name: 'Downstairs Bathroom Motion'
       unit_of_measurement: '%'
     breakfast_bar_motion_batt:

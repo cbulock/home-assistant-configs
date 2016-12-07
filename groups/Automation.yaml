@@ -1,0 +1,3 @@
+view: yes
+entities:
+ - group.automation_controls

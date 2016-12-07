@@ -1028,3 +1028,31 @@ androidae081025c07483f0:
   picture: 
   track: no
   hide_if_away: no
+
+androidf9c7b91cc709407f:
+  name: android-f9c7b91cc709407f
+  mac: EC:9B:F3:91:8B:85
+  picture: 
+  track: no
+  hide_if_away: no
+
+lpvdv1_2:
+  name: lpvdv1
+  mac: 6C:0B:84:F8:F1:0B
+  picture: 
+  track: no
+  hide_if_away: no
+
+kindlea5b97efd8:
+  hide_if_away: false
+  mac: 34:D2:70:E4:24:CC
+  name: kindle-a5b97efd8
+  picture:
+  track: false
+
+androidaca68c18d5096b2b:
+  hide_if_away: false
+  mac: 68:C4:4D:46:A0:92
+  name: android-aca68c18d5096b2b
+  picture:
+  track: false

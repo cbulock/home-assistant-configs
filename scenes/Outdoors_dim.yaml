@@ -12,3 +12,5 @@
       state: on
       brightness: 110
       color_temp: 285
+    switch.outdoor_holiday_lights:
+      state: off
