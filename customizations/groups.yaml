@@ -8,5 +8,7 @@ group.upstairs:
   order: 4
 group.outdoors:
   order: 5
-group.other:
+group.weather:
   order: 6
+group.other:
+  order: 7

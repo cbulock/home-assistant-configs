@@ -1,9 +1,5 @@
-- sun.sun
-- sensor.kitchenthermostathumidity
-- sensor.dark_sky_humidity
-- sensor.indoor_temp
-- sensor.dark_sky_temperature
-- sensor.dark_sky_apparent_temperature
-- sensor.dark_sky_precip_probability
-- sensor.dark_sky_summary
-- sensor.dark_sky_wind_speed
+view: yes
+entities:
+ - group.indoor_weather
+ - group.outdoor_weather
+ - camera.radar

@@ -1,13 +1,10 @@
 sensor.dark_sky_apparent_temperature:
-  friendly_name: Outside Feels Like
+  friendly_name: Feels Like
 sensor.dark_sky_humidity:
-  friendly_name: Outdoor Humidity
-  icon: mdi:water-percent
-sensor.kitchenthermostathumidity:
-  friendly_name: Indoor Humidity
+  friendly_name: Humidity
   icon: mdi:water-percent
 sensor.dark_sky_temperature:
-  friendly_name: Outdoor Temp
+  friendly_name: Temp
 sensor.dark_sky_wind_speed:
   friendly_name: Wind Speed
   icon: mdi:weather-windy
@@ -17,3 +14,5 @@ sensor.dark_sky_precip_probability:
 sensor.dark_sky_summary:
   friendly_name: Summary
   icon: mdi:weather-cloudy
+sensor.waqi_lansing_michigan:
+  friendly_name: Air Quality

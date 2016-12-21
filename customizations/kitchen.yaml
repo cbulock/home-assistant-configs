@@ -6,12 +6,15 @@ binary_sensor.breakfast_bar:
 light.breakfast_bar_lights:
   friendly_name: Pendant Lights
   emulated_hue_name: Breakfast Bar Lights
+  homebridge_name: Breakfast Bar Lights
 light.kitchen_lights:
   friendly_name: Ceiling
   emulated_hue_name: Kitchen Ceiling
+  homebridge_name: Kitchen Ceiling
 light.kitchen_cabinet:
   friendly_name: Cabinets
   emulated_hue_name: Kitchen Cabinets
+  homebridge_name: Kitchen Cabinets
 climate.kitchenthermostat:
   friendly_name: Thermostat
 light.hall_lights:

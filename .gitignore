@@ -5,6 +5,7 @@ secrets.yaml
 *.db-journal
 *.sqlite
 *.txt
+*.conf
 deps
 www
 .HA_VERSION

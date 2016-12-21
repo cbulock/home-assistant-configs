@@ -1,8 +1,8 @@
-- sensor.downstairs_bathroom_motion_batt
-- sensor.breakfast_bar_motion_batt
-- sensor.basement_window_batt
-- sensor.front_door_batt
-- sensor.front_door_lock_batt
-- sensor.rear_door_batt
-- sensor.siren_batt
-- sensor.camerons_phone
+- sensor.downstairs_bathroom_motion_sensor_sensor_2_0_battery
+- sensor.breakfast_bar_motion_battery
+- sensor.basement_window_battery
+- sensor.front_door_battery
+- sensor.front_door_lock_battery
+- sensor.rear_door_battery
+- sensor.siren__strobe_battery
+- sensor.cbulock_nexus6_battery

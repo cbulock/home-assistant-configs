@@ -1,6 +1,8 @@
 light.haileys_lamp:
   friendly_name: Lamp
   emulated_hue_name: Hailey's Lamp
+  homebridge_name: Hailey's Lamp
 light.bretts_lamp:
   friendly_name: Lamp
   emulated_hue_name: Brett's Lamp
+  homebridge_name: Brett's Lamp

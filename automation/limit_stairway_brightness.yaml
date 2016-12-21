@@ -1,0 +1,13 @@
+alias: "Don't allow stairway lights to remain at full brightness"
+trigger:
+  - platform: state
+    entity_id: light.stairs
+    to: 'on'
+    for:
+      minutes: 15
+condition:
+  - condition: template
+    value_template: '{{ states.light.stairs.attributes.brightness > 230 }}'
+action:
+    service: scene.turn_on
+    entity_id: scene.stairs_dim

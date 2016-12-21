@@ -1,6 +1,6 @@
-- name: Living room holiday lights on
+- name: Living room holiday lights off
   entities:
-    switch.christmas_tree:
+    switch.christmas_tree_switch_6_0:
       state: off
-    switch.christmas_decoration:
+    switch.christmas_decorations_switch_4_0:
       state: off

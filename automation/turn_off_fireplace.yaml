@@ -1,13 +1,13 @@
 alias: "Turn off long running fireplace"
 trigger:
   - platform: state
-    entity_id: switch.fireplace
+    entity_id: switch.fireplace_switch_5_0
     to: 'on'
     for:
       hours: 3
 action:
   - service: switch.turn_off
-    entity_id: switch.fireplace
+    entity_id: switch.fireplace_switch_5_0
   - service: notify.sms
     data:
       message: "Fireplace was left on, is now turned off."

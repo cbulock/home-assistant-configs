@@ -7,3 +7,6 @@
     light.hall_lights:
       state: on
       brightness: 130
+    light.living_room_lamp:
+      state: on
+      brightness: 120

@@ -1,0 +1,3 @@
+- platform: waqi
+  locations:
+    - lansing mi

@@ -1,3 +1,4 @@
 cover.myq:
   friendly_name: Door
   emulated_hue_name: Garage Door
+  homebridge_name: Garage Door

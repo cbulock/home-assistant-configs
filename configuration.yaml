@@ -1,8 +1,8 @@
 homeassistant:
   name: Bulock Home
-  latitude: !secret HA_HOME_LATITUDE
-  longitude: !secret HA_HOME_LONGITUDE
-  elevation: !secret HA_HOME_ELEVATION
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  elevation: !secret home_elevation
   unit_system: imperial
   time_zone: America/Detroit
   customize: !include_dir_merge_named customizations
@@ -21,7 +21,7 @@ zeroconf:
 
 history:
 recorder:
-  db_url: mysql://hass:hass@nas/hass
+  db_url: !secret db_path
 
 sensor: !include_dir_merge_list sensors
 group: !include_dir_named groups
@@ -32,7 +32,6 @@ notify: !include notify.yaml
 weblink: !include weblink.yaml
 device_tracker: !include device_tracker.yaml
 input_select: !include input_select.yaml
-panel_iframe: !include_dir_named panels
 
 emulated_hue:
   exposed_domains:
@@ -44,26 +43,33 @@ mqtt:
   client_id: home-assistant
 
 wink:
-  email: !secret WINK_EMAIL
-  password: !secret WINK_PASS
-  client_id: !secret WINK_CLIENT_ID
-  client_secret: !secret WINK_CLIENT_SECRET
+  email: !secret wink_email
+  password: !secret wink_pass
+  client_id: !secret wink_client_id
+  client_secret: !secret wink_client_secret
 
 nest:
-  username: !secret HA_NEST_USER
-  password: !secret HA_NEST_PW
+  client_id: !secret nest_client
+  client_secret: !secret nest_secret
 
 climate:
   platform: nest
 
-cover:
-  platform: myq
-  brand: chamberlain
-  name: Garage Door
-  username: !secret MYQ_USER
-  password: !secret MYQ_PW
+camera:
+  platform: generic
+  still_image_url: https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=GRR&brand=wui&num=1&delay=15&type=N0R&frame=0&scale=0.75&noclutter=1&showstorms=99&mapx=400&mapy=240&centerx=400&centery=240&transx=0&transy=0&showlabels=1&severe=0&rainsnow=1&lightning=1&smooth=1&rand=24702900&lat=0&lon=0&label=you
+  name: Radar
 
 zwave:
   usb_path: /dev/ttyACM0
-  polling_interval: 2000
+  polling_interval: 20000
   config_path: /usr/local/lib/python3.4/dist-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config
+
+#custom components
+cover:
+  platform: myq
+  brand: chamberlain
+  username: !secret myq_user
+  password: !secret myq_pass
+
+battery_state:

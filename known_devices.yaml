@@ -1056,3 +1056,19 @@ androidaca68c18d5096b2b:
   name: android-aca68c18d5096b2b
   picture:
   track: false
+
+nintendo_3ds:
+  hide_if_away: false
+  mac: A4:C0:E1:01:34:32
+  name: Nintendo 3DS
+  picture:
+  track: false
+  vendor:
+
+b0c559c4579d:
+  hide_if_away: false
+  mac: B0:C5:59:C4:57:9D
+  name: b0c559c4579d
+  picture:
+  track: false
+  vendor:

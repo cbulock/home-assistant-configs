@@ -2,6 +2,7 @@ alias: "Indoor Holiday Lights On"
 trigger:
   - platform: sun
     event: sunset
+    offset: '-00:05:00'
 action:
     service: scene.turn_on
     entity_id: scene.living_room_holiday_lights_on

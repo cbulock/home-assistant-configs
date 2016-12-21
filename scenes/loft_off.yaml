@@ -2,3 +2,5 @@
   entities:
     light.loft_lights:
       state: off
+    light.stairs:
+      state: off
