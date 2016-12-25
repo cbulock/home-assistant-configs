@@ -8,6 +8,9 @@ homeassistant:
   customize: !include_dir_merge_named customizations
 
 http:
+  api_password: !secret password
+  use_x_forwarded_for: True
+  trusted_networks: 10.0.0.0/8
   cors_allowed_origins:
       - https://dashboard.local.bulock.com
 
@@ -32,6 +35,8 @@ notify: !include notify.yaml
 weblink: !include weblink.yaml
 device_tracker: !include device_tracker.yaml
 input_select: !include input_select.yaml
+alexa:
+  intents: !include_dir_merge_named alexa
 
 emulated_hue:
   exposed_domains:

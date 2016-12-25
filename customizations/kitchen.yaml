@@ -15,7 +15,7 @@ light.kitchen_cabinet:
   friendly_name: Cabinets
   emulated_hue_name: Kitchen Cabinets
   homebridge_name: Kitchen Cabinets
-climate.kitchenthermostat:
+climate.kitchen_thermostat:
   friendly_name: Thermostat
 light.hall_lights:
   friendly_name: Hall

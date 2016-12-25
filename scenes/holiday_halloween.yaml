@@ -1,4 +1,4 @@
-- name: Holiday - Halloween
+- name: Holiday Halloween
   entities:
     light.front_porch:
       state: on

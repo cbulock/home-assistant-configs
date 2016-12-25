@@ -1,0 +1,11 @@
+          >
+          {{ [
+          "OK",
+          "Sure",
+          "Done",
+          "I can do that",
+          "As you wish",
+          "Affirmative",
+          "I will",
+          "No Problem"
+          ] | random }}

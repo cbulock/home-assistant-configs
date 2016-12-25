@@ -1,4 +1,4 @@
-- name: Holiday - USA
+- name: Holiday USA
   entities:
     light.front_porch:
       state: on

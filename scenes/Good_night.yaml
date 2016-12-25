@@ -1,0 +1,22 @@
+- name: Good night
+  entities:
+    light.living_room_lamp:
+      state: off
+    light.living_room_ceiling:
+      state: off
+    light.kitchen_lights:
+      state: off
+    light.kitchen_cabinet:
+      state: off
+    light.breakfast_bar_lights:
+      state: off
+    light.hall_lights:
+      state: off
+    light.downstairs_bathroom_lights:
+      state: off
+    switch.christmas_tree_switch_6_0:
+      state: off
+    switch.christmas_decorations_switch_4_0:
+      state: off
+    light.stairs:
+      state: on

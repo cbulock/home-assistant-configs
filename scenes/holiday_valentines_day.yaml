@@ -1,4 +1,4 @@
-- name: Holiday - Valentines Day
+- name: Holiday Valentines Day
   entities:
     light.front_porch:
       state: on

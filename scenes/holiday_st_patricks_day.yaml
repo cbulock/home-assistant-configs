@@ -1,4 +1,4 @@
-- name: Holiday - St Patricks Day
+- name: Holiday St Patricks Day
   entities:
     light.front_porch:
       state: on

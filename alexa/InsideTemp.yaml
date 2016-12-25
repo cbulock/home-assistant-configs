@@ -1,0 +1,5 @@
+IndoorTemp:
+  speech:
+    type: plaintext
+    text: >
+      The current indoor temperature is {{ states.sensor.kitchen_thermostat_thermostat_temperature.state|round }} degrees
