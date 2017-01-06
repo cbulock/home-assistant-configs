@@ -20,3 +20,7 @@
       state: off
     light.stairs:
       state: on
+    cover.garage_door_opener:
+      state: closed
+    lock.front_door_lock:
+      state: locked

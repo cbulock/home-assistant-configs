@@ -1,0 +1,16 @@
+alias: "Alert if home temp too low"
+trigger:
+  - platform: numeric_state
+    entity_id: states.climate.kitchen_thermostat.attributes.temperature
+    below: 50
+action:
+  - service: notify.sms
+    data:
+      message: "House is too cold. Current indoor temp is {{ states.sensor.kitchen_thermostat_thermostat_temperature.state }}!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "House is too cold. Current indoor temp is {{ states.sensor.kitchen_thermostat_thermostat_temperature.state }}!"
+      target:
+        - !secret SMS_RACHAEL

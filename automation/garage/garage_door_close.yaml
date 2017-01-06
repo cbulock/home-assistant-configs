@@ -1,0 +1,11 @@
+alias: "Close Garage Door Overnight"
+trigger:
+  - platform: sun
+    event: sunset
+condition:
+  - condition: state
+    entity_id: cover.garage_door_opener
+    state: 'open'
+action:
+    service: cover.close
+    entity_id: cover.garage_door_opener

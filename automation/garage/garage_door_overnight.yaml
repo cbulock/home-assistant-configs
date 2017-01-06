@@ -1,0 +1,14 @@
+alias: "Ensure Garage Door Stays Closed at Night"
+trigger:
+  - platform: state
+    entity_id: cover.garage_door_opener
+    to: 'open'
+    for:
+      minutes: 10
+condition:
+  - condition: sun
+    after: sunset
+action:
+  - service: cover.close
+    data:
+      entity_id: cover.garage_door_opener
