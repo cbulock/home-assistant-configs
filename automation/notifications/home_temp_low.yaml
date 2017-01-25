@@ -1,7 +1,7 @@
 alias: "Alert if home temp too low"
 trigger:
   - platform: numeric_state
-    entity_id: states.climate.kitchen_thermostat.attributes.temperature
+    entity_id: sensor.kitchen_thermostat_thermostat_temperature
     below: 50
 action:
   - service: notify.sms
