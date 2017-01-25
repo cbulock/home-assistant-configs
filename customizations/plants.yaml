@@ -1,0 +1,11 @@
+sensor.living_room_plant_temperature:
+  friendly_name: Temp
+sensor.living_room_plant_moisture:
+  friendly_name: Moisture
+  icon: mdi:water-percent
+sensor.living_room_plant_conductivity:
+  friendly_name: Conductivity
+  icon: mdi:flash
+sensor.living_room_plant_light_intensity:
+  friendly_name: Light Intensity
+  icon: mdi:brightness-6

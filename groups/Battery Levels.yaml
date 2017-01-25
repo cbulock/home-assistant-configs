@@ -6,3 +6,4 @@
 - sensor.rear_door_battery
 - sensor.siren__strobe_battery
 - sensor.cbulock_nexus6_battery
+- sensor.living_room_plant_battery

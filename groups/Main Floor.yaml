@@ -3,3 +3,4 @@ entities:
  - group.living_room
  - group.kitchen
  - group.downstairs_bathroom
+ - group.living_room_plant

@@ -14,3 +14,5 @@ sensor.siren__strobe_battery:
   friendly_name: 'Siren & Strobe'
 sensor.cbulock_nexus6_battery:
   friendly_name: Cameron's Phone
+sensor.living_room_plant_battery:
+  icon: mdi:battery
