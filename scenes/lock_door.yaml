@@ -1,0 +1,4 @@
+- name: Lock door
+  entities:
+    lock.front_door_lock:
+      state: locked

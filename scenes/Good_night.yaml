@@ -20,6 +20,7 @@
       state: off
     light.stairs:
       state: on
+      brightness: 40
     cover.garage_door_opener:
       state: closed
     lock.front_door_lock:
