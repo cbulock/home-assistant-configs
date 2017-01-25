@@ -1,0 +1,12 @@
+alias: "Guest mode on"
+trigger:
+  - platform: state
+    entity_id: input_boolean.guest_mode
+    to: 'on'
+action:
+  - service: automation.turn_off
+    entity_id: automation.keep_doors_locked_overnight
+  - service: automation.turn_off
+    entity_id: automation.lock_doors_at_night
+  - service: automation.turn_off
+    entity_id: automation.media_player_playing

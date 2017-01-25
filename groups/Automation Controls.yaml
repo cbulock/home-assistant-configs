@@ -1,3 +1,4 @@
+- input_boolean.guest_mode
 - automation.keep_doors_locked_overnight
 - automation.lock_door_when_away
 - automation.lock_doors_at_night

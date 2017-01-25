@@ -34,6 +34,7 @@ automation: !include_dir_list automation
 notify: !include notify.yaml
 weblink: !include weblink.yaml
 device_tracker: !include device_tracker.yaml
+input_boolean: !include input_boolean.yaml
 input_select: !include input_select.yaml
 alexa:
   intents: !include_dir_merge_named alexa
@@ -42,6 +43,7 @@ emulated_hue:
   exposed_domains:
     - switch
     - light
+    - input_boolean
 
 mqtt:
   broker: mqtt
