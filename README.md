@@ -26,7 +26,6 @@
 
  * Nest Thermostat
  * Three Chromecasts and two Chromecast Audios
- * Roku
  * DirecTV reciever
  * Unifi device tracking
  * MyQ Garage Door

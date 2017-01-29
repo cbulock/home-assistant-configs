@@ -1,5 +1,6 @@
-binary_sensor.basement_window:
+binary_sensor.basement_window_opened:
   icon: mdi:window-closed
+  friendly_name: Window
 media_player.basement:
   friendly_name: Chromecast
 media_player.basement_audio:

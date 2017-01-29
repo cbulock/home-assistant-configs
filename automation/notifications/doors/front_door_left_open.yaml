@@ -1,7 +1,7 @@
 alias: "Alert Front Door Left Open"
 trigger:
   - platform: state
-    entity_id: binary_sensor.front_door
+    entity_id: binary_sensor.front_door_opened
     to: 'on'
     for:
       minutes: 2

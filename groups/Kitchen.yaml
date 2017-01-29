@@ -1,4 +1,4 @@
-- binary_sensor.rear_door
+- binary_sensor.rear_door_opened
 - binary_sensor.breakfast_bar_motion
 - light.kitchen_lights
 - light.kitchen_cabinet

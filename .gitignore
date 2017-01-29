@@ -9,3 +9,4 @@ secrets.yaml
 deps
 www
 .HA_VERSION
+.uuid

@@ -1,4 +1,4 @@
-- binary_sensor.front_door
+- binary_sensor.front_door_opened
 - lock.front_door_lock
 - light.living_room_ceiling
 - light.living_room_lamp

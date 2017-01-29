@@ -1,5 +1,5 @@
 view: yes
 entities:
- - binary_sensor.basement_window
+ - binary_sensor.basement_window_opened
  - media_player.basement
  - media_player.basement_audio

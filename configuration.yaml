@@ -25,6 +25,8 @@ zeroconf:
 history:
 recorder:
   db_url: !secret db_path
+influxdb:
+  host: app
 
 sensor: !include_dir_merge_list sensors
 group: !include_dir_named groups
@@ -40,6 +42,7 @@ alexa:
   intents: !include_dir_merge_named alexa
 
 emulated_hue:
+  type: alexa
   exposed_domains:
     - switch
     - light

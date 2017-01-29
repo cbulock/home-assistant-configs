@@ -2,8 +2,6 @@ light.loft_lights:
   friendly_name: Ceiling
   emulated_hue_name: Loft Ceiling
   homebridge_name: Loft Ceiling
-media_player.roku_13c2av099652:
-  friendly_name: Roku
 media_player.loft:
   friendly_name: Chromecast
 media_player.loft_audio:

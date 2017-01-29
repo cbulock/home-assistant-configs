@@ -5,9 +5,6 @@ trigger:
     from: 'off'
     to: 'on'
 condition:
-  - condition: state
-    entity_id: light.kitchen_cabinets
-    state: 'off'
   - condition: time
     after: '1:00'
     before: '8:00'

@@ -1,4 +1,4 @@
-binary_sensor.front_door:
+binary_sensor.front_door_opened:
   friendly_name: Door
   icon: mdi:glassdoor
 light.living_room_ceiling:
