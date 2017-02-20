@@ -14,11 +14,11 @@
 
  * Ecolink Motion Sensor in bathroom
  * Remotec Zwave Switch to control fireplace
- * Two GE smart plugs, Leviton smart plug, and Inovelli smart plug to control outdoor Christmas lights, Christmas trees and some decorations during the holidayse
+ * Two GE smart plugs, Leviton smart plug, and Inovelli smart plug to control outdoor Christmas lights, Christmas trees and some decorations during the holidays
 
- ### Devices connected over Bluetooth to RPi
+### Devices connected over Bluetooth to RPi
 
-  * Miflora plant sensor
+ * Miflora plant sensor
 
 ### Data gathered through MQTT
 
