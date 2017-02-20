@@ -1,0 +1,19 @@
+- platform: qnap
+  host: nas
+  username: !secret nas_user
+  password: !secret nas_pass
+  monitored_conditions:
+    - status
+    - cpu_temp
+    - cpu_usage
+    - memory_free
+    - memory_used
+    - memory_percent_used
+    - network_link_status
+    - drive_smart_status
+    - drive_temp
+    - volume_size_used
+    - volume_size_free
+    - volume_percentage_used
+    - network_tx
+    - network_rx

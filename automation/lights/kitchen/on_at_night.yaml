@@ -6,8 +6,8 @@ trigger:
     to: 'on'
 condition:
   - condition: time
-    after: '1:00'
-    before: '8:00'
+    after: '1:00:00'
+    before: '8:00:00'
 action:
   - service: scene.turn_on
     entity_id: scene.kitchen_dim

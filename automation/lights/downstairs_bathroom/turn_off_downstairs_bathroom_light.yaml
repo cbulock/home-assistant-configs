@@ -2,7 +2,7 @@ alias: "Turn off Downstairs Bathroom Light"
 trigger:
   - platform: state
     entity_id: light.downstairs_bathroom_lights
-    to: 'on'
+    state: 'on'
     for:
       minutes: 10
 condition:

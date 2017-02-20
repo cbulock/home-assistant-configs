@@ -1,9 +1,9 @@
 - sensor.downstairs_bathroom_motion_sensor_sensor_2_0_battery
 - sensor.breakfast_bar_motion_battery
 - sensor.basement_window_battery
-- sensor.front_door_battery
+- sensor.front_door_opened_battery
 - sensor.front_door_lock_battery
-- sensor.rear_door_battery
+- sensor.rear_door_opened_battery
 - sensor.siren__strobe_battery
-- sensor.cbulock_nexus6_battery
+- sensor.cbulock_oneplus3t_battery
 - sensor.living_room_plant_battery

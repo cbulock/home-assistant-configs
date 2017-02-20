@@ -4,3 +4,5 @@ light.garage_left:
   friendly_name: Garage Left
 light.garage_right:
   friendly_name: Garage Right
+binary_sensor.front_door_motion:
+  friendly_name: Front Door

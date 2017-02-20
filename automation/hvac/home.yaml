@@ -1,0 +1,11 @@
+alias: "Set thermostat to away when away"
+trigger:
+  - platform: state
+    entity_id: group.all_devices
+    from: 'not_home'
+    to: 'home'
+action:
+    - service: climate.set_away_mode
+      data:
+        entity_id: climate.kitchen_thermostat
+        away_mode: false

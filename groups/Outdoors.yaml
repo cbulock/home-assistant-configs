@@ -3,3 +3,4 @@ entities:
  - group.outdoor_lighting
  - group.garage
  - group.outdoor_scenes
+ - binary_sensor.front_door_motion

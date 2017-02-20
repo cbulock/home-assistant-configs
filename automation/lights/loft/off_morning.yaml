@@ -2,7 +2,7 @@ alias: "Loft lights off in the morning"
 trigger:
   - platform: time
     hours: 7
-    minutes: 25
+    minutes: 30
     seconds: 0
 action:
     service: scene.turn_on

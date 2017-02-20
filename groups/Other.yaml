@@ -3,3 +3,4 @@ entities:
  - group.battery_levels
  - group.internet
  - group.printer
+ - group.nas

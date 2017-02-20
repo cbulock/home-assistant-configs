@@ -9,8 +9,8 @@ condition:
     entity_id: light.downstairs_bathroom_lights
     state: 'off'
   - condition: time
-    after: '8:00'
-    before: '22:00'
+    after: '8:00:00'
+    before: '22:00:00'
 action:
   - service: scene.turn_on
     entity_id: scene.downstairs_bathroom_day

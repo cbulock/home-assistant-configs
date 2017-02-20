@@ -1,7 +1,7 @@
 view: yes
 entities:
  - device_tracker.brett
- - device_tracker.cbulock_nexus6
+ - device_tracker.cbulock_oneplus3t
  - device_tracker.hailey
  - device_tracker.rachael
  - group.master_bedroom
