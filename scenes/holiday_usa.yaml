@@ -3,7 +3,6 @@
     light.front_porch:
       state: on
       brightness: 255
-      color_temp: 200
       rgb_color: [
           224,
           22,
@@ -12,7 +11,6 @@
     light.garage_left:
       state: on
       brightness: 255
-      color_temp: 200
       rgb_color: [
           255,
           255,
@@ -21,7 +19,6 @@
     light.garage_right:
       state: on
       brightness: 255
-      color_temp: 200
       rgb_color: [
           0,
           82,

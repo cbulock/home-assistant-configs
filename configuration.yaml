@@ -65,6 +65,10 @@ nest:
 climate:
   platform: nest
 
+light:
+  platform: osramlightify
+  host: osram  
+
 camera:
   platform: generic
   still_image_url: https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=GRR&brand=wui&num=1&delay=15&type=N0R&frame=0&scale=0.75&noclutter=1&showstorms=99&mapx=400&mapy=240&centerx=400&centery=240&transx=0&transy=0&showlabels=1&severe=0&rainsnow=1&lightning=1&smooth=1&rand=24702900&lat=0&lon=0&label=you

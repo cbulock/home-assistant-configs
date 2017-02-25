@@ -21,6 +21,9 @@
     light.stairs:
       state: on
       brightness: 40
+    light.master_bedroom_lamp:
+      state: on
+      brightness: 50
     cover.garage_door_opener:
       state: closed
     lock.front_door_lock:
