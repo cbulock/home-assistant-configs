@@ -1,3 +1,4 @@
 - platform: waqi
+  token: !secret waqi_token
   locations:
     - lansing mi
