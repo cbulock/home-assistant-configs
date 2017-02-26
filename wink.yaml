@@ -1,0 +1,4 @@
+email: !secret wink_email
+password: !secret wink_pass
+client_id: !secret my_wink_client_id
+client_secret: !secret my_wink_client_secret

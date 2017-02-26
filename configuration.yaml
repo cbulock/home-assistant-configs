@@ -12,17 +12,17 @@ http:
   use_x_forwarded_for: True
   trusted_networks: 10.0.0.0/8
   cors_allowed_origins:
-      - https://dashboard.local.bulock.com
+    - https://dashboard.local.bulock.com
 
 discovery:
 sun:
 updater:
 frontend:
 conversation:
-logbook:
 zeroconf:
 
 history:
+logbook:
 recorder:
   db_url: !secret db_path
 influxdb:
@@ -34,6 +34,8 @@ zone: !include_dir_merge_list zones
 scene: !include_dir_merge_list scenes
 automation: !include_dir_list automation
 notify: !include notify.yaml
+cover: !include cover.yaml
+wink: !include wink.yaml
 weblink: !include weblink.yaml
 device_tracker: !include device_tracker.yaml
 input_boolean: !include input_boolean.yaml
@@ -52,12 +54,6 @@ mqtt:
   broker: mqtt
   client_id: home-assistant
 
-wink:
-  email: !secret wink_email
-  password: !secret wink_pass
-  client_id: !secret wink_client_id
-  client_secret: !secret wink_client_secret
-
 nest:
   client_id: !secret nest_client
   client_secret: !secret nest_secret
@@ -67,7 +63,7 @@ climate:
 
 light:
   platform: osramlightify
-  host: osram  
+  host: osram
 
 camera:
   platform: generic
