@@ -20,6 +20,7 @@ updater:
 frontend:
 conversation:
 zeroconf:
+config:
 
 history:
 logbook:
@@ -44,7 +45,7 @@ alexa:
   intents: !include_dir_merge_named alexa
 
 emulated_hue:
-  type: alexa
+  type: google_home
   exposed_domains:
     - switch
     - light
