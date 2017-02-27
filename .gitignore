@@ -6,7 +6,9 @@ secrets.yaml
 *.sqlite
 *.txt
 *.conf
+*.json
 deps
 www
+custom_components
 .HA_VERSION
 .uuid
