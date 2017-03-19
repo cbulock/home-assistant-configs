@@ -7,9 +7,9 @@ trigger:
     for:
       minutes: 5
 condition:
-  - condition: state
-    entity_id: light.kitchen_cabinet
-    state: 'on'
+  - condition: time
+    after: '1:00:00'
+    before: '8:00:00'
 action:
   - service: scene.turn_on
     entity_id: scene.kitchen_off
