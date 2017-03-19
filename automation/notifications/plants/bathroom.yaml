@@ -1,0 +1,16 @@
+alias: "Alert if bathroom plant needs water"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.bathroom_plant_moisture
+    below: 15
+action:
+  - service: notify.sms
+    data:
+      message: "The bathroom plant needs to be watered."
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "The bathroom plant needs to be watered."
+      target:
+        - !secret SMS_RACHAEL

@@ -1,0 +1,11 @@
+BrettsPlant:
+  speech:
+    type: plaintext
+    text: >
+      {% if  states('sensor.bretts_plant_moisture') == 'unknown' %} 
+        Not sure.  Not enough information at this time. Please check back later.
+      {% elif  states('sensor.bretts_plant_moisture')|float  <= 20 %} 
+        Yes it does. The soil is currently at {{ states.sensor.bretts_plant_moisture.state|round }} percent moisture.
+      {%- else -%}
+        Not at this time. The soil is currently at {{ states.sensor.bretts_plant_moisture.state|round }} percent moisture.
+      {%- endif -%}

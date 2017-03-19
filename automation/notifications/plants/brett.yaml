@@ -1,0 +1,11 @@
+alias: "Alert if Brett's plant needs water"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.bretts_plant_moisture
+    below: 20
+action:
+  - service: notify.sms
+    data:
+      message: "Your plant needs to be watered."
+      target:
+        - !secret SMS_BRETT

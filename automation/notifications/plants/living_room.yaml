@@ -2,7 +2,7 @@ alias: "Alert if living room plant needs water"
 trigger:
   - platform: numeric_state
     entity_id: sensor.living_room_plant_moisture
-    below: 10
+    below: 15
 action:
   - service: notify.sms
     data:
