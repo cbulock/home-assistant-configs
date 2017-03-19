@@ -8,3 +8,33 @@
     - temperature
     - conductivity
     - battery
+- platform: miflora
+  name: Brett's Plant
+  mac: C4:7C:8D:62:D4:CF
+  median: 3
+  monitored_conditions:
+    - moisture
+    - light
+    - temperature
+    - conductivity
+    - battery
+- platform: miflora
+  name: Master Bedroom Plant
+  mac: C4:7C:8D:62:D4:B0
+  median: 3
+  monitored_conditions:
+    - moisture
+    - light
+    - temperature
+    - conductivity
+    - battery
+- platform: miflora
+  name: Bathroom Plant
+  mac: C4:7C:8D:62:D4:09
+  median: 3
+  monitored_conditions:
+    - moisture
+    - light
+    - temperature
+    - conductivity
+    - battery
