@@ -30,6 +30,7 @@ influxdb:
   host: app
 
 sensor: !include_dir_merge_list sensors
+switch: !include_dir_merge_list switches
 group: !include_dir_named groups
 zone: !include_dir_merge_list zones
 scene: !include_dir_merge_list scenes
@@ -62,6 +63,7 @@ nest:
 climate:
   platform: nest
 
+
 light:
   platform: osramlightify
   host: osram
@@ -78,3 +80,10 @@ zwave:
 
 #custom components
 battery_state:
+
+lutron:
+  host: lutron
+  user: lutron
+  password: integration
+  caseta: "true"
+  caseta_config: "/home/pi/.homeassistant/lutron.json"

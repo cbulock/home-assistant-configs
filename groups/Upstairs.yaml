@@ -6,4 +6,6 @@ entities:
  - group.master_bathroom
  - group.haileys_bedroom
  - group.bretts_bedroom
+ - group.bretts_plant
  - group.washing_machine
+ - group.master_bedroom_plant
