@@ -63,10 +63,18 @@ nest:
 climate:
   platform: nest
 
-
 light:
   platform: osramlightify
   host: osram
+
+lutron_caseta:
+  host: lutron
+  username: lutron
+  password: integration
+
+twilio:
+  account_sid: !secret TWILIO_SID
+  auth_token: !secret TWILIO_TOKEN
 
 camera:
   platform: generic
@@ -80,10 +88,3 @@ zwave:
 
 #custom components
 battery_state:
-
-lutron:
-  host: lutron
-  user: lutron
-  password: integration
-  caseta: "true"
-  caseta_config: "/home/pi/.homeassistant/lutron.json"
