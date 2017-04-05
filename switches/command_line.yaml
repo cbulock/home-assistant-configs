@@ -1,8 +1,13 @@
 - platform: command_line
   switches:
     living_room_tv:
+      friendly_name: TV
       command_on: "/usr/bin/curl -k -H \"Content-Type: application/json\" -H \"AUTH: pec4np12og\" -X PUT -d '{\"KEYLIST\": [{\"CODESET\": 11,\"CODE\": 1,\"ACTION\":\"KEYPRESS\"}]}' https://living.chromecast:9000/key_command/"
       command_off: "/usr/bin/curl -k -H \"Content-Type: application/json\" -H \"AUTH: pec4np12og\" -X PUT -d '{\"KEYLIST\": [{\"CODESET\": 11,\"CODE\": 0,\"ACTION\":\"KEYPRESS\"}]}' https://living.chromecast:9000/key_command/"
       command_state: "/usr/bin/curl -k -H \"Content-Type: application/json\" -H \"AUTH: pec4np12og\" -X GET https://living.chromecast:9000/state/device/power_mode"
-      value_template: '{{ value_json.ITEMS.VALUE }}'
-      friendly_name: TV
+      value_template: >
+        {% if value_json.ITEMS.0.VALUE == 1 %}
+          true
+        {% else %}
+          false
+        {% endif %}
