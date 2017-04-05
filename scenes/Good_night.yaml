@@ -28,3 +28,7 @@
       state: closed
     lock.front_door_lock:
       state: locked
+    media_player.directv_rid025209806287:
+      state: off
+    switch.living_room_tv:
+      state: off

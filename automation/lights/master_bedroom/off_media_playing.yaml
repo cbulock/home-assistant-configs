@@ -1,0 +1,8 @@
+alias: "Turn off master bedroom lights when TV on"
+trigger:
+  - platform: state
+    entity_id: media_player.master_bedroom
+    to: 'playing'
+action:
+    service: scene.turn_on
+    entity_id: scene.master_bedroom_lights_off
