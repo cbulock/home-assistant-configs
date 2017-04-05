@@ -1,5 +1,3 @@
 - platform: twilio_sms
   name: sms
-  account_sid: !secret TWILIO_SID
-  auth_token: !secret TWILIO_TOKEN
   from_number: !secret SMS_FROM
