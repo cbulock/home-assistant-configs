@@ -20,3 +20,25 @@ sensor.bretts_plant_conductivity:
 sensor.bretts_plant_light_intensity:
   friendly_name: Light Intensity
   icon: mdi:brightness-6
+sensor.master_bedroom_plant_temperature:
+  friendly_name: Temp
+sensor.master_bedroom_plant_moisture:
+  friendly_name: Moisture
+  icon: mdi:water-percent
+sensor.master_bedroom_plant_conductivity:
+  friendly_name: Conductivity
+  icon: mdi:flash
+sensor.master_bedroom_plant_light_intensity:
+  friendly_name: Light Intensity
+  icon: mdi:brightness-6
+sensor.bathroom_plant_temperature:
+  friendly_name: Temp
+sensor.bathroom_plant_moisture:
+  friendly_name: Moisture
+  icon: mdi:water-percent
+sensor.bathroom_plant_conductivity:
+  friendly_name: Conductivity
+  icon: mdi:flash
+sensor.bathroom_plant_light_intensity:
+  friendly_name: Light Intensity
+  icon: mdi:brightness-6

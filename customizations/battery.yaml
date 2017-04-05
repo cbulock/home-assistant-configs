@@ -16,3 +16,9 @@ sensor.cbulock_oneplus3t_battery:
   friendly_name: Cameron's Phone
 sensor.living_room_plant_battery:
   icon: mdi:battery
+sensor.bretts_room_plant_battery:
+  icon: mdi:battery
+sensor.master_bedroom_plant_battery:
+  icon: mdi:battery
+sensor.bathroom_plant_battery:
+  icon: mdi:battery

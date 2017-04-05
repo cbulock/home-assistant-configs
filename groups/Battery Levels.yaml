@@ -8,3 +8,5 @@
 - sensor.cbulock_oneplus3t_battery
 - sensor.living_room_plant_battery
 - sensor.bretts_plant_battery
+- sensor.master_bedroom_plant_battery
+- sensor.bathroom_plant_battery
