@@ -2,12 +2,10 @@
 
 ### Devices connected to Wink Hub
 
- * 5 Osram RGBW bulbs (three outdoors, two in bedroom lamps)
- * Osram Flex light strip
- * 2 GE Link bulbs for other lamps
- * 11 Lutron Casetea switches to control most of the interior lighting and four Pico switches and two connected remotes. 
+ * 2 GE Link bulbs for lamps
+ * 2 Lutron Connected Bulb remotes. 
  * GoControl motion sensor in kitchen
- * 3 GoControl sensors on exterior doors and windows
+ * 2 GoControl sensors on exterior doors
  * Schlage Connect lock
 
 ### Devices connected to RPi over Aeotec Z-Stick Gen5
@@ -15,10 +13,19 @@
  * Ecolink Motion Sensor in bathroom
  * Remotec Zwave Switch to control fireplace
  * Two GE smart plugs, Leviton smart plug, and Inovelli smart plug to control outdoor Christmas lights, Christmas trees and some decorations during the holidays
+ * One GoControl sensor on an exterior window
 
 ### Devices connected over Bluetooth to RPi
 
- * Miflora plant sensor
+ * 4 Miflora plant sensors
+
+### Devices connected via Osram Gateway
+
+ * 5 Osram RGBW bulbs (three outdoors, two in bedroom lamps)
+ * Osram Flex light strip
+
+### Devices connected via Lutron Bridge
+ * 11 Lutron Casetea switches to control most of the interior lighting and four Pico switches 
 
 ### Data gathered through MQTT
 
@@ -33,3 +40,4 @@
  * DirecTV reciever
  * Unifi device tracking
  * MyQ Garage Door
+ * Vizio SmartCast TV
