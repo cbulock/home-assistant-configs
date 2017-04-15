@@ -1,2 +1,4 @@
-- sensor.color_ink
 - sensor.black_ink
+- sensor.cyan_ink
+- sensor.magenta_ink
+- sensor.yellow_ink

@@ -1,8 +1,0 @@
-- platform: mqtt
-  state_topic: "home/printer/ink/black/level"
-  name: "Black Ink"
-  unit_of_measurement: "%"
-- platform: mqtt
-  state_topic: "home/printer/ink/color/level"
-  name: "Color Ink"
-  unit_of_measurement: "%"
