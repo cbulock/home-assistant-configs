@@ -20,7 +20,7 @@
       state: off
     light.stairs:
       state: on
-      brightness: 40
+      brightness: 30
     light.master_bedroom_lamp:
       state: on
       brightness: 50

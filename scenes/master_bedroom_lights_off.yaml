@@ -1,4 +1,0 @@
-- name: Master Bedroom Lights Off
-  entities:
-    light.master_bedroom_lamp:
-      state: off
