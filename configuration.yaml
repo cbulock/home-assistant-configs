@@ -11,8 +11,6 @@ http:
   api_password: !secret password
   use_x_forwarded_for: True
   trusted_networks: 10.0.0.0/8
-  cors_allowed_origins:
-    - https://dashboard.local.bulock.com
 
 discovery:
 sun:
@@ -29,6 +27,7 @@ recorder:
 influxdb:
   host: app
 
+binary_sensor: !include_dir_merge_list binary_sensors
 sensor: !include_dir_merge_list sensors
 switch: !include_dir_merge_list switches
 group: !include_dir_named groups
@@ -42,15 +41,10 @@ weblink: !include weblink.yaml
 device_tracker: !include device_tracker.yaml
 input_boolean: !include input_boolean.yaml
 input_select: !include input_select.yaml
+shell_command: !include shell_command.yaml
 alexa:
   intents: !include_dir_merge_named alexa
 
-emulated_hue:
-  type: google_home
-  exposed_domains:
-    - switch
-    - light
-    - input_boolean
 
 mqtt:
   broker: mqtt
@@ -75,6 +69,10 @@ lutron_caseta:
 twilio:
   account_sid: !secret TWILIO_SID
   auth_token: !secret TWILIO_TOKEN
+
+ring:
+  username: !secret ring_user
+  password: !secret ring_pass
 
 camera:
   platform: generic

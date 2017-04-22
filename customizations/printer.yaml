@@ -1,4 +1,8 @@
-sensor.color_ink:
- icon: mdi:water
 sensor.black_ink:
- icon: mdi:water
+  icon: mdi:water
+sensor.cyan_ink:
+  icon: mdi:water
+sensor.magenta_ink:
+  icon: mdi:water
+sensor.yellow_ink:
+  icon: mdi:water

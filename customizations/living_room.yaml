@@ -5,10 +5,12 @@ light.living_room_ceiling:
   friendly_name: Ceiling
   emulated_hue_name: Living Room Ceiling
   homebridge_name: Living Room Ceiling
+  haaska_name: Living Room Ceiling
 light.living_room_lamp:
   friendly_name: Lamp
   emulated_hue_name: Living Room Lamp
   homebridge_name: Living Room Lamp
+  haaska_name: Living Room Lamp
 media_player.living_room:
   friendly_name: Chromecast
 media_player.living_room_audio:
@@ -20,4 +22,6 @@ switch.fireplace_switch_5_0:
   friendly_name: Fireplace
 switch.living_room_tv:
   emulated_hue_name: Living Room TV
+  homebridge_name: Living Room TV
+  haaska_name: Living Room TV
   icon: mdi:television

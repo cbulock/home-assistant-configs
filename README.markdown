@@ -31,7 +31,10 @@
 
  * Owntracks location
  * [GE Washing Machine status](https://github.com/cbulock/Washing-Machine-Automation) (via a RPi connected to a [Green Bean module](http://market.firstbuild.com/products/greenbean))
- * [HP printer ink levels](https://github.com/cbulock/printer_ink_levels) (via a RPi printer server)
+
+### Data gathered through SNMP
+
+ * Printer ink levels from Epson printer
 
 ### Other devices connected over network
 

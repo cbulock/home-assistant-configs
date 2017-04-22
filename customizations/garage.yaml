@@ -2,3 +2,4 @@ cover.garage_door_opener:
   friendly_name: Door
   emulated_hue_name: Garage Door
   homebridge_name: Garage Door
+  haaska_name: Garage Door
