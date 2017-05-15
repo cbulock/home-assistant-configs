@@ -12,3 +12,4 @@ www
 custom_components
 .HA_VERSION
 .uuid
+.ring_cache.pickle
