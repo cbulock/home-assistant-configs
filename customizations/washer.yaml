@@ -1,6 +1,9 @@
 sensor.washer_status:
  friendly_name: Status
+ icon: mdi:washing-machine
 sensor.washer_cycle:
  friendly_name: Cycle
+ icon: mdi:washing-machine
 sensor.washer_time_remaining:
  friendly_name: Time Remaining
+ icon: mdi:av-timer
