@@ -1,2 +1,2 @@
 - sensor.kitchen_thermostat_thermostat_humidity
-- sensor.kitchen_thermostat_thermostat_temperature
+- sensor.average_temp

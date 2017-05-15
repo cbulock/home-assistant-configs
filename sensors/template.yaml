@@ -1,0 +1,16 @@
+- platform: template
+  sensors:
+    average_temp:
+      friendly_name: Average Indoor Temp
+      unit_of_measurement: '°F'
+      value_template: >
+        {% set sensors = [
+          states.sensor.bathroom_plant_temperature.state|float,
+          states.sensor.breakfast_bar_temperature.state|float,
+          states.sensor.bretts_plant_temperature.state|float,
+          states.sensor.kitchen_thermostat_thermostat_temperature.state|float,
+          states.sensor.living_room_plant_temperature.state|float,
+          states.sensor.master_bedroom_plant_temperature.state|float
+        ] %}
+
+        {{ (sensors|sum / sensors|length)|round(1) }}
