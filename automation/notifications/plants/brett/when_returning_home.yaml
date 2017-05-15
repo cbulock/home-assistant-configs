@@ -5,7 +5,7 @@ trigger:
     from: 'not_home'
     to: 'home'
 condition:
-  - platform: numeric_state
+  - condition: numeric_state
     entity_id: sensor.bretts_plant_moisture
     below: 20
 action:
