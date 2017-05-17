@@ -6,7 +6,7 @@ light.living_room_ceiling:
   emulated_hue_name: Living Room Ceiling
   homebridge_name: Living Room Ceiling
   haaska_name: Living Room Ceiling
-light.living_room_lamp:
+light.livingroom_lamp:
   friendly_name: Lamp
   emulated_hue_name: Living Room Lamp
   homebridge_name: Living Room Lamp

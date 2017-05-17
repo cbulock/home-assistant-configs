@@ -1,6 +1,6 @@
 - name: Master Bedroom Good Night
   entities:
-    light.master_bedroom_lamp:
+    light.master_bed_lamp:
       state: off
     light.stairs:
       state: off

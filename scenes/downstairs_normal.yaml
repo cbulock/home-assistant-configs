@@ -1,6 +1,6 @@
 - name: Downstairs normal
   entities:
-    light.living_room_lamp:
+    light.livingroom_lamp:
       state: on
       brightness: 150
     light.living_room_ceiling:

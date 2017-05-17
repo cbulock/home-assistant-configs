@@ -1,6 +1,6 @@
 - name: Downstairs movie
   entities:
-    light.living_room_lamp:
+    light.livingroom_lamp:
       state: off
     light.living_room_ceiling:
       state: off

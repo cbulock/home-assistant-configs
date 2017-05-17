@@ -1,6 +1,6 @@
 - name: Good night
   entities:
-    light.living_room_lamp:
+    light.livingroom_lamp:
       state: off
     light.living_room_ceiling:
       state: off
@@ -21,7 +21,7 @@
     light.stairs:
       state: on
       brightness: 30
-    light.master_bedroom_lamp:
+    light.master_bed_lamp:
       state: on
       brightness: 50
     cover.garage_door_opener:
