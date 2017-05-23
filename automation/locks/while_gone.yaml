@@ -1,0 +1,14 @@
+alias: "Relock door if becomes unlocked while gone"
+trigger:
+  - platform: state
+    entity_id: lock.front_door_lock
+    state: 'unlocked'
+    for:
+      minutes: 5
+condition:
+  - condition: state
+    entity_id: group.all_devices
+    state: 'not_home'
+action:
+  - service: lock.lock
+    entity_id: lock.front_door_lock

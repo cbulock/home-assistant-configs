@@ -18,7 +18,6 @@ updater:
 frontend:
 conversation:
 zeroconf:
-config:
 
 history:
 logbook:
@@ -63,8 +62,6 @@ light:
 
 lutron_caseta:
   host: lutron
-  username: lutron
-  password: integration
 
 twilio:
   account_sid: !secret TWILIO_SID

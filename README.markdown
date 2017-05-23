@@ -2,7 +2,6 @@
 
 ### Devices connected to Wink Hub
 
- * 2 GE Link bulbs for lamps
  * 2 Lutron Connected Bulb remotes. 
  * GoControl motion sensor in kitchen
  * 2 GoControl sensors on exterior doors
@@ -23,6 +22,7 @@
 
  * 5 Osram RGBW bulbs (three outdoors, two in bedroom lamps)
  * Osram Flex light strip
+ * 2 GE Link bulbs for lamps
 
 ### Devices connected via Lutron Bridge
  * 11 Lutron Casetea switches to control most of the interior lighting and four Pico switches 

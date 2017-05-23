@@ -1,4 +1,4 @@
-alias: "Lock door when away"
+alias: "Lock door when leaving"
 trigger:
   - platform: state
     entity_id: group.all_devices
