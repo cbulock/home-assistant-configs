@@ -1,0 +1,9 @@
+guest_mode:
+  name: Guest mode left on
+  entity_id: input_boolean.guest_mode
+  state: 'on'
+  repeat:
+    - 480
+    - 90
+  notifiers:
+    - cameron_rachael
