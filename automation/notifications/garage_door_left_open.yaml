@@ -1,0 +1,19 @@
+alias: "Garage Door Left Open"
+trigger:
+  - platform: sun
+    event: sunset
+condition:
+  - condition: state
+    entity_id: cover.garage_door_opener
+    state: 'open'
+action:
+  - service: notify.sms
+    data:
+      message: "Garage Door is still open"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Garage Door is still open"
+      target:
+        - !secret SMS_RACHAEL
