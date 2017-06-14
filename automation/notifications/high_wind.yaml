@@ -1,0 +1,18 @@
+alias: "Alert if high wind"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.dark_sky_wind_speed
+    above: 20
+action:
+  - service: notify.sms
+    data:
+      message: "High wind speed, currently at {{ states.sensor.dark_sky_wind_speed.state|round }} MPH!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "High wind speed, currently at {{ states.sensor.dark_sky_wind_speed.state|round }} MPH!"
+      target:
+        - !secret SMS_RACHAEL
+
+
