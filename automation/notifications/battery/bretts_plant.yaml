@@ -1,0 +1,20 @@
+alias: "Alert if Brett's plant battery too low"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.bretts_plant_battery
+    below: 15
+condition:
+  - condition: numeric_state
+    entity_id: sensor.bretts_plant_battery
+    above: 0
+action:
+  - service: notify.sms
+    data:
+      message: "Brett's plant has low battery!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Brett's plant has low battery!"
+      target:
+        - !secret SMS_RACHAEL

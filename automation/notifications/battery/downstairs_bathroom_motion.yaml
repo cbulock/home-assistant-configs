@@ -1,0 +1,16 @@
+alias: "Alert if downstairs bathroom motion battery too low"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.downstairs_bathroom_motion_batt
+    below: 25
+action:
+  - service: notify.sms
+    data:
+      message: "Downstairs bathroom motion detector has low battery!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Downstairs bathroom motion detector has low battery!"
+      target:
+        - !secret SMS_RACHAEL

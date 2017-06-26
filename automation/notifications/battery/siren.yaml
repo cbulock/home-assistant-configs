@@ -1,0 +1,16 @@
+alias: "Alert if siren battery too low"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.siren_batt
+    below: 25
+action:
+  - service: notify.sms
+    data:
+      message: "Siren has low battery!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Siren has low battery!"
+      target:
+        - !secret SMS_RACHAEL

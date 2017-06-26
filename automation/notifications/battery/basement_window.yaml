@@ -1,0 +1,16 @@
+alias: "Alert if basement window sensor battery too low"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.basement_window_batt
+    below: 25
+action:
+  - service: notify.sms
+    data:
+      message: "Basement window sensor has low battery!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Basement window sensor has low battery!"
+      target:
+        - !secret SMS_RACHAEL

@@ -1,0 +1,16 @@
+alias: "Alert if breakfast bar motion battery too low"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.breakfast_bar_motion_batt
+    below: 25
+action:
+  - service: notify.sms
+    data:
+      message: "Breakfast bar motion detector has low battery!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Breakfast bar motion detector has low battery!"
+      target:
+        - !secret SMS_RACHAEL

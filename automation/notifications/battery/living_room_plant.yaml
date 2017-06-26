@@ -1,0 +1,20 @@
+alias: "Alert if living room plant battery too low"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.living_room_plant_battery
+    below: 15
+condition:
+  - condition: numeric_state
+    entity_id: sensor.living_room_plant_battery
+    above: 0
+action:
+  - service: notify.sms
+    data:
+      message: "Living room plant has low battery!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Living room plant has low battery!"
+      target:
+        - !secret SMS_RACHAEL

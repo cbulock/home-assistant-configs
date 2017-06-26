@@ -1,0 +1,16 @@
+alias: "Alert if rear door sensor battery too low"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.rear_door_batt
+    below: 25
+action:
+  - service: notify.sms
+    data:
+      message: "Rear door sensor has low battery!"
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Rear door sensor has low battery!"
+      target:
+        - !secret SMS_RACHAEL
