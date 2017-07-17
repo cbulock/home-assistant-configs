@@ -8,9 +8,45 @@
           states.sensor.bathroom_plant_temperature.state|float,
           states.sensor.breakfast_bar_temperature.state|float,
           states.sensor.bretts_plant_temperature.state|float,
-          states.sensor.kitchen_thermostat_thermostat_temperature.state|float,
+          states.sensor.main_floor_temperature.state|float,
+          states.sensor.upstairs_temperature.state|float,
           states.sensor.living_room_plant_temperature.state|float,
           states.sensor.master_bedroom_plant_temperature.state|float
         ] %}
 
         {{ (sensors|sum / sensors|length)|round(1) }}
+
+
+    downstairs_bathroom_motion_batt:
+      value_template: '{{ states.zwave.downstairs_bathroom.attributes.battery_level }}'
+      friendly_name: 'Downstairs Bathroom Motion'
+      unit_of_measurement: '%'
+    breakfast_bar_motion_batt:
+      value_template: '{{ states.binary_sensor.breakfast_bar_motion.attributes.battery_level }}'
+      friendly_name: 'Breakfast Bar Motion'
+      unit_of_measurement: '%'
+    basement_window_batt:
+      value_template: '{{ states.zwave.basement_window.attributes.battery_level }}'
+      friendly_name: 'Basement Window Sensor'
+      unit_of_measurement: '%'
+    front_door_batt:
+      value_template: '{{ states.binary_sensor.front_door_opened.attributes.battery_level }}'
+      friendly_name: 'Front Door Sensor'
+      unit_of_measurement: '%'
+    front_door_lock_batt:
+      value_template: '{{ states.lock.front_door_lock.attributes.battery_level }}'
+      friendly_name: 'Front Door Lock'
+      unit_of_measurement: '%'
+    rear_door_batt:
+      value_template: '{{ states.binary_sensor.rear_door_opened.attributes.battery_level }}'
+      friendly_name: 'Rear Door Sensor'
+      unit_of_measurement: '%'
+    siren_batt:
+      value_template: '{{ states.switch.siren__strobe.attributes.battery_level }}'
+      friendly_name: 'Siren'
+      unit_of_measurement: '%'
+    cameron_phone_batt:
+      value_template: '{{ states.device_tracker.cbulock_oneplus3t.attributes.battery }}'
+      friendly_name: Cameron's Phone
+      unit_of_measurement: '%'
+

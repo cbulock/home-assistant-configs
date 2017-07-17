@@ -8,5 +8,5 @@ condition:
     after: '21:00'
     before: '3:00'
 action:
-    service: scene.turn_on
+  - service: scene.turn_on
     entity_id: scene.downstairs_movie

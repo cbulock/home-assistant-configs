@@ -1,3 +1,4 @@
 view: yes
+icon: mdi:robot
 entities:
  - group.automation_controls

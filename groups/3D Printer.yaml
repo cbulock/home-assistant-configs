@@ -4,3 +4,4 @@
 - sensor.octoprint_target_tool0_temp
 - sensor.octoprint_actual_bed_temp
 - sensor.octoprint_target_bed_temp
+- camera.3d_printer

@@ -7,7 +7,7 @@ media_player.loft:
   friendly_name: Chromecast
 media_player.loft_audio:
   friendly_name: Chromecast Audio
-switch.loft_holiday_lights_switch_3_0:
+switch.loft_decorations_switch:
   friendly_name: Decorations
   icon: mdi:pine-tree
   emulated_hue_name: Loft Decorations

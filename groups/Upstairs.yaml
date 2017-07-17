@@ -9,3 +9,4 @@ entities:
  - group.bretts_plant
  - group.washing_machine
  - group.master_bedroom_plant
+ - binary_sensor.upstairs_occupancy

@@ -6,3 +6,5 @@ light.garage_right:
   friendly_name: Garage Right
 binary_sensor.ring_front_door_motion:
   friendly_name: Front Door
+media_player.patio_audio:
+  friendly_name: Patio Chromecast Audio

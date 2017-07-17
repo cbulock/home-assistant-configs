@@ -1,0 +1,52 @@
+scene.arrive_home:
+  haaska_hidden: true
+scene.brett_lamp_night:
+  haaska_hidden: true
+scene.brett_lamp_off:
+  haaska_hidden: true
+scene.close_garage:
+  haaska_hidden: true
+scene.downstairs_bathroom_day:
+  haaska_hidden: true
+scene.downstairs_bathroom_night:
+  haaska_hidden: true
+scene.downstairs_movie:
+  haaska_hidden: true
+scene.downstairs_normal:
+  haaska_hidden: true
+scene.good_night:
+  haaska_name: Good Night
+scene.holiday_christmas:
+  haaska_hidden: true
+scene.holiday_halloween:
+  haaska_hidden: true
+scene.holiday_st_patricks_day:
+  haaska_hidden: true
+scene.holiday_usa:
+  haaska_hidden: true
+scene.holiday_valentines_day:
+  haaska_hidden: true
+scene.kitchen_dim:
+  haaska_hidden: true
+scene.kitchen_off:
+  haaska_hidden: true
+scene.living_room_holiday_lights_off:
+  haaska_hidden: true
+scene.living_room_holiday_lights_on:
+  haaska_hidden: true
+scene.lock_door:
+  haaska_hidden: true
+scene.loft_dim:
+  haaska_hidden: true
+scene.loft_off:
+  haaska_hidden: true
+scene.master_bedroom_good_night:
+  haaska_hidden: true
+scene.outdoors_bright:
+  haaska_hidden: true
+scene.outdoors_dim:
+  haaska_hidden: true
+scene.outdoors_off:
+  haaska_hidden: true
+scene.stairs_dim:
+  haaska_hidden: true

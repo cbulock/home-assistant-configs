@@ -38,9 +38,10 @@
 
 ### Other devices connected over network
 
- * Nest Thermostat
+ * ecobee3 Thermostat
  * Five Chromecasts and two Chromecast Audios
  * DirecTV reciever
  * Unifi device tracking
  * MyQ Garage Door
  * Vizio SmartCast TV
+ * Monoprice Select Mini v2 3D Printer via Octoprint

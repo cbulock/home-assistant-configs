@@ -33,6 +33,7 @@ group: !include_dir_named groups
 zone: !include_dir_merge_list zones
 scene: !include_dir_merge_list scenes
 automation: !include_dir_list automation
+alert: !include_dir_merge_named alerts
 notify: !include notify.yaml
 cover: !include cover.yaml
 wink: !include wink.yaml
@@ -41,20 +42,16 @@ device_tracker: !include device_tracker.yaml
 input_boolean: !include input_boolean.yaml
 input_select: !include input_select.yaml
 shell_command: !include shell_command.yaml
+camera: !include_dir_merge_list cameras
 alexa:
   intents: !include_dir_merge_named alexa
-
 
 mqtt:
   broker: mqtt
   client_id: home-assistant
 
-nest:
-  client_id: !secret nest_client
-  client_secret: !secret nest_secret
-
-climate:
-  platform: nest
+ecobee:
+  api_key: !secret ecobee_key
 
 light:
   platform: osramlightify
@@ -71,15 +68,12 @@ ring:
   username: !secret ring_user
   password: !secret ring_pass
 
-camera:
-  platform: generic
-  still_image_url: https://radblast.wunderground.com/cgi-bin/radar/WUNIDS_map?station=GRR&brand=wui&num=1&delay=15&type=N0R&frame=0&scale=0.75&noclutter=1&showstorms=99&mapx=400&mapy=240&centerx=400&centery=240&transx=0&transy=0&showlabels=1&severe=0&rainsnow=1&lightning=1&smooth=1&rand=24702900&lat=0&lon=0&label=you
-  name: Radar
+octoprint:
+  host: 3dprinter
+  api_key: !secret octoprint_key
 
 zwave:
   usb_path: /dev/ttyACM0
   polling_interval: 20000
   config_path: /usr/local/lib/python3.4/dist-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config
-
-#custom components
-battery_state:
+  new_entity_ids: true

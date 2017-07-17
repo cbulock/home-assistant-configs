@@ -24,6 +24,6 @@
           92,
           0
       ]
-    switch.outdoor_holiday_lights:
+    switch.outdoor_holiday_lights_switch:
       state: on
 

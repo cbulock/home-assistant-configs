@@ -2,4 +2,4 @@ IndoorTemp:
   speech:
     type: plaintext
     text: >
-      The current indoor temperature is {{ states.sensor.kitchen_thermostat_thermostat_temperature.state|round }} degrees
+      The current indoor temperature is {{ states.sensor.main_floor_temperature.state|round }} degrees

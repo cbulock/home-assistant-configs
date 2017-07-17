@@ -14,9 +14,9 @@
       state: off
     light.downstairs_bathroom_lights:
       state: off
-    switch.christmas_tree_switch_6_0:
+    switch.christmas_tree_switch:
       state: off
-    switch.christmas_decorations_switch_4_0:
+    switch.christmas_decorations_switch:
       state: off
     light.stairs:
       state: on

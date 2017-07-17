@@ -2,4 +2,4 @@ IndoorHumidity:
   speech:
     type: plaintext
     text: >
-      The current indoor humidity is {{ states.sensor.kitchen_thermostat_thermostat_humidity.state|round }} percent
+      The current indoor humidity is {{ states.sensor.main_floor_humidity.state|round }} percent

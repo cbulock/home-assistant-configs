@@ -4,3 +4,4 @@ entities:
  - group.garage
  - group.outdoor_scenes
  - binary_sensor.ring_front_door_motion
+ - media_player.patio_audio

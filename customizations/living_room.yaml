@@ -17,7 +17,7 @@ media_player.living_room_audio:
   friendly_name: Chromecast Audio
 media_player.directv_rid025209806287:
   friendly_name: DirecTV
-switch.fireplace_switch_5_0:
+switch.fireplace_switch:
   icon: mdi:fire
   friendly_name: Fireplace
 switch.living_room_tv:

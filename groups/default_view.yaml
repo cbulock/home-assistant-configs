@@ -1,4 +1,5 @@
 view: yes
+icon: mdi:home
 entities:
  - device_tracker.brett
  - device_tracker.cbulock_oneplus3t
@@ -17,4 +18,3 @@ entities:
  - group.kitchen
  - group.downstairs_bathroom
  - group.christmas
- - group.printer

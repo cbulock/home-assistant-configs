@@ -1,8 +1,8 @@
-switch.christmas_tree_switch_6_0:
+switch.christmas_tree_switch:
   friendly_name: Christmas Tree
   icon: mdi:pine-tree
-switch.christmas_decorations_switch_4_0:
+switch.christmas_decorations_switch:
   friendly_name: Christmas Decorations
   icon: mdi:ornament
-switch.outdoor_holiday_lights:
+switch.outdoor_holiday_lights_switch:
   icon: mdi:lightbulb
