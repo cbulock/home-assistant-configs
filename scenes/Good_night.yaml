@@ -28,5 +28,5 @@
       state: locked
     media_player.directv_rid025209806287:
       state: off
-    switch.living_room_tv:
+    media_player.living_room_tv:
       state: off

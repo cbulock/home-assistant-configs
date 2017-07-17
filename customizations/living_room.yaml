@@ -20,8 +20,7 @@ media_player.directv_rid025209806287:
 switch.fireplace_switch:
   icon: mdi:fire
   friendly_name: Fireplace
-switch.living_room_tv:
+media_player.living_room_tv:
   emulated_hue_name: Living Room TV
   homebridge_name: Living Room TV
   haaska_name: Living Room TV
-  icon: mdi:television

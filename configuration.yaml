@@ -72,6 +72,12 @@ octoprint:
   host: 3dprinter
   api_key: !secret octoprint_key
 
+media_player:
+  - platform: vizio
+    name: Living Room TV
+    host: living.chromecast
+    access_token: !secret vizio_key
+
 zwave:
   usb_path: /dev/ttyACM0
   polling_interval: 20000
