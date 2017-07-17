@@ -2,6 +2,7 @@ guest_mode:
   name: Guest mode left on
   entity_id: input_boolean.guest_mode
   state: 'on'
+  skip_first: True
   repeat:
     - 480
     - 90
