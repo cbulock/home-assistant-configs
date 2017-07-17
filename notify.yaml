@@ -1,3 +1,14 @@
 - platform: twilio_sms
   name: sms
   from_number: !secret SMS_FROM
+- platform: group
+  name: cameron_rachael
+  services:
+    - service: sms
+      data:
+        target:
+          - !secret SMS_CAMERON
+    - service: sms
+      data:
+        target:
+          - !secret SMS_RACHAEL
