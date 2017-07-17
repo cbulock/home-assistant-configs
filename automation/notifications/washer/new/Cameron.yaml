@@ -1,0 +1,13 @@
+alias: "Washer Notification - Cameron"
+trigger:
+  platform: mqtt
+  topic: laundry/cameron
+  payload: "active"
+action:
+  - delay:
+      minutes: 90
+  - service: notify.sms
+    data:
+      message: "Laundry should be ready for dryer"
+      target:
+        - !secret SMS_CAMERON

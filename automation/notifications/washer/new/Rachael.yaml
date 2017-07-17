@@ -1,0 +1,13 @@
+alias: "Washer Notification - Rachael"
+trigger:
+  platform: mqtt
+  topic: laundry/rachael
+  payload: "active"
+action:
+  - delay:
+      minutes: 90
+  - service: notify.sms
+    data:
+      message: "Laundry should be ready for dryer"
+      target:
+        - !secret SMS_RACHAEL
