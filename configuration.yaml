@@ -26,25 +26,25 @@ recorder:
 influxdb:
   host: app
 
-binary_sensor: !include_dir_merge_list binary_sensors
-sensor: !include_dir_merge_list sensors
-switch: !include_dir_merge_list switches
-group: !include_dir_named groups
-zone: !include_dir_merge_list zones
-scene: !include_dir_merge_list scenes
-automation: !include_dir_list automation
 alert: !include_dir_merge_named alerts
-notify: !include notify.yaml
-cover: !include cover.yaml
-wink: !include wink.yaml
-weblink: !include weblink.yaml
-device_tracker: !include device_tracker.yaml
-input_boolean: !include input_boolean.yaml
-input_select: !include input_select.yaml
-shell_command: !include shell_command.yaml
-camera: !include_dir_merge_list cameras
 alexa:
   intents: !include_dir_merge_named alexa
+automation: !include_dir_list automation
+binary_sensor: !include_dir_merge_list binary_sensors
+camera: !include_dir_merge_list cameras
+cover: !include cover.yaml
+device_tracker: !include device_tracker.yaml
+group: !include_dir_named groups
+input_boolean: !include input_boolean.yaml
+input_select: !include input_select.yaml
+media_player: !include_dir_merge_list media_players
+notify: !include notify.yaml
+scene: !include_dir_merge_list scenes
+sensor: !include_dir_merge_list sensors
+switch: !include_dir_merge_list switches
+weblink: !include weblink.yaml
+wink: !include wink.yaml
+zone: !include_dir_merge_list zones
 
 mqtt:
   broker: mqtt
@@ -72,14 +72,7 @@ octoprint:
   host: 3dprinter
   api_key: !secret octoprint_key
 
-media_player:
-  - platform: vizio
-    name: Living Room TV
-    host: living.chromecast
-    access_token: !secret vizio_key
-
 zwave:
   usb_path: /dev/ttyACM0
   polling_interval: 20000
   config_path: /usr/local/lib/python3.4/dist-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config
-  new_entity_ids: true

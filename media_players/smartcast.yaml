@@ -1,0 +1,4 @@
+- platform: vizio
+  name: Living Room TV
+  host: living.chromecast
+  access_token: !secret vizio_key
