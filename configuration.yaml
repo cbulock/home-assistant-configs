@@ -18,6 +18,7 @@ updater:
 frontend:
 conversation:
 zeroconf:
+alexa:
 
 history:
 logbook:
@@ -27,8 +28,6 @@ influxdb:
   host: app
 
 alert: !include_dir_merge_named alerts
-alexa:
-  intents: !include_dir_merge_named alexa
 automation: !include_dir_list automation
 binary_sensor: !include_dir_merge_list binary_sensors
 camera: !include_dir_merge_list cameras
@@ -37,6 +36,7 @@ device_tracker: !include device_tracker.yaml
 group: !include_dir_named groups
 input_boolean: !include input_boolean.yaml
 input_select: !include input_select.yaml
+intent_script: !include_dir_merge_named intent_scripts
 media_player: !include_dir_merge_list media_players
 notify: !include notify.yaml
 scene: !include_dir_merge_list scenes
