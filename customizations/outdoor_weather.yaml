@@ -14,5 +14,5 @@ sensor.dark_sky_precip_probability:
 sensor.dark_sky_summary:
   friendly_name: Summary
   icon: mdi:weather-cloudy
-sensor.waqi_lansing_michigan:
+sensor.waqi_lansing_michigan_usa:
   friendly_name: Air Quality
