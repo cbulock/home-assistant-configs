@@ -2,7 +2,7 @@ alias: "Don't allow stairway lights to remain at full brightness"
 trigger:
   - platform: state
     entity_id: light.stairs
-    state: 'on'
+    to: 'on'
     for:
       minutes: 15
 condition:

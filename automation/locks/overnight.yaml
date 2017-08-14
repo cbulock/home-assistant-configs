@@ -2,7 +2,7 @@ alias: "Keep Doors Locked Overnight"
 trigger:
   - platform: state
     entity_id: lock.front_door_lock
-    state: 'unlocked'
+    to: 'unlocked'
     for:
       minutes: 5
 condition:

@@ -2,7 +2,7 @@ alias: "Turn off Downstairs Bathroom Light"
 trigger:
   - platform: state
     entity_id: binary_sensor.downstairs_bathroom_sensor
-    state: 'off'
+    to: 'off'
     for:
       minutes: 5
 action:
