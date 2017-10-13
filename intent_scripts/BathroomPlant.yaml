@@ -1,6 +1,6 @@
 BathroomPlant:
   speech:
-    type: plaintext
+    type: plain
     text: >
       {% if  states('sensor.bathroom_plant_moisture') == 'unknown' %} 
         Not sure.  Not enough information at this time. Please check back later.

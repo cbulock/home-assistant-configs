@@ -26,7 +26,7 @@
       brightness: 50
     lock.front_door_lock:
       state: locked
-    media_player.directv_rid025209806287:
+    media_player.directv_receiver:
       state: off
     media_player.living_room_tv:
       state: off

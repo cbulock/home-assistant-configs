@@ -57,8 +57,9 @@ light:
   platform: osramlightify
   host: osram
 
-lutron_caseta:
-  host: lutron
+caseta:
+  bridges:
+    - host: lutron
 
 twilio:
   account_sid: !secret TWILIO_SID

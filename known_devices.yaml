@@ -1,6 +1,6 @@
 cbulock_oneplus3t:
   name: Cameron
-  mac: C0:EE:FB:F5:04:28
+  mac: 94:65:2d:2c:9a:6f
   picture: /local/family/Cameron.jpg
   track: yes
   hide_if_away: no
@@ -21,7 +21,637 @@ hailey:
 
 brett:
   name: Brett
-  mac: 4c:57:ca:7c:58:84
+  mac: 98:00:C6:80:9C:13 
   picture: /local/family/Brett.jpg
   track: yes
   hide_if_away: no
+
+cbulock_nexus6:
+  hide_if_away: false
+  icon:
+  mac:
+  name: cbulock
+  picture:
+  track: false
+  vendor:
+
+patio_chromecast_audio:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:A0:C1
+  name: Patio Chromecast Audio
+  picture:
+  track: false
+  vendor: REALTEK SEMICONDUCTOR CORP.
+
+chromecast:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:6A:4C:22
+  name: Chromecast
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+loft_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:B1:39
+  name: Loft Chromecast
+  picture:
+  track: false
+  vendor: REALTEK SEMICONDUCTOR CORP.
+
+nas2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:12:8B:36
+  name: NAS2
+  picture:
+  track: false
+  vendor: QNAP Systems, Inc.
+
+washer:
+  hide_if_away: false
+  icon:
+  mac: 00:13:EF:40:40:D5
+  name: Washer
+  picture:
+  track: false
+  vendor: Kingjon Digital Technology Co.,Ltd
+
+nas:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:00:2A:82
+  name: NAS
+  picture:
+  track: false
+  vendor: QNAP Systems, Inc.
+
+camerons_desktop:
+  hide_if_away: false
+  icon:
+  mac: 90:2B:34:87:50:D8
+  name: Cameron's Desktop
+  picture:
+  track: false
+  vendor: GIGA-BYTE TECHNOLOGY CO.,LTD.
+
+living_room_tv_remote:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:03:45:57
+  name: Living Room TV Remote
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+ecobee3:
+  hide_if_away: false
+  icon:
+  mac: 44:61:32:BA:10:00
+  name: ecobee3
+  picture:
+  track: false
+  vendor: ecobee inc
+
+office_printer:
+  hide_if_away: false
+  icon:
+  mac: 64:EB:8C:84:63:04
+  name: Office Printer
+  picture:
+  track: false
+  vendor: Seiko Epson Corporation
+
+living_room_audio:
+  hide_if_away: false
+  icon:
+  mac: A4:8D:3B:BD:1C:C3
+  name: Living Room Audio
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+directv_wireless_bridge:
+  hide_if_away: false
+  icon:
+  mac: 60:02:B4:DF:4E:2A
+  name: DirecTV Wireless Bridge
+  picture:
+  track: false
+  vendor: Wistron Neweb Corporation
+
+downstairs_echo:
+  hide_if_away: false
+  icon:
+  mac: F0:27:2D:95:A6:BF
+  name: Downstairs Echo
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+playstation_4:
+  hide_if_away: false
+  icon:
+  mac: 0C:FE:45:0F:0D:E4
+  name: PlayStation 4
+  picture:
+  track: false
+  vendor: Sony Interactive Entertainment Inc.
+
+master_bedroom_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:B1:44
+  name: Master Bedroom Chromecast
+  picture:
+  track: false
+  vendor: REALTEK SEMICONDUCTOR CORP.
+
+directv_genie_reciever:
+  hide_if_away: false
+  icon:
+  mac: 08:EB:74:D6:5A:AF
+  name: DirecTV Genie Reciever
+  picture:
+  track: false
+  vendor: HUMAX Co., Ltd.
+
+ring_doorbell:
+  hide_if_away: false
+  icon:
+  mac: 6C:0B:84:F8:F1:0B
+  name: Ring Doorbell
+  picture:
+  track: false
+  vendor: Universal Global Scientific Industrial Co., Ltd.
+
+osram_lightify_gateway:
+  hide_if_away: false
+  icon:
+  mac: 84:18:26:7D:72:F9
+  name: Osram Lightify Gateway
+  picture:
+  track: false
+  vendor: Osram GmbH
+
+homeassistant_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:E0:60:E4
+  name: HomeAssistant Server
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+garage_door_controller:
+  hide_if_away: false
+  icon:
+  mac: 64:52:99:22:E6:F6
+  name: Garage Door Controller
+  picture:
+  track: false
+  vendor: The Chamberlain Group, Inc
+
+lutron_hub:
+  hide_if_away: false
+  icon:
+  mac: 60:64:05:53:0D:D3
+  name: Lutron Hub
+  picture:
+  track: false
+  vendor: Texas Instruments
+
+living_room_audio_2:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:00:C2:AA
+  name: Living Room Audio
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+nas_2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:00:2A:84
+  name: NAS
+  picture:
+  track: false
+  vendor: QNAP Systems, Inc.
+
+living_room_chromecast__vizio_tv:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:18:A2:13
+  name: Living Room Chromecast / Vizio TV
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+router:
+  hide_if_away: false
+  icon:
+  mac: 44:D9:E7:07:A3:52
+  name: Router
+  picture:
+  track: false
+  vendor: Ubiquiti Networks Inc.
+
+haileys_echo:
+  hide_if_away: false
+  icon:
+  mac: 68:54:FD:75:F5:28
+  name: Hailey's Echo
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+living_room_chromecast:
+  hide_if_away: false
+  icon:
+  mac: A4:8D:3B:B3:A5:EF
+  name: Living Room Chromecast
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+retropie:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:6B:15:2D
+  name: RetroPie
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+directv_genie_reciever_2:
+  hide_if_away: false
+  icon:
+  mac: 08:EB:74:D6:5A:AE
+  name: DirecTV Genie Reciever
+  picture:
+  track: false
+  vendor: HUMAX Co., Ltd.
+
+basement_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:95:CF:34
+  name: Basement Chromecast
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+haileyspc:
+  hide_if_away: false
+  icon:
+  mac: 90:48:9A:AB:ED:AB
+  name: Haileys-PC
+  picture:
+  track: false
+  vendor: Hon Hai Precision Ind. Co.,Ltd.
+
+nagios_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:B2:5B:F7
+  name: Nagios Server
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+wink_hub:
+  hide_if_away: false
+  icon:
+  mac: B4:79:A7:21:62:51
+  name: Wink Hub
+  picture:
+  track: false
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+app_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:A1:94:A5
+  name: App Server
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+nas2_2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:12:8B:35
+  name: NAS2
+  picture:
+  track: false
+  vendor: QNAP Systems, Inc.
+
+octoprint_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:1D:9A:8C
+  name: Octoprint Server
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+unificloudkey:
+  hide_if_away: false
+  icon:
+  mac: F0:9F:C2:18:5D:E0
+  name: UniFi-CloudKey
+  picture:
+  track: false
+  vendor: Ubiquiti Networks Inc.
+
+master_bedroom_echo:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:E4:24:CC
+  name: Master Bedroom Echo
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+cameronsiphone:
+  hide_if_away: false
+  icon:
+  mac: 30:10:E4:26:19:2C
+  name: Camerons-iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+android3cbc067d8c28221d:
+  hide_if_away: false
+  icon:
+  mac: 0C:BD:51:B5:A0:5B
+  name: android-3cbc067d8c28221d
+  picture:
+  track: false
+  vendor: TCT mobile ltd
+
+camerons_nintendo_switch:
+  hide_if_away: false
+  icon:
+  mac: 64:B5:C6:17:97:C3
+  name: Cameron's Nintendo Switch
+  picture:
+  track: false
+  vendor: Nintendo Co.,Ltd
+
+44d9e707a351:
+  hide_if_away: false
+  icon:
+  mac: 44:D9:E7:07:A3:51
+  name: 44d9e707a351
+  picture:
+  track: false
+  vendor: Ubiquiti Networks Inc.
+
+bretts_nintendo_switch:
+  hide_if_away: false
+  icon:
+  mac: 04:03:D6:79:F9:7D
+  name: Brett's Nintendo Switch
+  picture:
+  track: false
+  vendor: Nintendo Co.,Ltd
+
+androidaca68c18d5096b2b:
+  hide_if_away: false
+  icon:
+  mac: 68:C4:4D:46:A0:92
+  name: android-aca68c18d5096b2b
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+marysiphone:
+  hide_if_away: false
+  icon:
+  mac: 5C:AD:CF:07:0F:11
+  name: Marys-iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+hsphone:
+  hide_if_away: false
+  icon:
+  mac: 00:56:CD:81:C4:30
+  name: Hs-Phone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+sandiesiphone:
+  hide_if_away: false
+  icon:
+  mac: 68:EF:43:7B:25:BC
+  name: Sandies-iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+a8be273e0e8d:
+  hide_if_away: false
+  icon:
+  mac: A8:BE:27:3E:0E:8D
+  name: a8be273e0e8d
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+68ef433c7c3a:
+  hide_if_away: false
+  icon:
+  mac: 68:EF:43:3C:7C:3A
+  name: 68ef433c7c3a
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+amandasipad:
+  hide_if_away: false
+  icon:
+  mac: F0:DB:F8:55:C7:76
+  name: Amandas-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+camerons_watch:
+  hide_if_away: false
+  icon:
+  mac: 24:00:BA:AF:0A:26
+  name: Cameron's Watch
+  picture:
+  track: false
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+loft_tv:
+  hide_if_away: false
+  icon:
+  mac: 00:6B:9E:FA:49:3C
+  name: Loft TV
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+laptopsgoj322d:
+  hide_if_away: false
+  icon:
+  mac: A8:6B:AD:1E:2A:DA
+  name: LAPTOP-SGOJ322D
+  picture:
+  track: false
+  vendor: Hon Hai Precision Ind. Co.,Ltd.
+
+rubinsair:
+  hide_if_away: false
+  icon:
+  mac: B8:E8:56:21:BE:D8
+  name: Rubins-Air
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+080045000042:
+  hide_if_away: false
+  icon:
+  mac: 08:00:45:00:00:42
+  name: 080045000042
+  picture:
+  track: false
+  vendor: CONCURRENT COMPUTER CORP.
+
+braydensiphone3:
+  hide_if_away: false
+  icon:
+  mac: 1C:5C:F2:97:BE:03
+  name: BraydensiPhone3
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+080045000050:
+  hide_if_away: false
+  icon:
+  mac: 08:00:45:00:00:50
+  name: 080045000050
+  picture:
+  track: false
+  vendor: CONCURRENT COMPUTER CORP.
+
+living_room_chromecast_2:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:3B:49:1C
+  name: Living Room Chromecast
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+chromecast_2:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:35:EA:2B
+  name: Chromecast
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: B0:34:95:98:05:88
+  name: iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+patio_chromecast_audio_2:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:F6:95:EC
+  name: Patio Chromecast Audio
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+0015c1cb34e0:
+  hide_if_away: false
+  icon:
+  mac: 00:15:C1:CB:34:E0
+  name: 0015c1cb34e0
+  picture:
+  track: false
+  vendor: Sony Interactive Entertainment Inc.
+
+a8151551b8e8:
+  hide_if_away: false
+  icon:
+  mac: A8:15:15:51:B8:E8
+  name: a8151551b8e8
+  picture:
+  track: false
+  vendor: unknown
+
+louisiphone6:
+  hide_if_away: false
+  icon:
+  mac: 28:5A:EB:0D:2D:FF
+  name: Louis-iPhone-6
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+e0ee1b440e76:
+  hide_if_away: false
+  icon:
+  mac: E0:EE:1B:44:0E:76
+  name: e0ee1b440e76
+  picture:
+  track: false
+  vendor: Panasonic Automotive Systems Company of America
+
+rachaels_work_laptop:
+  hide_if_away: false
+  icon:
+  mac: 28:16:AD:89:90:B3
+  name: Rachael's Work Laptop
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+avasipodtouch:
+  hide_if_away: false
+  icon:
+  mac: FC:D8:48:46:90:07
+  name: Avas-iPod-touch
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+cameronsmbp:
+  hide_if_away: false
+  icon:
+  mac: A0:99:9B:13:28:0D
+  name: Camerons-MBP
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+brettspc:
+  hide_if_away: false
+  icon:
+  mac: 40:8D:5C:74:A0:F1
+  name: Bretts-PC
+  picture:
+  track: false
+  vendor: GIGA-BYTE TECHNOLOGY CO.,LTD.

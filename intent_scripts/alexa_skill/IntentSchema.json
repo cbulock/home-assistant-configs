@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Scene",
+          "type": "Scenes"
+        }
+      ],
+      "intent": "ActivateScene"
+    },
+    {
+      "slots": [
+        {
+          "name": "Channel",
+          "type": "Channels"
+        }
+      ],
+      "intent": "SetChannel"
+    },
+    {
+      "intent": "IndoorTemp"
+    },
+    {
+      "intent": "IndoorHumidity"
+    },
+    {
+      "intent": "OutdoorHumidity"
+    },
+    {
+      "intent": "PlantsWater"
+    },
+    {
+      "intent": "LivingRoomPlant"
+    },
+    {
+      "intent": "BrettsPlant"
+    },
+    {
+      "intent": "BathroomPlant"
+    },
+    {
+      "intent": "MasterBedroomPlant"
+    },
+    {
+      "intent": "RestartHASS"
+    }
+  ]
+}

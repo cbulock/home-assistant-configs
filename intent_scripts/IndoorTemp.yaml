@@ -1,5 +1,5 @@
 IndoorTemp:
   speech:
-    type: plaintext
+    type: plain
     text: >
       The current indoor temperature is {{ states.sensor.main_floor_temperature.state|round }} degrees

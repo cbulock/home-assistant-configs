@@ -1,0 +1,7 @@
+view: yes
+icon: mdi:flower
+entities:
+ - group.living_room_plant
+ - group.bathroom_plant
+ - group.bretts_plant
+ - group.master_bedroom_plant

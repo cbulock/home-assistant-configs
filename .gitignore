@@ -6,7 +6,6 @@ secrets.yaml
 *.sqlite
 *.txt
 *.conf
-*.json
 .editorconfig
 deps
 www

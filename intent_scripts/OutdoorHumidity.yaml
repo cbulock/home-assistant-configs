@@ -1,5 +1,5 @@
 OutdoorHumidity:
   speech:
-    type: plaintext
+    type: plain
     text: >
       The current outside humidity is {{ states.sensor.dark_sky_humidity.state|round }} percent

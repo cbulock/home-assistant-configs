@@ -2,6 +2,6 @@ RestartHASS:
     action:
       service: homeassistant.restart
     speech:
-      type: plaintext
+      type: plain
       text: >
         Home Assistant is now restarting

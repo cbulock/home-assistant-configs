@@ -1,6 +1,6 @@
 PlantsWater:
   speech:
-    type: plaintext
+    type: plain
     text: >
       {% 
         if states('sensor.bathroom_plant_moisture')|float <= 15 or
