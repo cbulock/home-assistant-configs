@@ -1,0 +1,8 @@
+- platform: command_line
+  switches:
+    playstation4:
+      command_on: 'sudo ps4-waker'
+      command_off: 'sudo ps4-waker standby'
+      command_state: 'telnet ps4 9295 | grep "Connected" > nul && (echo "true") || (echo "false")' 
+      value_template: '{{ value }}'
+      friendly_name: "Playstation 4"

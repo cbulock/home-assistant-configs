@@ -24,3 +24,6 @@ media_player.living_room_tv:
   emulated_hue_name: Living Room TV
   homebridge_name: Living Room TV
   haaska_name: Living Room TV
+switch.playstation4:
+  icon: mdi:playstation
+  haaska_name: Playstation 4

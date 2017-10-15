@@ -30,3 +30,5 @@
       state: off
     media_player.living_room_tv:
       state: off
+    switch.playstation4:
+      state: off
