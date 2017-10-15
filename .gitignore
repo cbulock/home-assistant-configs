@@ -4,7 +4,6 @@ secrets.yaml
 *.xml
 *.db-journal
 *.sqlite
-*.txt
 *.conf
 .editorconfig
 deps
@@ -13,3 +12,5 @@ custom_components
 .HA_VERSION
 .uuid
 .ring_cache.pickle
+OZW_Log.txt
+
