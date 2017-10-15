@@ -1,7 +1,8 @@
 RestartHASS:
-    action:
-      service: homeassistant.restart
-    speech:
-      type: plain
-      text: >
-        Home Assistant is now restarting
+  async_action: true
+  speech:
+    type: plain
+    text: >
+      Home Assistant is now restarting
+  action:
+    service: homeassistant.restart
