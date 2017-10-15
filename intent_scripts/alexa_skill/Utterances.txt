@@ -1,0 +1,44 @@
+ActivateScene activate {Scene}
+SetChannel set channel to {Channel}
+SetChannel display {Channel}
+IndoorTemp What is the inside temp
+IndoorTemp What is the temp inside
+IndoorTemp What is the inside temperature
+IndoorTemp What is the temperature inside
+IndoorTemp What is the indoor temp
+IndoorTemp What is the temp indoors
+IndoorTemp What is the indoor temperature
+IndoorTemp What is the temperature indoors
+IndoorHumidity What is the inside humidity
+IndoorHumidity What is the humidity inside
+IndoorHumidity What is the indoor humidity
+IndoorHumidity What is the humidity indoors
+OutdoorHumidity What is the outside humidity
+OutdoorHumidity What is the humidity outside
+OutdoorHumidity What is the outdoor humidity
+OutdoorHumidity What is the humidity outdoors
+PlantsWater Do the plants need water
+PlantsWater Do any plants need water
+PlantsWater Do any plants need to be watered
+LivingRoomPlant Does the living room plant need water
+LivingRoomPlant Should the living room plant be watered
+LivingRoomPlant Does the plant in the living room need water
+LivingRoomPlant Should I water the plant in the living room
+LivingRoomPlant Should I water the living room plant
+BrettsPlant Does Bretts plant need water
+BrettsPlant Should Bretts plant be watered
+BrettsPlant Does the plant in Bretts room need water
+BrettsPlant Should I water the plant in Bretts room
+BathroomPlant Does the bathroom plant need water
+BathroomPlant Should the bathroom plant be watered
+BathroomPlant Does the plant in the bathroom need water
+BathroomPlant Should I water the plant in the bathroom
+BathroomPlant Should I water the bathroom plant
+MasterBedroomPlant Does the master bedroom plant need water
+MasterBedroomPlant Should the master bedroom plant be watered
+MasterBedroomPlant Does the plant in the master bedroom need water
+MasterBedroomPlant Should I water the plant in the master bedroom
+MasterBedroomPlant Should I water the master bedroom plant
+RestartHASS restart
+RestartHASS reset
+RestartHASS reboot
