@@ -1,4 +1,4 @@
-alias: "Holiday - Halloween - Outdoor Lights On at Dark"
+alias: "Holiday - Christmas - Outdoor Lights On at Dark"
 trigger:
   - platform: sun
     event: sunset
