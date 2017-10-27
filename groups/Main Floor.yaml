@@ -3,4 +3,5 @@ entities:
  - group.living_room
  - group.kitchen
  - group.downstairs_bathroom
+ - group.christmas
  - binary_sensor.main_floor_occupancy

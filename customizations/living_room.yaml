@@ -4,12 +4,12 @@ binary_sensor.front_door_opened:
 light.living_room_ceiling:
   friendly_name: Ceiling
   emulated_hue_name: Living Room Ceiling
-  homebridge_name: Living Room Ceiling
+  google_assistant_name: Living Room Ceiling
   haaska_name: Living Room Ceiling
 light.livingroom_lamp:
   friendly_name: Lamp
   emulated_hue_name: Living Room Lamp
-  homebridge_name: Living Room Lamp
+  google_assistant_name: Living Room Lamp
   haaska_name: Living Room Lamp
 media_player.living_room:
   friendly_name: Chromecast
@@ -22,7 +22,7 @@ switch.fireplace_switch:
   friendly_name: Fireplace
 media_player.living_room_tv:
   emulated_hue_name: Living Room TV
-  homebridge_name: Living Room TV
+  google_assistant_name: Living Room TV
   haaska_name: Living Room TV
 switch.playstation4:
   icon: mdi:playstation

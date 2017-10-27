@@ -1,7 +1,7 @@
 light.loft_lights:
   friendly_name: Ceiling
   emulated_hue_name: Loft Ceiling
-  homebridge_name: Loft Ceiling
+  google_assistant_name: Loft Ceiling
   haaska_name: Loft Ceiling
 media_player.loft:
   friendly_name: Chromecast
@@ -11,5 +11,5 @@ switch.loft_decorations_switch:
   friendly_name: Decorations
   icon: mdi:pine-tree
   emulated_hue_name: Loft Decorations
-  homebridge_name: Loft Decorations
+  google_assistant_name: Loft Decorations
   haaska_name: Loft Decorations

@@ -1,5 +1,3 @@
-sensor.kitchen_thermostat_thermostat_temperature:
-  friendly_name: Temp
-sensor.kitchen_thermostat_thermostat_humidity:
+sensor.main_floor_humidity:
   friendly_name: Humidity
   icon: mdi:water-percent

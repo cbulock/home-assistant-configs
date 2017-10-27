@@ -1,22 +1,22 @@
 light.haileys_lamp:
   friendly_name: Lamp
   emulated_hue_name: Hailey's Lamp
-  homebridge_name: Hailey's Lamp
+  google_assistant_name: Hailey's Lamp
   haaska_name: Hailey's Lamp
 light.bretts_lamp:
   friendly_name: Lamp
   emulated_hue_name: Brett's Lamp
-  homebridge_name: Brett's Lamp
+  google_assistant_name: Brett's Lamp
   haaska_name: Brett's Lamp
 light.haileys_ceiling:
   friendly_name: Ceiling
   emulated_hue_name: Hailey's Ceiling
-  homebridge_name: Hailey's Ceiling
+  google_assistant_name: Hailey's Ceiling
   haaska_name: Hailey's Ceiling
 light.bretts_ceiling:
   friendly_name: Ceiling
   emulated_hue_name: Brett's Ceiling
-  homebridge_name: Brett's Ceiling
+  google_assistant_name: Brett's Ceiling
   haaska_name: Brett's Ceiling
 media_player.haileys_room:
   friendly_name: Chromecast

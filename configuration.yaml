@@ -19,6 +19,7 @@ frontend:
 conversation:
 zeroconf:
 alexa:
+map:
 
 history:
 logbook:
@@ -32,6 +33,7 @@ automation: !include_dir_list automation
 binary_sensor: !include_dir_merge_list binary_sensors
 camera: !include_dir_merge_list cameras
 device_tracker: !include device_tracker.yaml
+google_assistant: !include google_assistant.yaml
 group: !include_dir_named groups
 input_boolean: !include input_boolean.yaml
 input_select: !include input_select.yaml

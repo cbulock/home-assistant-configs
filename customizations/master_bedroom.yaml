@@ -1,7 +1,7 @@
 light.master_bed_lamp:
   friendly_name: Lamp
   emulated_hue_name: Master Bedroom Lamp
-  homebridge_name: Master Bedroom Lamp
+  google_assistant_name: Master Bedroom Lamp
   haaska_name: Master Bedroom Lamp
 media_player.master_bedroom:
   friendly_name: Chromecast
