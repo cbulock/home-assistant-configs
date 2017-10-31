@@ -25,3 +25,371 @@ brett:
   picture: /local/family/Brett.jpg
   track: yes
   hide_if_away: no
+cbulock_nexus6:
+  hide_if_away: false
+  icon:
+  mac:
+  name: cbulock
+  picture:
+  track: false
+  vendor:
+
+nagios_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:B2:5B:F7
+  name: Nagios Server
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+camerons_desktop:
+  hide_if_away: false
+  icon:
+  mac: 90:2B:34:87:50:D8
+  name: Cameron's Desktop
+  picture:
+  track: false
+  vendor: GIGA-BYTE TECHNOLOGY CO.,LTD.
+
+bretts_echo:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:E3:43:F5
+  name: Brett's Echo
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+living_room_audio:
+  hide_if_away: false
+  icon:
+  mac: A4:8D:3B:BD:1C:C3
+  name: Living Room Audio
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+directv_wireless_bridge:
+  hide_if_away: false
+  icon:
+  mac: 60:02:B4:DF:4E:2A
+  name: DirecTV Wireless Bridge
+  picture:
+  track: false
+  vendor: Wistron Neweb Corporation
+
+nas:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:00:2A:84
+  name: NAS
+  picture:
+  track: false
+  vendor: QNAP Systems, Inc.
+
+unificloudkey:
+  hide_if_away: false
+  icon:
+  mac: F0:9F:C2:18:5D:E0
+  name: UniFi-CloudKey
+  picture:
+  track: false
+  vendor: Ubiquiti Networks Inc.
+
+directv_genie_reciever:
+  hide_if_away: false
+  icon:
+  mac: 08:EB:74:D6:5A:AF
+  name: DirecTV Genie Reciever
+  picture:
+  track: false
+  vendor: HUMAX Co., Ltd.
+
+living_room_chromecast:
+  hide_if_away: false
+  icon:
+  mac: A4:8D:3B:B3:A5:EF
+  name: Living Room Chromecast
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+master_bedroom_echo:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:E4:24:CC
+  name: Master Bedroom Echo
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+chromecast:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:6A:35:E6
+  name: Chromecast
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+rachaelsipad:
+  hide_if_away: false
+  icon:
+  mac: 1C:AB:A7:91:53:20
+  name: Rachaels-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+osram_lightify_gateway:
+  hide_if_away: false
+  icon:
+  mac: 84:18:26:7D:72:F9
+  name: Osram Lightify Gateway
+  picture:
+  track: false
+  vendor: Osram GmbH
+
+garage_door_controller:
+  hide_if_away: false
+  icon:
+  mac: 64:52:99:22:E6:F6
+  name: Garage Door Controller
+  picture:
+  track: false
+  vendor: The Chamberlain Group, Inc
+
+washer:
+  hide_if_away: false
+  icon:
+  mac: 00:13:EF:40:40:D5
+  name: Washer
+  picture:
+  track: false
+  vendor: Kingjon Digital Technology Co.,Ltd
+
+homeassistant_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:E0:60:E4
+  name: HomeAssistant Server
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+chromecast_2:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:6A:4C:22
+  name: Chromecast
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+app_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:A1:94:A5
+  name: App Server
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+octoprint_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:1D:9A:8C
+  name: Octoprint Server
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+master_bedroom_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:B1:44
+  name: Master Bedroom Chromecast
+  picture:
+  track: false
+  vendor: REALTEK SEMICONDUCTOR CORP.
+
+ring_doorbell:
+  hide_if_away: false
+  icon:
+  mac: 6C:0B:84:F8:F1:0B
+  name: Ring Doorbell
+  picture:
+  track: false
+  vendor: Universal Global Scientific Industrial Co., Ltd.
+
+router:
+  hide_if_away: false
+  icon:
+  mac: 44:D9:E7:07:A3:52
+  name: Router
+  picture:
+  track: false
+  vendor: Ubiquiti Networks Inc.
+
+loft_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:B1:39
+  name: Loft Chromecast
+  picture:
+  track: false
+  vendor: REALTEK SEMICONDUCTOR CORP.
+
+downstairs_echo:
+  hide_if_away: false
+  icon:
+  mac: F0:27:2D:95:A6:BF
+  name: Downstairs Echo
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+basement_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:95:CF:34
+  name: Basement Chromecast
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+living_room_chromecast__vizio_tv:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:18:A2:13
+  name: Living Room Chromecast / Vizio TV
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+living_room_tv_remote:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:03:45:57
+  name: Living Room TV Remote
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+haileys_echo:
+  hide_if_away: false
+  icon:
+  mac: 68:54:FD:75:F5:28
+  name: Hailey's Echo
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+directv_genie_reciever_2:
+  hide_if_away: false
+  icon:
+  mac: 08:EB:74:D6:5A:AE
+  name: DirecTV Genie Reciever
+  picture:
+  track: false
+  vendor: HUMAX Co., Ltd.
+
+nas2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:12:8B:36
+  name: NAS2
+  picture:
+  track: false
+  vendor: QNAP Systems, Inc.
+
+wink_hub:
+  hide_if_away: false
+  icon:
+  mac: B4:79:A7:21:62:51
+  name: Wink Hub
+  picture:
+  track: false
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+brettspc:
+  hide_if_away: false
+  icon:
+  mac: 40:8D:5C:74:A0:F1
+  name: Bretts-PC
+  picture:
+  track: false
+  vendor: GIGA-BYTE TECHNOLOGY CO.,LTD.
+
+nas_2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:00:2A:82
+  name: NAS
+  picture:
+  track: false
+  vendor: QNAP Systems, Inc.
+
+living_room_audio_2:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:00:C2:AA
+  name: Living Room Audio
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+office_printer:
+  hide_if_away: false
+  icon:
+  mac: 64:EB:8C:84:63:04
+  name: Office Printer
+  picture:
+  track: false
+  vendor: Seiko Epson Corporation
+
+patio_chromecast_audio:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:A0:C1
+  name: Patio Chromecast Audio
+  picture:
+  track: false
+  vendor: REALTEK SEMICONDUCTOR CORP.
+
+retropie:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:6B:15:2D
+  name: RetroPie
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+nas2_2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:12:8B:35
+  name: NAS2
+  picture:
+  track: false
+  vendor: QNAP Systems, Inc.
+
+ecobee3:
+  hide_if_away: false
+  icon:
+  mac: 44:61:32:BA:10:00
+  name: ecobee3
+  picture:
+  track: false
+  vendor: ecobee inc
+
+lutron_hub:
+  hide_if_away: false
+  icon:
+  mac: 60:64:05:53:0D:D3
+  name: Lutron Hub
+  picture:
+  track: false
+  vendor: Texas Instruments

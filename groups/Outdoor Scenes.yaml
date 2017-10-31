@@ -1,8 +1,8 @@
- - scene.outdoors_bright
+ - scene.outdoors_default
  - scene.outdoors_dim
  - scene.outdoors_off
- - scene.holiday_halloween
- - scene.holiday_christmas
- - scene.holiday_st_patricks_day
- - scene.holiday_usa
- - scene.holiday_valentines_day
+ - scene.outdoors_halloween
+ - scene.outdoors_christmas
+ - scene.outdoors_st_patricks_day
+ - scene.outdoors_usa
+ - scene.outdoors_valentines_day

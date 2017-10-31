@@ -1,4 +1,4 @@
-- name: Outdoors bright
+- name: Outdoors default
   entities:
     light.front_porch:
       state: on

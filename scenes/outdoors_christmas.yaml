@@ -1,4 +1,4 @@
-- name: Holiday Christmas
+- name: Outdoors Christmas
   entities:
     light.front_porch:
       state: on

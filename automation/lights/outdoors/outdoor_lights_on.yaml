@@ -9,4 +9,5 @@ condition:
     state: 'off'
 action:
     service: scene.turn_on
-    entity_id: scene.outdoors_bright
+    data_template:
+      entity_id: scene.outdoors_{{ states.input_select.outdoor_lights.state | lower | replace(' ', '_') | replace('\'', '') }}

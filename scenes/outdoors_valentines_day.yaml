@@ -1,29 +1,26 @@
-- name: Holiday Halloween
+- name: Outdoors Valentines Day
   entities:
     light.front_porch:
       state: on
       brightness: 255
       rgb_color: [
-          255,
-          60,
-          0
+          222,
+          0,
+          137
       ]
     light.garage_left:
       state: on
       brightness: 255
       rgb_color: [
-          255,
-          60,
-          0
+          222,
+          0,
+          137
       ]
     light.garage_right:
       state: on
       brightness: 255
       rgb_color: [
-          255,
-          60,
-          0
+          222,
+          0,
+          137
       ]
-    switch.outdoor_holiday_lights_switch:
-      state: on
-
