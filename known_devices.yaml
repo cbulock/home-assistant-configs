@@ -7,7 +7,7 @@ cbulock_oneplus3t:
 
 rachael:
   name: Rachael
-  mac: 60:f1:89:4a:be:62
+  mac: b8:d7:af:0e:b1:77
   picture: /local/family/Rachael.jpg
   track: yes
   hide_if_away: no
@@ -655,3 +655,174 @@ brettspc:
   picture:
   track: false
   vendor: GIGA-BYTE TECHNOLOGY CO.,LTD.
+
+rachaelsipad:
+  hide_if_away: false
+  icon:
+  mac: 1C:AB:A7:91:53:20
+  name: Rachaels-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+rachaelsipod:
+  hide_if_away: false
+  icon:
+  mac: C0:63:94:9E:75:74
+  name: Rachaels-iPod
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+haileysiphone:
+  hide_if_away: false
+  icon:
+  mac: 40:98:AD:80:58:F9
+  name: Haileys-iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+galaxys8:
+  hide_if_away: false
+  icon:
+  mac: A0:CC:2B:9F:F7:A2
+  name: Galaxy-S8
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+a8151551f4f5:
+  hide_if_away: false
+  icon:
+  mac: A8:15:15:51:F4:F5
+  name: a8151551f4f5
+  picture:
+  track: false
+  vendor: unknown
+
+kellensiphone:
+  hide_if_away: false
+  icon:
+  mac: 48:3B:38:05:98:9F
+  name: Kellens-iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+44d9e707a350:
+  hide_if_away: false
+  icon:
+  mac: 44:D9:E7:07:A3:50
+  name: 44d9e707a350
+  picture:
+  track: false
+  vendor: Ubiquiti Networks Inc.
+
+android77753e2fbd34ec6d:
+  hide_if_away: false
+  icon:
+  mac: E4:58:E7:44:F5:D2
+  name: android-77753e2fbd34ec6d
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+samsungsmg920v:
+  hide_if_away: false
+  icon:
+  mac: FC:DB:B3:2E:13:47
+  name: SAMSUNG-SM-G920V
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+404e3623b833:
+  hide_if_away: false
+  icon:
+  mac: 40:4E:36:23:B8:33
+  name: 404e3623b833
+  picture:
+  track: false
+  vendor: HTC Corporation
+
+404e361fbbfe:
+  hide_if_away: false
+  icon:
+  mac: 40:4E:36:1F:BB:FE
+  name: 404e361fbbfe
+  picture:
+  track: false
+  vendor: HTC Corporation
+
+ac37434e2238:
+  hide_if_away: false
+  icon:
+  mac: AC:37:43:4E:22:38
+  name: ac37434e2238
+  picture:
+  track: false
+  vendor: HTC Corporation
+
+alainasiphone:
+  hide_if_away: false
+  icon:
+  mac: 00:56:CD:34:B8:16
+  name: Alainas-iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+rachaels_phone:
+  hide_if_away: false
+  icon:
+  mac: 60:F1:89:4A:BE:62
+  name: Rachael's Phone
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+androidbc6f86dceaf2ec7a:
+  hide_if_away: false
+  icon:
+  mac: FC:19:10:70:F8:AD
+  name: android-bc6f86dceaf2ec7a
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+34d2702db2d9:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:2D:B2:D9
+  name: 34d2702db2d9
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+theresansiphone:
+  hide_if_away: false
+  icon:
+  mac: A8:BE:27:61:38:33
+  name: TheresansiPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+chromecast_3:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:6A:35:E6
+  name: Chromecast
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+bretts_echo:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:E3:43:F5
+  name: Brett's Echo
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.

@@ -5,4 +5,5 @@ switch.christmas_decorations_switch:
   friendly_name: Christmas Decorations
   icon: mdi:ornament
 switch.outdoor_holiday_lights_switch:
+  friendly_name: Outdoor Holiday Lights
   icon: mdi:lightbulb

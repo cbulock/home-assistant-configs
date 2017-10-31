@@ -4,8 +4,6 @@ light.garage_left:
   friendly_name: Garage Left
 light.garage_right:
   friendly_name: Garage Right
-switch.outdoor_holiday_lights_switch:
-  friendly_name: Outdoor Holiday Lights
 binary_sensor.ring_front_door_motion:
   friendly_name: Front Door
 media_player.patio_audio:
