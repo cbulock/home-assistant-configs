@@ -1,11 +1,11 @@
 alias: "Washing Machine Finished Cycle - Notify Hailey"
 trigger:
  - platform: state
-   entity_id: sensor.washer_status
-   to: 'End of cycle'
+   entity_id: input_select.washer
+   to: 'Clean'
 condition:
   - condition: state
-    entity_id: input_select.washer
+    entity_id: input_select.washer_user
     state: 'Hailey'
 action:
   - service: notify.sms

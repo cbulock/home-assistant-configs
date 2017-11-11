@@ -1,0 +1,18 @@
+alias: Set washing machine to clean after timeout
+trigger:
+  - platform: state
+    entity_id: input_select.washer
+    to: Finishing
+    for:
+      minutes: 8
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: input_select.washer
+      state: Finishing
+action:
+  - service: input_select.select_option
+    data:
+      entity_id: input_select.washer
+      option: Clean

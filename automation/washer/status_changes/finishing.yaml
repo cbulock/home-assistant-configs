@@ -1,0 +1,16 @@
+alias: Set washing machine to finished when power drops
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.washing_machine_power
+    below: 6
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: input_select.washer
+      state: Running
+action:
+  - service: input_select.select_option
+    data:
+      entity_id: input_select.washer
+      option: Finishing

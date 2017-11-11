@@ -1,0 +1,20 @@
+alias: Set washing machine to idle when door opens
+trigger:
+  - platform: state
+    entity_id: binary_sensor.washing_machine_door_sensor
+    to: 'on'
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: input_select.washer
+      state: Clean
+action:
+  - service: input_select.select_option
+    data:
+      entity_id: input_select.washer
+      option: Idle
+  - service: input_select.select_option
+    data:
+      entity_id: input_select.washer_user
+      option: "Unknown"

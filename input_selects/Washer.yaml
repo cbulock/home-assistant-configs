@@ -1,0 +1,8 @@
+washer:
+  name: Washer Status
+  options:
+    - Idle
+    - Running
+    - Finishing
+    - Clean
+  icon: mdi:washing-machine

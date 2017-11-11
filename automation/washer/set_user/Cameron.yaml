@@ -1,0 +1,10 @@
+alias: "Set Washer User - Cameron"
+trigger:
+  platform: mqtt
+  topic: laundry/cameron
+  payload: "active"
+action:
+  - service: input_select.select_option
+    data:
+      entity_id: input_select.washer_user
+      option: "Cameron"

@@ -5,3 +5,4 @@ entities:
  - group.outdoor_scenes
  - binary_sensor.ring_front_door_motion
  - media_player.patio_audio
+ - camera.front_door

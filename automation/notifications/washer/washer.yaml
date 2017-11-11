@@ -1,22 +1,16 @@
 alias: "Washing Machine Finished Cycle"
 trigger:
  - platform: state
-   entity_id: sensor.washer_status
-   to: 'End of cycle'
+   entity_id: input_select.washer
+   to: 'Clean'
 action:
   - service: notify.sms
     data:
-      message: "Clothes are washed for {{ states.input_select.washer.state }}."
+      message: "Clothes are washed for {{ states.input_select.washer_user.state }}."
       target:
         - !secret SMS_CAMERON
   - service: notify.sms
     data:
-      message: "Clothes are washed for {{ states.input_select.washer.state }}."
+      message: "Clothes are washed for {{ states.input_select.washer_user.state }}."
       target:
         - !secret SMS_RACHAEL
-  - delay:
-      minutes: 5
-  - service: input_select.select_option
-    data:
-      entity_id: input_select.washer
-      option: "Unknown"

@@ -1,12 +1,3 @@
-washer:
-  name: Whose clothes
-  options:
-    - Unknown
-    - Cameron
-    - Rachael
-    - Hailey
-    - Brett
-  icon: mdi:tshirt-crew
 outdoor_lights:
   name: Light Scheme
   options:
