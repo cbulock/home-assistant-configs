@@ -1,0 +1,10 @@
+alias: Set humidity - -10 or below
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.dark_sky_temperature
+    below: -10
+action:
+  - service: climate.set_humidity
+    data:
+      entity_id: climate.main_floor
+      humidity: 15
