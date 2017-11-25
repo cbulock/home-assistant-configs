@@ -1,0 +1,16 @@
+- platform: broadlink
+  host: master.remote
+  mac: 34:ea:34:40:7b:39
+  switches:
+    master_bedroom_tv:
+      friendly_name: "Master Bedroom TV"
+      command_on: 'JgBYAAABJ5QUERQRFDYTEhMSExIUERUREzcUNhMSFDYUNxQ2EzcTNxMSFBEVERQ2ExIUERMSExIUNhQ3FDYTEhM3FTUUNxM3FAAFEwABKEkTAAxUAAEoSRQADQU='
+      command_off: 'JgBYAAABJ5QUERQRFDYTEhMSExIUERUREzcUNhMSFDYUNxQ2EzcTNxMSFBEVERQ2ExIUERMSExIUNhQ3FDYTEhM3FTUUNxM3FAAFEwABKEkTAAxUAAEoSRQADQU='
+    master_bedroom_fan:
+      friendly_name: "Master Bedroom Fan"
+      command_on: 'JgBiACoOKwwQKCoOKw0PKA8pDykPKQ8pDygr7CoOLAwPKSsNKwwQKA4qDioPKQ4pDior7CoOKw0PKSoNLAwQKA8pDygPKQ8pDykq7SoOKwwQKCsNKw0PKQ4pDykPKQ8pDykrAA0FAAAAAAAA='
+      command_off: 'JgBiACoOKwwQKCoOKw0PKA8pDykPKQ8pDygr7CoOLAwPKSsNKwwQKA4qDioPKQ4pDior7CoOKw0PKSoNLAwQKA8pDygPKQ8pDykq7SoOKwwQKCsNKw0PKQ4pDykPKQ8pDykrAA0FAAAAAAAA='
+    master_bedroom_fan_rotate:
+      friendly_name: "Master Bedroom Fan Rotate"
+      command_on: 'JgBoACsMLAwQKCsNKw0PKBAoKg4PKQ8oECgQAAEHKw0rDA8qKw0rDA4qDykrDQ4pECgPKQ8AAQgrDSoODygsDCoODykPKSoNDykPKQ4qDwABCCsNKwwOKisNKw0OKQ8pKg4PKQ8pDygQAA0F='
+      command_off: 'JgBoACsMLAwQKCsNKw0PKBAoKg4PKQ8oECgQAAEHKw0rDA8qKw0rDA4qDykrDQ4pECgPKQ8AAQgrDSoODygsDCoODykPKSoNDykPKQ4qDwABCCsNKwwOKisNKw0OKQ8pKg4PKQ8pDygQAA0F='
