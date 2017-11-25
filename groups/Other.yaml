@@ -5,3 +5,4 @@ entities:
  - group.printer
  - group.3d_printer
  - group.nas
+ - group.nas2

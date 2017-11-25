@@ -6,6 +6,7 @@
  * GoControl motion sensor in kitchen
  * 2 GoControl sensors on exterior doors
  * Schlage Connect lock
+ * GoControl siren
 
 ### Devices connected to RPi over Aeotec Z-Stick Gen5
 
@@ -13,6 +14,8 @@
  * Remotec Zwave Switch to control fireplace
  * Two GE smart plugs, Leviton smart plug, and Inovelli smart plug to control outdoor Christmas lights, Christmas trees and some decorations during the holidays
  * One GoControl sensor on an exterior window
+ * Ecolink Door Sensor for washing machine door
+ * Aectec Power Switch to monitor washing machine usage
 
 ### Devices connected over Bluetooth to RPi
 
@@ -30,7 +33,6 @@
 ### Data gathered through MQTT
 
  * Owntracks location
- * [GE Washing Machine status](https://github.com/cbulock/Washing-Machine-Automation) (via a RPi connected to a [Green Bean module](http://market.firstbuild.com/products/greenbean))
 
 ### Data gathered through SNMP
 
@@ -38,10 +40,12 @@
 
 ### Other devices connected over network
 
+ * Amazon Echo and three Echo Dot's
  * ecobee3 Thermostat
  * Five Chromecasts and two Chromecast Audios
  * DirecTV reciever
  * Unifi device tracking
- * MyQ Garage Door
  * Vizio SmartCast TV
  * Monoprice Select Mini v2 3D Printer via Octoprint
+ * Two QNAP NAS's
+ * BroadLink RM Mini 3 to control bedroom TV and fan over IR

@@ -5,7 +5,6 @@
       unit_of_measurement: '°F'
       value_template: >
         {% set sensors = [
-          states.sensor.bathroom_plant_temperature.state|float,
           states.sensor.breakfast_bar_temperature.state|float,
           states.sensor.bretts_plant_temperature.state|float,
           states.sensor.main_floor_temperature.state|float,
@@ -49,4 +48,9 @@
       value_template: '{{ states.device_tracker.cbulock_oneplus3t.attributes.battery }}'
       friendly_name: Cameron's Phone
       unit_of_measurement: '%'
+
+    washing_machine_status:
+      value_template: '{{ states.input_select.washer.state }}'
+      friendly_name: 'Status'
+      icon_template: mdi:washing-machine
 

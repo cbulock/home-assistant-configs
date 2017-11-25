@@ -10,12 +10,16 @@ homeassistant:
 http:
   api_password: !secret password
   use_x_forwarded_for: True
-  trusted_networks: 10.0.0.0/8
+  trusted_networks: 10.0.0.0/22
+
 
 discovery:
+  ignore:
+    - plex_mediaserver
 sun:
 updater:
 frontend:
+  javascript_version: latest
 conversation:
 zeroconf:
 alexa:
@@ -41,7 +45,9 @@ input_select: !include_dir_merge_named input_selects
 intent_script: !include_dir_merge_named intent_scripts
 media_player: !include_dir_merge_list media_players
 notify: !include notify.yaml
+plant: !include_dir_merge_named plants
 scene: !include_dir_merge_list scenes
+script: !include_dir_named scripts
 sensor: !include_dir_merge_list sensors
 switch: !include_dir_merge_list switches
 weblink: !include weblink.yaml

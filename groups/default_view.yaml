@@ -5,4 +5,4 @@ entities:
  - device_tracker.cbulock_oneplus3t
  - device_tracker.hailey
  - device_tracker.rachael
- - group.overview
+ - group.indoor_weather
