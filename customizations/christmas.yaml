@@ -7,3 +7,7 @@ switch.christmas_decorations_switch:
 switch.outdoor_holiday_lights_switch:
   friendly_name: Outdoor Holiday Lights
   icon: mdi:lightbulb
+binary_sensor.christmas_tree_water_sensor:
+  friendly_name: Christmas Tree Water
+  icon: mdi:water
+  device_class: moisture

@@ -42,3 +42,11 @@ sensor.bathroom_plant_conductivity:
 sensor.bathroom_plant_light_intensity:
   friendly_name: Light Intensity
   icon: mdi:brightness-6
+plant.bathroom_plant:
+  friendly_name: Bathroom Plant
+plant.bretts_plant:
+  friendly_name: Brett's Plant
+plant.living_room:
+  friendly_name: Living Room Plant
+plant.master_bedroom:
+  friendly_name: Master Bedroom Plant

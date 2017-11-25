@@ -1,3 +1,5 @@
 sensor.main_floor_humidity:
   friendly_name: Humidity
   icon: mdi:water-percent
+sensor.main_floor_temperature:
+  friendly_name: Temp
