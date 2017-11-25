@@ -34,3 +34,5 @@
       state: off
     switch.playstation4:
       state: off
+    script.master_bedroom_fan_on_night:
+      state: on

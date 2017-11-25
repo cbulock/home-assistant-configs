@@ -1,0 +1,9 @@
+sequence:
+  - service: switch.turn_on
+    data:
+      entity_id: switch.master_bedroom_fan
+  - delay:
+      seconds: 5
+  - service: switch.turn_on
+    data:
+      entity_id: switch.master_bedroom_fan_rotate
