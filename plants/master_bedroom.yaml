@@ -1,0 +1,8 @@
+master_bedroom:
+  sensors:
+    moisture: sensor.master_bedroom_plant_moisture
+    battery: sensor.master_bedroom_plant_battery
+    temperature: sensor.master_bedroom_plant_temperature
+    conductivity: sensor.master_bedroom_plant_conductivity
+    brightness: sensor.master_bedroom_plant_light_intensity
+  min_moisture: 18

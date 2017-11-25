@@ -1,0 +1,8 @@
+bretts_plant:
+  sensors:
+    moisture: sensor.bretts_plant_moisture
+    battery: sensor.bretts_plant_battery
+    temperature: sensor.bretts_plant_temperature
+    conductivity: sensor.bretts_plant_conductivity
+    brightness: sensor.bretts_plant_light_intensity
+  min_moisture: 18

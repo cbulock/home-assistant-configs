@@ -1,3 +1,4 @@
+- plant.master_bedroom
 - sensor.master_bedroom_plant_moisture
 - sensor.master_bedroom_plant_temperature
 - sensor.master_bedroom_plant_conductivity

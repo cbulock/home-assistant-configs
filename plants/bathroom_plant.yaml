@@ -1,0 +1,8 @@
+bathroom_plant:
+  sensors:
+    moisture: sensor.bathroom_plant_moisture
+    battery: sensor.bathroom_plant_battery
+    temperature: sensor.bathroom_plant_temperature
+    conductivity: sensor.bathroom_plant_conductivity
+    brightness: sensor.bathroom_plant_light_intensity
+  min_moisture: 18

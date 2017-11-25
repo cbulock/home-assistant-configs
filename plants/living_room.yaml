@@ -1,0 +1,8 @@
+living_room:
+  sensors:
+    moisture: sensor.living_room_plant_moisture
+    battery: sensor.living_room_plant_battery
+    temperature: sensor.living_room_plant_temperature
+    conductivity: sensor.living_room_plant_conductivity
+    brightness: sensor.living_room_plant_light_intensity
+  min_moisture: 18
