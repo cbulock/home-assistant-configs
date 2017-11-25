@@ -1,0 +1,15 @@
+- sensor.nas2_status
+- sensor.nas2_cpu_usage
+- sensor.nas2_free_space_datavol1
+- sensor.nas2_memory_available
+- sensor.nas2_memory_usage
+- sensor.nas2_memory_used
+- sensor.nas2_network_down_eth1
+- sensor.nas2_smart_status_drive_01
+- sensor.nas2_smart_status_drive_02
+- sensor.nas2_smart_status_drive_03
+- sensor.nas2_smart_status_drive_04
+- sensor.nas2_temperature_drive_01
+- sensor.nas2_temperature_drive_02
+- sensor.nas2_temperature_drive_03
+- sensor.nas2_temperature_drive_04
