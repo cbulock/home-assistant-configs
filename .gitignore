@@ -6,6 +6,7 @@ secrets.yaml
 *.sqlite
 *.conf
 .editorconfig
+*.data
 deps
 www
 custom_components
