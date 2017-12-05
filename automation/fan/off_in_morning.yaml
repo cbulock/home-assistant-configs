@@ -1,0 +1,9 @@
+alias: "Fan off in the morning"
+trigger:
+  - platform: time
+    hours: 6
+    minutes: 30
+    seconds: 0
+action:
+    service: switch.turn_off
+    entity_id: switch.master_bedroom_fan
