@@ -1,0 +1,18 @@
+alias: "Unlock when Louis Arrives on Sundays"
+trigger:
+  - platform: state
+    entity_id: device_tracker.louis
+    from: 'not_home'
+    to: 'home'
+condition:
+  condition: and
+  conditions:
+  - condition: time
+    weekday:
+      - sun
+  - condition: time
+    after: '20:00:00'
+    before: '23:00:00'
+action:
+  - service: lock.unlock
+    entity_id: lock.front_door_lock
