@@ -9,6 +9,7 @@ secrets.yaml
 *.data
 deps
 www
+tts
 custom_components
 .HA_VERSION
 .uuid
