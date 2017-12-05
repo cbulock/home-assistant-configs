@@ -11,7 +11,8 @@ http:
   api_password: !secret password
   use_x_forwarded_for: True
   trusted_networks: 10.0.0.0/22
-
+  ip_ban_enabled: True
+  login_attempts_threshold: 10
 
 discovery:
   ignore:
@@ -81,7 +82,11 @@ octoprint:
   host: 3dprinter
   api_key: !secret octoprint_key
 
+tts:
+  - platform: google
+
 zwave:
   usb_path: /dev/ttyACM0
   polling_interval: 20000
+  network_key: !secret zwave_network_key
   config_path: /usr/local/lib/python3.4/dist-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config
