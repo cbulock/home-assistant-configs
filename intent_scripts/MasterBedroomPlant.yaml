@@ -4,7 +4,7 @@ MasterBedroomPlant:
     text: >
       {% if  states('sensor.master_bedroom_plant_moisture') == 'unknown' %} 
         Not sure.  Not enough information at this time. Please check back later.
-      {% elif  states('sensor.master_bedroom_plant_moisture')|float  <= 15 %} 
+      {% elif  states('sensor.master_bedroom_plant_moisture')|float  <= 18 %} 
         Yes it does. The soil is currently at {{ states.sensor.master_bedroom_plant_moisture.state|round }} percent moisture.
       {%- else -%}
         Not at this time. The soil is currently at {{ states.sensor.master_bedroom_plant_moisture.state|round }} percent moisture.

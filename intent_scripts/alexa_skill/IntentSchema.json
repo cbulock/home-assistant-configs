@@ -12,6 +12,18 @@
     {
       "slots": [
         {
+          "name": "User",
+          "type": "Users"
+        }
+      ],
+      "intent": "SetWasherUser"
+    },
+    {
+      "intent": "WhoseClothes"
+    },
+    {
+      "slots": [
+        {
           "name": "Channel",
           "type": "Channels"
         }

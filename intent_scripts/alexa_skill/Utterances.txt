@@ -42,3 +42,5 @@ MasterBedroomPlant Should I water the master bedroom plant
 RestartHASS restart
 RestartHASS reset
 RestartHASS reboot
+WhoseClothes whose clothes are in the washer
+SetWasherUser set washer to {User}

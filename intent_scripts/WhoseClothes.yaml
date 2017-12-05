@@ -1,0 +1,9 @@
+WhoseClothes:
+  speech:
+    type: plain
+    text: >
+      {% if  states('input_select.washer_user') == 'Unknown' %} 
+        Not sure whose clothes are in the washer.
+      {%- else -%}
+        {{ states.input_select.washer_user.state }}'s clothes are in the washer.
+      {%- endif -%}

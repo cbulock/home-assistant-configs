@@ -6,13 +6,13 @@ PlantsWater:
         if states('sensor.bathroom_plant_moisture')|float <= 15 or
            states('sensor.bretts_plant_moisture')|float <= 20 or
            states('sensor.living_room_plant_moisture')|float <= 15 or
-           states('sensor.master_bedroom_plant_moisture')|float <= 15
+           states('sensor.master_bedroom_plant_moisture')|float <= 18
       %} 
         Yes.
         {% if  states('sensor.bathroom_plant_moisture')|float <= 15 %}The bathroom plant,{% endif %}
         {% if  states('sensor.bretts_plant_moisture')|float <= 20 %}Brett's bedroom plant,{% endif %}
         {% if  states('sensor.living_room_plant_moisture')|float <= 15 %}The living room plant,{% endif %}
-        {% if  states('sensor.master_bedroom_plant_moisture')|float <= 15 %}The master bedroom plant,{% endif %}
+        {% if  states('sensor.master_bedroom_plant_moisture')|float <= 18 %}The master bedroom plant,{% endif %}
       {%- else -%}
         No, all the plants are properly watered.
       {%- endif -%}

@@ -1,0 +1,9 @@
+SetWasherUser:
+      action:
+        service: input_select.select_option
+        data_template:
+          entity_id: input_select.washer_user
+          option: '{{ User }}'
+      speech:
+        type: plain
+        text: !include AlexaConfirm.yaml
