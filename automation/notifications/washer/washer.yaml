@@ -14,3 +14,7 @@ action:
       message: "Clothes are washed for {{ states.input_select.washer_user.state }}."
       target:
         - !secret SMS_RACHAEL
+  - service: tts.google_say
+    entity_id: media_player.downstairs_speaker
+    data_template:
+      message: "Clothes are washed for {{ states.input_select.washer_user.state }}."
