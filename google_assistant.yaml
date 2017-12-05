@@ -4,4 +4,3 @@ access_token: !secret ga_access_token
 exposed_domains:
   - switch
   - light
-  - group
