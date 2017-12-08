@@ -2,14 +2,14 @@
 
 ### Devices connected to Wink Hub
 
- * 2 Lutron Connected Bulb remotes. 
+ * 2 Lutron Connected Bulb remotes
  * GoControl motion sensor in kitchen
  * 2 GoControl sensors on exterior doors
- * Schlage Connect lock
  * GoControl siren
 
 ### Devices connected to RPi over Aeotec Z-Stick Gen5
 
+ * Schlage Connect lock
  * Ecolink Motion Sensor in bathroom
  * Remotec Zwave Switch to control fireplace
  * Two GE smart plugs, Leviton smart plug, and Inovelli smart plug to control outdoor Christmas lights, Christmas trees and some decorations during the holidays
@@ -43,6 +43,7 @@
  * Amazon Echo and three Echo Dot's
  * ecobee3 Thermostat
  * Five Chromecasts and two Chromecast Audios
+ * Four Google Home Minis
  * DirecTV reciever
  * Unifi device tracking
  * Vizio SmartCast TV
