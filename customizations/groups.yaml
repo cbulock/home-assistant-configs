@@ -14,5 +14,7 @@ group.weather:
   order: 7
 group.plants:
   order: 8
-group.automation:
+group.nass:
   order: 9
+group.automation:
+  order: 10

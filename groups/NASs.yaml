@@ -1,0 +1,5 @@
+view: yes
+icon: mdi:harddisk
+entities:
+  - group.nas
+  - group.nas2
