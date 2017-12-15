@@ -1,7 +1,7 @@
 alias: "Alert Back Door Left Open"
 trigger:
   - platform: state
-    entity_id: binary_sensor.back_door_opened
+    entity_id: binary_sensor.rear_door_status
     to: 'on'
     for:
       minutes: 2

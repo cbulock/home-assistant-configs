@@ -1,18 +1,17 @@
-binary_sensor.front_door_opened:
-  friendly_name: Door
+binary_sensor.front_door_status:
   icon: mdi:glassdoor
 light.living_room_ceiling:
   friendly_name: Ceiling
-  emulated_hue_name: Living Room Ceiling
   google_assistant_name: Living Room Ceiling
   haaska_name: Living Room Ceiling
 light.livingroom_lamp:
   friendly_name: Lamp
-  emulated_hue_name: Living Room Lamp
   google_assistant_name: Living Room Lamp
   haaska_name: Living Room Lamp
 media_player.living_room:
   friendly_name: Chromecast
+media_player.living_room_2:
+  friendly_name: Roku
 media_player.living_room_audio:
   friendly_name: Chromecast Audio
 media_player.directv_receiver:
@@ -21,7 +20,6 @@ switch.fireplace_switch:
   icon: mdi:fire
   friendly_name: Fireplace
 media_player.living_room_tv:
-  emulated_hue_name: Living Room TV
   google_assistant_name: Living Room TV
   haaska_name: Living Room TV
 switch.playstation4:

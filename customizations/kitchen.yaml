@@ -1,5 +1,4 @@
-binary_sensor.rear_door_opened:
-  friendly_name: Door
+binary_sensor.rear_door_status:
   icon: mdi:glassdoor
 binary_sensor.breakfast_bar_motion:
   friendly_name: Breakfast Bar
@@ -22,5 +21,6 @@ climate.main_floor:
   friendly_name: Thermostat
 light.hall_lights:
   friendly_name: Hall
-switch.siren__strobe:
-  hidden: true
+light.gateway_light_7811dc64f587:
+  friendly_name: Alert Light
+  icon: mdi:alert-decagram

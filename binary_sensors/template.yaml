@@ -1,0 +1,15 @@
+- platform: template
+  sensors:
+
+    front_door_status:
+      value_template: "{{ is_state('sensor.front_door_alarm_level_2', '255') }}"
+      friendly_name: 'Door'
+      device_class: opening
+    rear_door_status:
+      value_template: "{{ is_state('sensor.rear_door_alarm_level', '255') }}"
+      friendly_name: 'Door'
+      device_class: opening
+    basement_window_status:
+      value_template: "{{ is_state('sensor.basement_window_alarm_level', '255') }}"
+      friendly_name: 'Window'
+      device_class: opening

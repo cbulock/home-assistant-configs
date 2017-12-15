@@ -9,7 +9,7 @@ condition:
       entity_id: lock.front_door_lock
       state: 'unlocked'
     - condition: state
-      entity_id: binary_sensor.front_door_opened
+      entity_id: binary_sensor.front_door_status
       state: 'off'
 action:
   - service: lock.lock

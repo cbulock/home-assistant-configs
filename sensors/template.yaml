@@ -28,15 +28,15 @@
       friendly_name: 'Basement Window Sensor'
       unit_of_measurement: '%'
     front_door_batt:
-      value_template: '{{ states.zwave.front_door.attributes.battery_level }}'
+      value_template: '{{ states.zwave.front_door_2.attributes.battery_level }}'
       friendly_name: 'Front Door Sensor'
       unit_of_measurement: '%'
     front_door_lock_batt:
-      value_template: '{{ states.lock.front_door_lock.attributes.battery_level }}'
+      value_template: '{{ states.zwave.front_door.attributes.battery_level }}'
       friendly_name: 'Front Door Lock'
       unit_of_measurement: '%'
     rear_door_batt:
-      value_template: '{{ states.binary_sensor.rear_door_opened.attributes.battery_level }}'
+      value_template: '{{ states.zwave.rear_door.attributes.battery_level }}'
       friendly_name: 'Rear Door Sensor'
       unit_of_measurement: '%'
     siren_batt:

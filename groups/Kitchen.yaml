@@ -1,8 +1,9 @@
-- binary_sensor.rear_door_opened
+- binary_sensor.rear_door_status
 - binary_sensor.breakfast_bar_motion
 - light.kitchen_lights
 - light.kitchen_cabinet
 - light.breakfast_bar_lights
 - light.hall_lights
+- light.gateway_light_7811dc64f587
 - climate.main_floor
 - media_player.downstairs_speaker
