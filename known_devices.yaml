@@ -21,18 +21,17 @@ hailey:
 
 brett:
   name: Brett
-  mac: 98:00:C6:80:9C:13 
+  mac: 98:00:C6:80:9C:13
   picture: /local/family/Brett.jpg
   track: yes
   hide_if_away: no
-cbulock_nexus6:
-  hide_if_away: false
-  icon:
-  mac:
-  name: cbulock
+
+louis:
+  mac: 28:5A:EB:0D:2D:FF
+  name: Louis
   picture:
-  track: false
-  vendor:
+  track: yes
+  vendor: Apple, Inc.
 
 nagios_server:
   hide_if_away: false
@@ -393,3 +392,408 @@ lutron_hub:
   picture:
   track: false
   vendor: Texas Instruments
+
+loft_tv:
+  hide_if_away: false
+  icon:
+  mac: 00:6B:9E:FA:49:3C
+  name: Loft TV
+  picture:
+  track: false
+  vendor: Vizio, Inc
+
+camerons_nintendo_switch:
+  hide_if_away: false
+  icon:
+  mac: 64:B5:C6:17:97:C3
+  name: Cameron's Nintendo Switch
+  picture:
+  track: false
+  vendor: Nintendo Co.,Ltd
+
+bretts_nintendo_switch:
+  hide_if_away: false
+  icon:
+  mac: 04:03:D6:79:F9:7D
+  name: Brett's Nintendo Switch
+  picture:
+  track: false
+  vendor: Nintendo Co.,Ltd
+
+camerons_watch:
+  hide_if_away: false
+  icon:
+  mac: 24:00:BA:AF:0A:26
+  name: Cameron's Watch
+  picture:
+  track: false
+  vendor: HUAWEI TECHNOLOGIES CO.,LTD
+
+android885a372bc2870023:
+  hide_if_away: false
+  icon:
+  mac: 68:C4:4D:46:A0:92
+  name: android-885a372bc2870023
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+living_room_chromecast_2:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:3B:49:1C
+  name: Living Room Chromecast
+  picture:
+  track: false
+  vendor: unknown
+
+patio_chromecast_audio_2:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:F6:95:EC
+  name: Patio Chromecast Audio
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+chromecast_3:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:35:EA:2B
+  name: Chromecast
+  picture:
+  track: false
+  vendor: unknown
+
+0015c1cb34e0:
+  hide_if_away: false
+  icon:
+  mac: 00:15:C1:CB:34:E0
+  name: 0015c1cb34e0
+  picture:
+  track: false
+  vendor: Sony Interactive Entertainment Inc.
+
+android3cbc067d8c28221d:
+  hide_if_away: false
+  icon:
+  mac: 0C:BD:51:B5:A0:5B
+  name: android-3cbc067d8c28221d
+  picture:
+  track: false
+  vendor: TCT mobile ltd
+
+cameronsmbp:
+  hide_if_away: false
+  icon:
+  mac: A0:99:9B:13:28:0D
+  name: Camerons-MBP
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+router_2:
+  hide_if_away: false
+  icon:
+  mac: 44:D9:E7:07:A3:50
+  name: Router
+  picture:
+  track: false
+  vendor: Ubiquiti Networks Inc.
+
+avasipodtouch:
+  hide_if_away: false
+  icon:
+  mac: FC:D8:48:46:90:07
+  name: Avas-iPod-touch
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+iphone4:
+  hide_if_away: false
+  icon:
+  mac: 34:7C:25:76:00:CE
+  name: iPhone-4
+  picture:
+  track: false
+  vendor: unknown
+
+cameronsmbp_2:
+  hide_if_away: false
+  icon:
+  mac: E4:CE:8F:29:73:5C
+  name: Camerons-MBP
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+rachaels_phone:
+  hide_if_away: false
+  icon:
+  mac: 60:F1:89:4A:BE:62
+  name: Rachael's Phone
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+rubinsair:
+  hide_if_away: false
+  icon:
+  mac: B8:E8:56:21:BE:D8
+  name: Rubins-Air
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+braydensiphone3:
+  hide_if_away: false
+  icon:
+  mac: 1C:5C:F2:97:BE:03
+  name: BraydensiPhone3
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+fca6677f5d5a:
+  hide_if_away: false
+  icon:
+  mac: FC:A6:67:7F:5D:5A
+  name: fca6677f5d5a
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+rachaels_work_laptop:
+  hide_if_away: false
+  icon:
+  mac: 28:16:AD:89:90:B3
+  name: Rachael's Work Laptop
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+00aefad4e5fe:
+  hide_if_away: false
+  icon:
+  mac: 00:AE:FA:D4:E5:FE
+  name: 00aefad4e5fe
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+34d2702db2d9:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:2D:B2:D9
+  name: 34d2702db2d9
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+haileyspc:
+  hide_if_away: false
+  icon:
+  mac: 90:48:9A:AB:ED:AB
+  name: Haileys-PC
+  picture:
+  track: false
+  vendor: unknown
+
+samsungsmg935v:
+  hide_if_away: false
+  icon:
+  mac: A4:08:EA:0C:25:9C
+  name: SAMSUNG-SM-G935V
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+cameronsiphone:
+  hide_if_away: false
+  icon:
+  mac: 30:10:E4:26:19:2C
+  name: Camerons-iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+ac63beb4cdbe:
+  hide_if_away: false
+  icon:
+  mac: AC:63:BE:B4:CD:BE
+  name: ac63beb4cdbe
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+marysiphone:
+  hide_if_away: false
+  icon:
+  mac: 5C:AD:CF:07:0F:11
+  name: Marys-iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+rmmini407b39:
+  hide_if_away: false
+  icon:
+  mac: 34:EA:34:40:7B:39
+  name: RMMINI-40-7b-39
+  picture:
+  track: false
+  vendor: HangZhou Gubei Electronics Technology Co.,Ltd
+
+kurtsiphone:
+  hide_if_away: false
+  icon:
+  mac: 64:B0:A6:AA:4D:B3
+  name: Kurts-iPhone
+  picture:
+  track: false
+  vendor: unknown
+
+oliviaspodtouch:
+  hide_if_away: false
+  icon:
+  mac: FC:D8:48:1D:5C:55
+  name: OliviasPodtouch
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+louisipadmini:
+  hide_if_away: false
+  icon:
+  mac: 04:52:F3:1B:F9:13
+  name: Louis-iPad-Mini
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+googlehome:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:64:32:F6
+  name: Google-Home
+  picture:
+  track: false
+  vendor: unknown
+
+googlehome_2:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:D4:DE:F5
+  name: Google-Home
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+googlehome_3:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:0A:25:C8
+  name: Google-Home
+  picture:
+  track: false
+  vendor: Google, Inc.
+
+googlehome_4:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:77:7F:2F
+  name: Google-Home
+  picture:
+  track: false
+  vendor: unknown
+
+cbulock_nexus6:
+  hide_if_away: false
+  icon:
+  mac:
+  name: cbulock
+  picture:
+  track: false
+  vendor:
+
+localhost:
+  hide_if_away: false
+  icon:
+  mac: 54:BD:79:54:11:AD
+  name: localhost
+  picture:
+  track: false
+  vendor: unknown
+
+roku_streaming_stick__825:
+  hide_if_away: false
+  icon:
+  mac: C8:3A:6B:57:77:E3
+  name: Roku Streaming Stick - 825
+  picture:
+  track: false
+  vendor: Roku, Inc
+
+stephanies_phone:
+  hide_if_away: false
+  icon:
+  mac: A0:CC:2B:9F:F7:A2
+  name: Stephanie's Phone
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+android5b0a4627bd116e39:
+  hide_if_away: false
+  icon:
+  mac: 20:D1:60:83:DC:69
+  name: android-5b0a4627bd116e39
+  picture:
+  track: false
+  vendor: Private
+
+rachaels_kindle:
+  hide_if_away: false
+  icon:
+  mac: F0:4F:7C:D3:C3:B6
+  name: Rachael's Kindle
+  picture:
+  track: false
+  vendor: Private
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: 84:38:35:9A:21:F8
+  name: iPhone
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+amandasipad:
+  hide_if_away: false
+  icon:
+  mac: F0:DB:F8:55:C7:76
+  name: Amandas-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+roku_streaming_stick__588:
+  hide_if_away: false
+  icon:
+  mac: C8:3A:6B:56:A0:03
+  name: Roku Streaming Stick - 588
+  picture:
+  track: false
+  vendor: Roku, Inc
+
+lumigatewayv3_miio72561492:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:64:F5:87
+  name: lumi-gateway-v3 miio72561492
+  picture:
+  track: false
+  vendor: XIAOMI Electronics,CO.,LTD
