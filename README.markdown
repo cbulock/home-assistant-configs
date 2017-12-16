@@ -51,3 +51,15 @@
  * Two QNAP NAS's
  * BroadLink RM Mini 3 to control bedroom TV and fan over IR
  * Xioami gateway
+
+
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-home.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-basement.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-main-floor.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-upstairs.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-outdoors.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-other.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-weather.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-plants.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-nas.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-automation.png)
