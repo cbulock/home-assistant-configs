@@ -5,11 +5,16 @@ trigger:
     minutes: 45
     seconds: 0
 condition:
-  - condition: time
-    weekday:
-      - sun
-      - mon
-      - tue
+  condition: and
+  conditions:
+    - condition: time
+      weekday:
+        - sun
+        - mon
+        - tue
+    - condition: state
+      entity_id: device_tracker.brett
+      state: 'home'
 action:
     service: scene.turn_on
     entity_id: scene.brett_lamp_night

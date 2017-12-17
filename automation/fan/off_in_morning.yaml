@@ -4,6 +4,17 @@ trigger:
     hours: 6
     minutes: 30
     seconds: 0
+condition:
+  condition: and
+  conditions:
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+    - condition: state
+      entity_id: group.kids
+      state: 'home'
 action:
     service: switch.turn_off
     entity_id: switch.master_bedroom_fan
