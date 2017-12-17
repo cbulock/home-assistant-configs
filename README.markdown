@@ -4,7 +4,6 @@
 
  * 2 Lutron Connected Bulb remotes
  * GoControl motion sensor in kitchen
- * 2 GoControl sensors on exterior doors
  * GoControl siren
 
 ### Devices connected to RPi over Aeotec Z-Stick Gen5
@@ -13,9 +12,10 @@
  * Ecolink Motion Sensor in bathroom
  * Remotec Zwave Switch to control fireplace
  * Two GE smart plugs, Leviton smart plug, and Inovelli smart plug to control outdoor Christmas lights, Christmas trees and some decorations during the holidays
- * One GoControl sensor on an exterior window
+ * Three GoControl sensors on an exterior window and two doors
  * Ecolink Door Sensor for washing machine door
- * Aectec Power Switch to monitor washing machine usage
+ * Aeotec Power Switch to monitor washing machine usage
+ * Aeotec Water Sensor to monitor Christmas tree water levels
 
 ### Devices connected over Bluetooth to RPi
 
@@ -50,3 +50,16 @@
  * Monoprice Select Mini v2 3D Printer via Octoprint
  * Two QNAP NAS's
  * BroadLink RM Mini 3 to control bedroom TV and fan over IR
+ * Xioami gateway
+
+
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-home.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-basement.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-main-floor.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-upstairs.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-outdoors.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-other.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-weather.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-plants.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-nas.png)
+![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-automation.png)
