@@ -1,0 +1,17 @@
+alias: "Turn on Lights When Door Unlocks"
+trigger:
+  - platform: state
+    entity_id: sensor.front_door_lock_action
+    to: 'Unlocked: User Code 1'
+  - platform: state
+    entity_id: sensor.front_door_lock_action
+    to: 'Unlocked: User Code 2'
+  - platform: state
+    entity_id: sensor.front_door_lock_action
+    to: 'Unlocked: User Code 3'
+  - platform: state
+    entity_id: sensor.front_door_lock_action
+    to: 'Unlocked: User Code 4'
+action:
+  - service: scene.turn_on
+    entity_id: scene.arrive_home

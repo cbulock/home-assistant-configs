@@ -1,8 +1,8 @@
 alias: "Door Unlock - Hailey"
 trigger:
- - platform: state
-   entity_id: sensor.front_door_lock_action
-   to: 'Unlocked: User Code 3'
+  - platform: state
+    entity_id: sensor.front_door_lock_action
+    to: 'Unlocked: User Code 3'
 action:
   - service: tts.google_say
     entity_id: media_player.downstairs_speaker
