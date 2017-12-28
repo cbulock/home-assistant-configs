@@ -14,9 +14,6 @@ http:
   ip_ban_enabled: True
   login_attempts_threshold: 10
 
-discovery:
-  ignore:
-    - plex_mediaserver
 sun:
 updater:
 frontend:
