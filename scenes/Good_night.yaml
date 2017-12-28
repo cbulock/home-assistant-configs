@@ -26,8 +26,6 @@
       state: locked
     switch.fireplace_switch:
       state: off
-    media_player.directv_receiver:
-      state: off
     media_player.living_room_tv:
       state: off
     switch.playstation4:
