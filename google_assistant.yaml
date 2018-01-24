@@ -8,3 +8,92 @@ exposed_domains:
   - media_player
   - climate
   - scene
+entity_config:
+  light.master_bathroom:
+    name: Master Bathroom
+  light.breakfast_bar_lights:
+    name: Breakfast Bar
+  light.kitchen_lights:
+    name: Kitchen Ceiling
+  light.kitchen_cabinet:
+    name: Kitchen Cabinets
+  switch.guest_mode:
+    name: Guest mode
+  light.kids_bathroom_lights:
+    name: Kid's Bathroom
+  media_player.living_room_tv:
+    name: Living Room TV
+  light.livingroom_lamp:
+    name: Living Room Lamp
+  light.living_room_ceiling:
+    name: Living Room Ceiling
+  light.haileys_lamp:
+    name: Hailey's Lamp
+  light.bretts_lamp:
+    name: Brett's Lamp
+  light.haileys_ceiling:
+    name: Hailey's Ceiling
+  light.bretts_ceiling:
+    name: Brett's Ceiling
+  light.loft_lights:
+    name: Loft Ceiling
+  switch.loft_decorations_switch:
+    name: Loft Decorations
+  light.downstairs_bathroom_lights:
+    name: Downstairs Bathroom
+  light.master_bed_lamp:
+    name: Master Bedroom Lamp
+  switch.master_bedroom_tv:
+    name: Master Bedroom TV
+  switch.master_bedroom_fan:
+    name: Master Bedroom Fan
+  scene.arrive_home:
+    expose: false
+  scene.brett_lamp_night:
+    expose: false
+  scene.brett_lamp_off:
+    expose: false
+  scene.close_garage:
+    expose: false
+  scene.downstairs_bathroom_day:
+    expose: false
+  scene.downstairs_bathroom_night:
+    expose: false
+  scene.downstairs_movie:
+    expose: false
+  scene.downstairs_normal:
+    expose: false
+  scene.outdoors_christmas:
+    expose: false
+  scene.outdoors_halloween:
+    expose: false
+  scene.outdoors_st_patricks_day:
+    expose: false
+  scene.outdoors_usa:
+    expose: false
+  scene.outdoors_valentines_day:
+    expose: false
+  scene.kitchen_dim:
+    expose: false
+  scene.kitchen_off:
+    expose: false
+  scene.living_room_holiday_lights_off:
+    expose: false
+  scene.living_room_holiday_lights_on:
+    expose: false
+  scene.lock_door:
+    expose: false
+  scene.loft_dim:
+    expose: false
+  scene.loft_off:
+    expose: false
+  scene.master_bedroom_good_night:
+    expose: false
+  scene.outdoors_bright:
+    expose: false
+  scene.outdoors_default:
+    expose: false
+  scene.outdoors_off:
+    expose: false
+  scene.stairs_dim:
+    expose: false

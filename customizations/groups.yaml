@@ -12,9 +12,7 @@ group.other:
   order: 6
 group.weather:
   order: 7
-group.plants:
-  order: 8
 group.nass:
-  order: 9
+  order: 8
 group.automation:
-  order: 10
+  order: 9

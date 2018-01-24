@@ -3,4 +3,5 @@ icon: mdi:weather-cloudy
 entities:
  - group.indoor_weather
  - group.outdoor_weather
+ - weather.main_floor
  - camera.radar

@@ -5,6 +5,11 @@ homeassistant:
   elevation: !secret home_elevation
   unit_system: imperial
   time_zone: America/Detroit
+  customize_glob:
+    "*.*":
+      custom_ui_state_card: state-card-custom-ui
+    "light.*":
+      state_card_mode: break-slider-toggle
   customize: !include_dir_merge_named customizations
 
 http:
@@ -28,6 +33,8 @@ history:
 logbook:
 recorder:
   db_url: !secret db_path
+  purge_interval: 7
+  purge_keep_days: 365
 influxdb:
   host: app
 
@@ -82,6 +89,9 @@ octoprint:
 
 tts:
   - platform: google
+
+customizer:
+  custom_ui: local
 
 zwave:
   usb_path: /dev/ttyACM0

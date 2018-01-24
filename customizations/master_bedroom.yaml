@@ -1,16 +1,13 @@
 light.master_bed_lamp:
   friendly_name: Lamp
   emulated_hue_name: Master Bedroom Lamp
-  google_assistant_name: Master Bedroom Lamp
   haaska_name: Master Bedroom Lamp
 switch.master_bedroom_tv:
   friendly_name: TV
-  google_assistant_name: Master Bedroom TV
   haaska_name: Master Bedroom TV
   icon: mdi:television
 switch.master_bedroom_fan:
   friendly_name: Fan
-  google_assistant_name: Master Bedroom Fan
   haaska_name: Master Bedroom Fan
   icon: mdi:fan
 media_player.master_bedroom:

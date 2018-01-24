@@ -10,7 +10,8 @@
           states.sensor.main_floor_temperature.state|float,
           states.sensor.upstairs_temperature.state|float,
           states.sensor.living_room_plant_temperature.state|float,
-          states.sensor.master_bedroom_plant_temperature.state|float
+          states.sensor.master_bedroom_plant_temperature.state|float,
+          states.sensor.temperature_158d0001b952f4.state|float
         ] %}
 
         {{ (sensors|sum / sensors|length)|round(1) }}
@@ -46,6 +47,10 @@
     cameron_phone_batt:
       value_template: '{{ states.device_tracker.cbulock_oneplus3t.attributes.battery }}'
       friendly_name: Cameron's Phone
+      unit_of_measurement: '%'
+    master_bathroom_sensor_batt:
+      value_template: '{{ states.sensor.humidity_158d0001b952f4.attributes.battery_level }}'
+      friendly_name: 'Master Bathroom Humidity Sensor'
       unit_of_measurement: '%'
 
     washing_machine_status:

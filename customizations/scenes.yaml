@@ -1,77 +1,52 @@
 scene.arrive_home:
   haaska_hidden: true
-  google_assistant: false
 scene.brett_lamp_night:
   haaska_hidden: true
-  google_assistant: false
 scene.brett_lamp_off:
   haaska_hidden: true
-  google_assistant: false
 scene.close_garage:
   haaska_hidden: true
-  google_assistant: false
 scene.downstairs_bathroom_day:
   haaska_hidden: true
-  google_assistant: false
 scene.downstairs_bathroom_night:
   haaska_hidden: true
-  google_assistant: false
 scene.downstairs_movie:
   haaska_hidden: true
-  google_assistant: false
 scene.downstairs_normal:
   haaska_hidden: true
-  google_assistant: false
 scene.good_night:
   haaska_name: Good Night
 scene.outdoors_christmas:
   haaska_hidden: true
-  google_assistant: false
 scene.outdoors_halloween:
   haaska_hidden: true
-  google_assistant: false
 scene.outdoors_st_patricks_day:
   haaska_hidden: true
-  google_assistant: false
 scene.outdoors_usa:
   haaska_hidden: true
-  google_assistant: false
 scene.outdoors_valentines_day:
   haaska_hidden: true
-  google_assistant: false
 scene.kitchen_dim:
   haaska_hidden: true
-  google_assistant: false
 scene.kitchen_off:
   haaska_hidden: true
-  google_assistant: false
 scene.living_room_holiday_lights_off:
   haaska_hidden: true
-  google_assistant: false
 scene.living_room_holiday_lights_on:
   haaska_hidden: true
-  google_assistant: false
 scene.lock_door:
   haaska_hidden: true
-  google_assistant: false
 scene.loft_dim:
   haaska_hidden: true
-  google_assistant: false
 scene.loft_off:
   haaska_hidden: true
-  google_assistant: false
 scene.master_bedroom_good_night:
   haaska_hidden: true
-  google_assistant: false
 scene.outdoors_bright:
   haaska_hidden: true
-  google_assistant: false
 scene.outdoors_default:
   haaska_hidden: true
-  google_assistant: false
 scene.outdoors_off:
   haaska_hidden: true
-  google_assistant: false
 scene.stairs_dim:
   haaska_hidden: true
-  google_assistant: false

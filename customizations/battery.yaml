@@ -1,24 +1,52 @@
 sensor.living_room_plant_battery:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.bretts_plant_battery:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.master_bedroom_plant_battery:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.bathroom_plant_battery:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.downstairs_bathroom_motion_batt:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.breakfast_bar_motion_batt:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.basement_window_batt:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.front_door_batt:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.front_door_lock_batt:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.rear_door_batt:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.siren_batt:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
 sensor.cameron_phone_batt:
   icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"
+sensor.master_bathroom_sensor_batt:
+  icon: mdi:battery
+  templates:
+    rgb_color: "if (state > 40) return [0,255,0]; else if (state > 15) return [255,255,0]; else return [255,0,0];"

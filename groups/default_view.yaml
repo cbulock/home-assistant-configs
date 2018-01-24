@@ -6,3 +6,4 @@ entities:
  - device_tracker.hailey
  - device_tracker.rachael
  - group.indoor_weather
+ - group.plants

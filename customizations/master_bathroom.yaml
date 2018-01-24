@@ -1,0 +1,7 @@
+light.master_bathroom:
+  friendly_name: Lights
+  emulated_hue_name: Master Bathroom
+  haaska_name: Master Bathroom
+sensor.humidity_158d0001b952f4:
+  friendly_name: Humidity
+  icon: mdi:water-percent

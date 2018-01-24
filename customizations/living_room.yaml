@@ -1,12 +1,10 @@
 binary_sensor.front_door_status:
-  icon: mdi:glassdoor
+  device_class: door
 light.living_room_ceiling:
   friendly_name: Ceiling
-  google_assistant_name: Living Room Ceiling
   haaska_name: Living Room Ceiling
 light.livingroom_lamp:
   friendly_name: Lamp
-  google_assistant_name: Living Room Lamp
   haaska_name: Living Room Lamp
 media_player.living_room:
   friendly_name: Chromecast
@@ -20,7 +18,6 @@ switch.fireplace_switch:
   icon: mdi:fire
   friendly_name: Fireplace
 media_player.living_room_tv:
-  google_assistant_name: Living Room TV
   haaska_name: Living Room TV
 switch.playstation4:
   icon: mdi:playstation
