@@ -1,0 +1,9 @@
+alias: Living Room Plant alert off
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.living_room_plant_moisture
+    above: 20
+action:
+  - service: input_boolean.turn_off
+    data:
+      entity_id: input_boolean.alert_living_room_plant

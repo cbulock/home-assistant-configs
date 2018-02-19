@@ -1,0 +1,13 @@
+alias: "Returned home - Set status"
+trigger:
+  - platform: state
+    entity_id: group.all_devices
+    to: 'home'
+condition:
+  - condition: state
+    entity_id: input_boolean.just_left
+    state: 'off'
+action:
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.just_returned_home

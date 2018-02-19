@@ -8,6 +8,7 @@ exposed_domains:
   - media_player
   - climate
   - scene
+  - script
 entity_config:
   light.master_bathroom:
     name: Master Bathroom
@@ -47,6 +48,8 @@ entity_config:
     name: Master Bedroom TV
   switch.master_bedroom_fan:
     name: Master Bedroom Fan
+  switch.bretts_tv:
+    name: Brett's TV
   scene.arrive_home:
     expose: false
   scene.brett_lamp_night:
@@ -97,3 +100,9 @@ entity_config:
     expose: false
   scene.stairs_dim:
     expose: false
+  script.master_bedroom_fan_on_night:
+    expose: false
+  script.set_alert_color:
+    expose: false
+  script.alerts:
+    name: Playback Alerts

@@ -1,0 +1,11 @@
+alias: Front door alert on
+trigger:
+  - platform: state
+    entity_id: binary_sensor.front_door_status
+    to: 'on'
+    for:
+      minutes: 2
+action:
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.alert_front_door

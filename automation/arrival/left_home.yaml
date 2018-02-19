@@ -1,0 +1,9 @@
+alias: "Left home"
+trigger:
+  - platform: state
+    entity_id: group.all_devices
+    to: 'not_home'
+action:
+  - service: input_boolean.turn_off
+    data:
+      entity_id: input_boolean.just_returned_home

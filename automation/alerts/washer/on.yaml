@@ -1,0 +1,9 @@
+alias: Washer alert on
+trigger:
+ - platform: state
+   entity_id: input_select.washer
+   to: 'Clean'
+action:
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.alert_washer

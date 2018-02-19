@@ -1,0 +1,11 @@
+alias: "Turn off Brett's TV When Not in Use"
+trigger:
+  - platform: state
+    entity_id: media_player.bretts_room
+    from: 'playing'
+    to: 'off'
+    for:
+      minutes: 15
+action:
+  - service: switch.turn_off
+    entity_id: switch.bretts_tv

@@ -6,3 +6,6 @@ bathroom_plant:
     conductivity: sensor.bathroom_plant_conductivity
     brightness: sensor.bathroom_plant_light_intensity
   min_moisture: 18
+  max_moisture: 50
+  min_battery: 15
+  min_conductivity: 500

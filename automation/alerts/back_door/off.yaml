@@ -1,0 +1,9 @@
+alias: Back door alert off
+trigger:
+  - platform: state
+    entity_id: binary_sensor.back_door_status
+    to: 'off'
+action:
+  - service: input_boolean.turn_off
+    data:
+      entity_id: input_boolean.alert_back_door

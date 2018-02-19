@@ -1,4 +1,28 @@
 guest_mode:
   name: Guest Mode
-  initial: off
   icon: mdi:account-multiple
+just_returned_home:
+  name: Just Returned Home
+just_left:
+  name: Just Left
+alert_living_room_plant:
+  name: Living Room Plant
+  icon: mdi:alert-decagram
+alert_master_bedroom_plant:
+  name: Master Bedroom Plant
+  icon: mdi:alert-decagram
+alert_bathroom_plant:
+  name: Bathroom Plant
+  icon: mdi:alert-decagram
+alert_washer:
+  name: Washer
+  icon: mdi:alert-decagram
+alert_front_door:
+  name: Front Door
+  icon: mdi:alert-decagram
+alert_back_door:
+  name: Back Door
+  icon: mdi:alert-decagram
+alert_pasta_part:
+  name: Pasta Part
+  icon: mdi:alert-decagram

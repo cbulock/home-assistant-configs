@@ -16,4 +16,3 @@ sensor.octoprint_current_state:
 sensor.octoprint_job_percentage:
   friendly_name: Percent Complete
   icon: mdi:percent
-  

@@ -1,0 +1,22 @@
+alias: "Inform of alerts on return home"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.breakfast_bar_motion
+    from: 'off'
+    to: 'on'
+condition:
+  - condition: state
+    entity_id: input_boolean.just_returned_home
+    state: 'on'
+action:
+  - service: tts.google_say
+    entity_id: media_player.downstairs_speaker
+    data_template:
+      message: >
+        {% if ( states('group.alerts') == 'on') %}   
+          {% for alert in states.input_boolean if alert.attributes.color and alert.state == 'on' %}{% if alert.attributes.color and alert.state == 'on' -%}
+            {%- if loop.first %}Welcome home. You should be aware that currently, {% elif loop.last %}, and {% else %}, {% endif -%}
+              {{ alert.attributes.descrip }}{%if loop.last%}.{% endif %}
+            {%- endif %}
+          {%- endfor %}
+        {% endif %}

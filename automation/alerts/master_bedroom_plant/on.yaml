@@ -1,0 +1,9 @@
+alias: Master Bedroom Plant alert on
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.master_bedroom_plant_moisture
+    below: 18
+action:
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.alert_master_bedroom_plant

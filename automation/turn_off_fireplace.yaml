@@ -4,7 +4,7 @@ trigger:
     entity_id: switch.fireplace_switch
     to: 'on'
     for:
-      hours: 3
+      hours: 4
 action:
   - service: switch.turn_off
     entity_id: switch.fireplace_switch

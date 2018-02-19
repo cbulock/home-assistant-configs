@@ -1,4 +1,4 @@
-alias: Set humidity - -20 or below
+alias: Set humidity - neg20 or below
 trigger:
   - platform: numeric_state
     entity_id: sensor.dark_sky_temperature

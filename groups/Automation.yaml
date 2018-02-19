@@ -3,3 +3,4 @@ icon: mdi:robot
 entities:
  - group.automation_controls
  - group.light_automation
+ - group.alerts

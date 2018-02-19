@@ -1,0 +1,9 @@
+alias: Bathroom Plant alert on
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.bathroom_plant_moisture
+    below: 15
+action:
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.alert_bathroom_plant

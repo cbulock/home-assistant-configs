@@ -34,7 +34,7 @@ logbook:
 recorder:
   db_url: !secret db_path
   purge_interval: 7
-  purge_keep_days: 365
+  purge_keep_days: 30
 influxdb:
   host: app
 
@@ -68,10 +68,22 @@ ecobee:
   api_key: !secret ecobee_key
 
 light:
-  platform: osramlightify
-  host: osram
+  - platform: osramlightify
+    host: osram
+  - platform: mqtt
+    name: "Christmas Tree Lights"
+    state_topic: "home/lights/christmastree/POWER"
+    command_topic: "home/lights/christmastree/cmnd/Power1"
+    availability_topic: "home/lights/christmastree/LWT"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    retain: true
 
-caseta:
+#caseta:
+lutron_caseta_pro:
   bridges:
     - host: lutron
 

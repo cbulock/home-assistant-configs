@@ -1,0 +1,15 @@
+alias: "Toogle Pasta Part Reminder On"
+trigger:
+  platform: mqtt
+  topic: reminder/pasta_part
+  payload: "active"
+condition:
+  - condition: state
+    entity_id: input_boolean.alert_pasta_part
+    state: 'off'
+action:
+  - delay:
+      hours: 2
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.alert_pasta_part

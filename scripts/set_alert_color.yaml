@@ -1,0 +1,6 @@
+sequence:
+  - service: light.turn_on
+    data_template:
+      entity_id: '{{ id }}'
+      rgb_color: [ "{{ color.split(',')[0]|int }}", "{{ color.split(',')[1]|int }}", "{{ color.split(',')[2]|int }}" ]
+      brightness: 60

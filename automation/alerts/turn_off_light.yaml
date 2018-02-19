@@ -1,0 +1,8 @@
+alias: "Turn off Alert Light"
+trigger:
+  - platform: state
+    entity_id: group.alerts
+    to: 'off'
+action:
+  - service: light.turn_off
+    entity_id: light.gateway_light_7811dc64f587

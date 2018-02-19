@@ -1,7 +1,7 @@
 - platform: unifi
   host: unifi
   port: 8443
-  username: admin
+  username: hass
   password: !secret HA_UNIFI_PW
   track_new_devices: no
   interval_seconds: 30
