@@ -1,0 +1,10 @@
+alias: "Turn off Master Bathroom Light"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.motion_sensor_158d0001e50edf
+    to: 'off'
+    for:
+      minutes: 20
+action:
+  - service: light.turn_off
+    entity_id: light.master_bathroom

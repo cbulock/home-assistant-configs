@@ -4,6 +4,10 @@ trigger:
     entity_id: group.all_devices
     from: 'home'
     to: 'not_home'
+condition:
+  - condition: time
+    after: '7:00:00'
+    before: '22:00:00'
 action:
     - service: climate.set_away_mode
       data:

@@ -8,8 +8,5 @@ condition:
     entity_id: input_boolean.alert_pasta_part
     state: 'off'
 action:
-  - delay:
-      hours: 2
-  - service: input_boolean.turn_on
-    data:
-      entity_id: input_boolean.alert_pasta_part
+  - service: timer.start
+    entity_id: timer.pasta_part

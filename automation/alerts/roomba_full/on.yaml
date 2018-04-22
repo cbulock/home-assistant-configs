@@ -1,0 +1,8 @@
+alias: Roomba full alert on
+trigger:
+  - platform: template
+    value_template: "{% if states.vacuum.roomba.attributes.bin_full == True %}true{% endif %}"
+action:
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.alert_roomba_full

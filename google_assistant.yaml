@@ -9,6 +9,7 @@ exposed_domains:
   - climate
   - scene
   - script
+  - vaccum
 entity_config:
   light.master_bathroom:
     name: Master Bathroom

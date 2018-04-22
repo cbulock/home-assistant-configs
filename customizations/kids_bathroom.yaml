@@ -2,3 +2,8 @@ light.kids_bathroom_lights:
   friendly_name: Lights
   emulated_hue_name: Kid's Bathroom
   haaska_name: Kid's Bathroom
+binary_sensor.motion_sensor_158d00022516f7:
+  friendly_name: Motion
+  device_class: motion
+sensor.illumination_158d00022516f7:
+  friendly_name: Light Level

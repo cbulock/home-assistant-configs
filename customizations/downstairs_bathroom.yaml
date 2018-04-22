@@ -2,6 +2,6 @@ light.downstairs_bathroom_lights:
   friendly_name: Lights
   emulated_hue_name: Downstairs Bathroom Lights
   haaska_name: Downstairs Bathroom Lights
-binary_sensor.downstairs_bathroom_sensor:
+binary_sensor.motion_sensor_158d000222e10a:
   friendly_name: Downstairs Bathroom
   device_class: motion

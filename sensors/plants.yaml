@@ -1,0 +1,111 @@
+- platform: mqtt
+  name: aloe_plant_moisture
+  state_topic: home/plants/aloe_plant
+  value_template: '{{ value_json.moisture }}'
+  force_update: true
+- platform: mqtt
+  name: aloe_plant_battery
+  state_topic: home/plants/aloe_plant
+  value_template: '{{ value_json.battery }}'
+  unit_of_measurement: '%'
+  force_update: true
+- platform: mqtt
+  name: aloe_plant_brightness
+  state_topic: home/plants/aloe_plant
+  value_template: '{{ value_json.brightness }}'
+  force_update: true
+- platform: mqtt
+  name: aloe_plant_conductivity
+  state_topic: home/plants/aloe_plant
+  value_template: '{{ value_json.conductivity }}'
+  force_update: true
+- platform: mqtt
+  name: aloe_plant_temperature
+  state_topic: home/plants/aloe_plant
+  value_template: '{{ value_json.temperature }}'
+  unit_of_measurement: "°C"
+  force_update: true
+
+- platform: mqtt
+  name: master_bedroom_moisture
+  state_topic: home/plants/master_bedroom
+  value_template: '{{ value_json.moisture }}'
+  force_update: true
+- platform: mqtt
+  name: master_bedroom_battery
+  state_topic: home/plants/master_bedroom
+  value_template: '{{ value_json.battery }}'
+  unit_of_measurement: '%'
+  force_update: true
+- platform: mqtt
+  name: master_bedroom_brightness
+  state_topic: home/plants/master_bedroom
+  value_template: '{{ value_json.brightness }}'
+  force_update: true
+- platform: mqtt
+  name: master_bedroom_conductivity
+  state_topic: home/plants/master_bedroom
+  value_template: '{{ value_json.conductivity }}'
+  force_update: true
+- platform: mqtt
+  name: master_bedroom_temperature
+  state_topic: home/plants/master_bedroom
+  value_template: '{{ value_json.temperature }}'
+  unit_of_measurement: "°C"
+  force_update: true
+
+- platform: mqtt
+  name: bathroom_plant_moisture
+  state_topic: home/plants/bathroom_plant
+  value_template: '{{ value_json.moisture }}'
+  force_update: true
+- platform: mqtt
+  name: bathroom_plant_battery
+  state_topic: home/plants/bathroom_plant
+  value_template: '{{ value_json.battery }}'
+  unit_of_measurement: '%'
+  force_update: true
+- platform: mqtt
+  name: bathroom_plant_brightness
+  state_topic: home/plants/bathroom_plant
+  value_template: '{{ value_json.brightness }}'
+  force_update: true
+- platform: mqtt
+  name: bathroom_plant_conductivity
+  state_topic: home/plants/bathroom_plant
+  value_template: '{{ value_json.conductivity }}'
+  force_update: true
+- platform: mqtt
+  name: bathroom_plant_temperature
+  state_topic: home/plants/bathroom_plant
+  value_template: '{{ value_json.temperature }}'
+  unit_of_measurement: "°C"
+  force_update: true
+
+- platform: mqtt
+  name: living_room_moisture
+  state_topic: home/plants/living_room
+  value_template: '{{ value_json.moisture }}'
+  force_update: true
+- platform: mqtt
+  name: living_room_battery
+  state_topic: home/plants/living_room
+  value_template: '{{ value_json.battery }}'
+  unit_of_measurement: '%'
+  force_update: true
+- platform: mqtt
+  name: living_room_brightness
+  state_topic: home/plants/living_room
+  value_template: '{{ value_json.brightness }}'
+  force_update: true
+- platform: mqtt
+  name: living_room_conductivity
+  state_topic: home/plants/living_room
+  value_template: '{{ value_json.conductivity }}'
+  force_update: true
+- platform: mqtt
+  name: living_room_temperature
+  state_topic: home/plants/living_room
+  value_template: '{{ value_json.temperature }}'
+  unit_of_measurement: "°C"
+  force_update: true

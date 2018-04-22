@@ -9,15 +9,15 @@ sensor.living_room_plant_conductivity:
 sensor.living_room_plant_light_intensity:
   friendly_name: Light Intensity
   icon: mdi:brightness-6
-sensor.bretts_plant_temperature:
+sensor.aloe_plant_temperature:
   friendly_name: Temp
-sensor.bretts_plant_moisture:
+sensor.aloe_plant_moisture:
   friendly_name: Moisture
   icon: mdi:water-percent
-sensor.bretts_plant_conductivity:
+sensor.aloe_plant_conductivity:
   friendly_name: Conductivity
   icon: mdi:flash
-sensor.bretts_plant_light_intensity:
+sensor.aloe_plant_light_intensity:
   friendly_name: Light Intensity
   icon: mdi:brightness-6
 sensor.master_bedroom_plant_temperature:
@@ -44,8 +44,8 @@ sensor.bathroom_plant_light_intensity:
   icon: mdi:brightness-6
 plant.bathroom_plant:
   friendly_name: Bathroom Plant
-plant.bretts_plant:
-  friendly_name: Brett's Plant
+plant.aloe_plant:
+  friendly_name: Aloe Plant
 plant.living_room:
   friendly_name: Living Room Plant
 plant.master_bedroom:

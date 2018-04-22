@@ -1,0 +1,16 @@
+alias: "Turn on Kid's Bathroom Light Night"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.motion_sensor_158d00022516f7
+    from: 'off'
+    to: 'on'
+condition:
+  - condition: state
+    entity_id: light.kids_bathroom_lights
+    state: 'off'
+  - condition: time
+    after: '22:00:00'
+    before: '1:00:00'
+action:
+  - service: scene.turn_on
+    entity_id: scene.kids_bathroom_night

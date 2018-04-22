@@ -1,0 +1,10 @@
+alias: "Turn Pasta Light On"
+trigger:
+  platform: event
+  event_type: timer.finished
+  event_data: 
+    entity_id: timer.pasta_part
+action:
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.alert_pasta_part

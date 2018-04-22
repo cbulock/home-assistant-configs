@@ -14,6 +14,9 @@ alert_master_bedroom_plant:
 alert_bathroom_plant:
   name: Bathroom Plant
   icon: mdi:alert-decagram
+alert_aloe_plant:
+  name: Aloe Plant
+  icon: mdi:alert-decagram
 alert_washer:
   name: Washer
   icon: mdi:alert-decagram
@@ -25,4 +28,7 @@ alert_back_door:
   icon: mdi:alert-decagram
 alert_pasta_part:
   name: Pasta Part
+  icon: mdi:alert-decagram
+alert_roomba_full:
+  name: Roomba Full
   icon: mdi:alert-decagram

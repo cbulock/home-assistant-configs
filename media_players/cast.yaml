@@ -2,8 +2,8 @@
   host: living.chromecast
 - platform: cast
   host: master.chromecast
-- platform: cast
-  host: loft.chromecast
+#- platform: cast
+#  host: loft.chromecast
 - platform: cast
   host: basement.chromecast
 - platform: cast

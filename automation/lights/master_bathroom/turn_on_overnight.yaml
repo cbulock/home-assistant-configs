@@ -1,0 +1,16 @@
+alias: "Turn on Master Bathroom Light Overnight"
+trigger:
+  - platform: state
+    entity_id: binary_sensor.motion_sensor_158d0001e50edf
+    from: 'off'
+    to: 'on'
+condition:
+  - condition: state
+    entity_id: light.master_bathroom
+    state: 'off'
+  - condition: time
+    after: '1:00:00'
+    before: '8:00:00'
+action:
+  - service: scene.turn_on
+    entity_id: scene.master_bathroom_overnight

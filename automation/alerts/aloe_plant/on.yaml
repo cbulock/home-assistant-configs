@@ -1,0 +1,19 @@
+alias: Aloe Plant alert on
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.aloe_plant_moisture
+    below: 15
+action:
+  - service: input_boolean.turn_on
+    data:
+      entity_id: input_boolean.alert_aloe_plant
+  - service: notify.sms
+    data:
+      message: "The aloe plant needs to be watered."
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "The aloe plant needs to be watered."
+      target:
+        - !secret SMS_RACHAEL

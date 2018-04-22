@@ -9,3 +9,13 @@ action:
   - service: input_boolean.turn_on
     data:
       entity_id: input_boolean.alert_front_door
+  - service: notify.sms
+    data:
+      message: "Front door has been left open."
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "Front door has been left open."
+      target:
+        - !secret SMS_RACHAEL

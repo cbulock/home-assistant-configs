@@ -1,2 +1,6 @@
 - light.master_bathroom
+- binary_sensor.motion_sensor_158d0001e50edf
+- sensor.temperature_158d0001b952f4
 - sensor.humidity_158d0001b952f4
+- sensor.illumination_158d0001e50edf
+- sensor.pressure_158d0001b952f4

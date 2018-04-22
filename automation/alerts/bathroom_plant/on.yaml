@@ -7,3 +7,13 @@ action:
   - service: input_boolean.turn_on
     data:
       entity_id: input_boolean.alert_bathroom_plant
+  - service: notify.sms
+    data:
+      message: "The bathroom plant needs to be watered."
+      target:
+        - !secret SMS_CAMERON
+  - service: notify.sms
+    data:
+      message: "The bathroom plant needs to be watered."
+      target:
+        - !secret SMS_RACHAEL

@@ -1,7 +1,7 @@
 alias: "Turn on Downstairs Bathroom Light Day"
 trigger:
   - platform: state
-    entity_id: binary_sensor.downstairs_bathroom_sensor
+    entity_id: binary_sensor.motion_sensor_158d000222e10a
     from: 'off'
     to: 'on'
 condition:

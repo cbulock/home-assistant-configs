@@ -1,0 +1,11 @@
+aloe_plant:
+  sensors:
+    moisture: sensor.aloe_plant_moisture
+    battery: sensor.aloe_plant_battery
+    temperature: sensor.aloe_plant_temperature
+    conductivity: sensor.aloe_plant_conductivity
+    brightness: sensor.aloe_plant_brightness
+  min_moisture: 15
+  max_moisture: 50
+  min_battery: 15
+  min_conductivity: 500

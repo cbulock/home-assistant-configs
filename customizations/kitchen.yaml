@@ -22,3 +22,5 @@ light.hall_lights:
 light.gateway_light_7811dc64f587:
   friendly_name: Alert Light
   icon: mdi:alert-decagram
+sensor.illumination_7811dc64f587:
+  friendly_name: Light Level

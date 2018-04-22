@@ -27,7 +27,12 @@
  * Osram Flex light strip
  * 2 GE Link bulbs for lamps
 
+### Devices connected via Xiaomi Gateway
+
+ * Temp/Humidity sensor in Master Bathroom
+
 ### Devices connected via Lutron Bridge
+
  * 11 Lutron Casetea switches to control most of the interior lighting and four Pico switches 
 
 ### Data gathered through MQTT
@@ -40,18 +45,15 @@
 
 ### Other devices connected over network
 
- * Amazon Echo and three Echo Dot's
  * ecobee3 Thermostat
  * Five Chromecasts and two Chromecast Audios
- * Four Google Home Minis
- * DirecTV reciever
+ * Four Google Home Minis and one regular Google Home
  * Unifi device tracking
  * Vizio SmartCast TV
  * Monoprice Select Mini v2 3D Printer via Octoprint
  * Two QNAP NAS's
- * BroadLink RM Mini 3 to control bedroom TV and fan over IR
- * Xioami gateway
-
+ * 2 BroadLink RM Mini 3's to control bedroom TVs and fan over IR
+ * OpenGarage controller
 
 ![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-home.png)
 ![UI](https://raw.githubusercontent.com/cbulock/home-assistant-configs/assets/assets/hass-basement.png)

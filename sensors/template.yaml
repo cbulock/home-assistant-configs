@@ -52,11 +52,24 @@
       value_template: '{{ states.sensor.humidity_158d0001b952f4.attributes.battery_level }}'
       friendly_name: 'Master Bathroom Humidity Sensor'
       unit_of_measurement: '%'
+    master_bathroom_motion_batt:
+      value_template: '{{ states.binary_sensor.motion_sensor_158d0001e50edf.attributes.battery_level }}'
+      friendly_name: Master Bathroom Motion Sensor
+      unit_of_measurement: '%'
+    kids_bathroom_motion_batt:
+      value_template: '{{ states.binary_sensor.motion_sensor_158d00022516f7.attributes.battery_level }}'
+      friendly_name: Kid's Bathroom Motion Sensor
+      unit_of_measurement: '%'
 
     washing_machine_status:
       value_template: '{{ states.input_select.washer.state }}'
       friendly_name: 'Status'
       icon_template: mdi:washing-machine
+
+    master_bathroom_humidity_diff:
+      value_template: '{{float(states.sensor.humidity_158d0001b952f4.state) - float(states.sensor.main_floor_humidity.state)}}'
+      friendly_name: Master Bedroom Humidity Difference
+      unit_of_measurement: '%'
 
     front_door_lock_action:
       friendly_name: 'Front Door Lock Action'

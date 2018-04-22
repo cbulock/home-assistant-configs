@@ -1,0 +1,5 @@
+- name: Master bathroom night
+  entities:
+    light.master_bathroom:
+      state: on
+      brightness: 80

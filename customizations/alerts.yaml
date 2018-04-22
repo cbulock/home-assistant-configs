@@ -1,0 +1,27 @@
+input_boolean.alert_living_room_plant:
+  color: 0,128,0 #green
+  descrip: "the living room plant needs water"
+input_boolean.alert_master_bedroom_plant:
+  color: 0,128,0 #green
+  descrip: "the master bedroom plant needs water"
+input_boolean.alert_bathroom_plant:
+  color: 0,128,0 #green
+  descrip: "the bathroom plant needs water"
+input_boolean.alert_aloe_plant:
+  color: 0,128,0 #green
+  descrip: "the aloe plant needs water"
+input_boolean.alert_washer:
+  color: 0,0,255 #blue
+  descrip: "the clothes in the washer need to be moved to the dryer"
+input_boolean.alert_front_door:
+  color: 128,0,0 #maroon
+  descrip: "the front door was left open"
+input_boolean.alert_back_door:
+  color: 128,0,0 #maroon
+  descrip: "the back door was left open"
+input_boolean.alert_pasta_part:
+  color: 255,255,0 #yellow
+  descrip: "there is a pasta part that needs to be removed from the freezer"
+input_boolean.alert_roomba_full:
+  color: 128,128,128 #grey
+  descrip: "the Roomba's bin needs to be emptied"

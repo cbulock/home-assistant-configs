@@ -34,9 +34,9 @@ logbook:
 recorder:
   db_url: !secret db_path
   purge_interval: 7
-  purge_keep_days: 30
+  purge_keep_days: 90
 influxdb:
-  host: app
+  host: nuc
 
 alert: !include_dir_merge_named alerts
 automation: !include_dir_list automation
@@ -82,7 +82,6 @@ light:
     payload_not_available: "Offline"
     retain: true
 
-#caseta:
 lutron_caseta_pro:
   bridges:
     - host: lutron
@@ -99,14 +98,31 @@ octoprint:
   host: 3dprinter
   api_key: !secret octoprint_key
 
+vacuum:
+  - platform: roomba
+    host: roomba
+    username: !secret roomba_user
+    password: !secret roomba_pw
+
+cover:
+  platform: opengarage
+  covers:
+      garage_door:
+        host:  garagedoor
+        device_key: !secret opengarage_key
+        name:  Garage Door
+
 tts:
   - platform: google
+
+timer:
+  pasta_part:
+    duration: '02:00:00'
 
 customizer:
   custom_ui: local
 
 zwave:
-  usb_path: /dev/ttyACM0
+  usb_path: /dev/zwave
   polling_interval: 20000
   network_key: !secret zwave_network_key
-  config_path: /usr/local/lib/python3.4/dist-packages/libopenzwave-0.3.1-py3.4-linux-armv7l.egg/config

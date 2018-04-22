@@ -1,7 +1,7 @@
 alias: Master Bedroom Plant alert off
 trigger:
   - platform: numeric_state
-    entity_id: sensor.master_bedroom_plant_moisture
+    entity_id: sensor.master_bedroom_moisture
     above: 25
 action:
   - service: input_boolean.turn_off

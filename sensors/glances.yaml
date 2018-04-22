@@ -1,0 +1,13 @@
+- platform: glances
+  host: nuc
+  name: NUC
+  resources:
+    - 'disk_use_percent'
+    - 'disk_use'
+    - 'disk_free'
+    - 'memory_use_percent'
+    - 'memory_use'
+    - 'memory_free'
+    - 'swap_use_percent'
+    - 'processor_load'
+    - 'cpu_temp'
