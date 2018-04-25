@@ -1,7 +1,7 @@
 alias: "Vacuum downstairs"
 trigger:
   - platform: time
-    hours: 3
+    hours: 10
     minutes: 0
     seconds: 0
 condition:

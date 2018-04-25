@@ -1,0 +1,71 @@
+google_actions:
+  entity_config:
+    light.master_bathroom:
+      name: Master Bathroom
+    light.breakfast_bar_lights:
+      name: Breakfast Bar
+    light.kitchen_lights:
+      name: Kitchen Ceiling
+    light.kitchen_cabinet:
+      name: Kitchen Cabinets
+    switch.guest_mode:
+      name: Guest mode
+    light.kids_bathroom_lights:
+      name: Kid's Bathroom
+    media_player.living_room_tv:
+      name: Living Room TV
+    light.livingroom_lamp:
+      name: Living Room Lamp
+    light.living_room_ceiling:
+      name: Living Room Ceiling
+    light.haileys_lamp:
+      name: Hailey's Lamp
+    light.bretts_lamp:
+      name: Brett's Lamp
+    light.haileys_ceiling:
+      name: Hailey's Ceiling
+    light.bretts_ceiling:
+      name: Brett's Ceiling
+    light.loft_lights:
+      name: Loft Ceiling
+    switch.loft_decorations_switch:
+      name: Loft Decorations
+    light.downstairs_bathroom_lights:
+      name: Downstairs Bathroom
+    light.master_bed_lamp:
+      name: Master Bedroom Lamp
+    switch.master_bedroom_tv:
+      name: Master Bedroom TV
+    switch.master_bedroom_fan:
+      name: Master Bedroom Fan
+    switch.bretts_tv:
+      name: Brett's TV
+  filter:
+    exclude_entities:
+      - scene.arrive_home
+      - scene.brett_lamp_night
+      - scene.brett_lamp_off
+      - scene.close_garage
+      - scene.downstairs_bathroom_day
+      - scene.downstairs_bathroom_night
+      - scene.downstairs_movie
+      - scene.downstairs_normal
+      - scene.outdoors_christmas
+      - scene.outdoors_halloween
+      - scene.outdoors_st_patricks_day
+      - scene.outdoors_usa
+      - scene.outdoors_valentines_day
+      - scene.kitchen_dim
+      - scene.kitchen_off
+      - scene.living_room_holiday_lights_off
+      - scene.living_room_holiday_lights_on
+      - scene.lock_door
+      - scene.loft_dim
+      - scene.loft_off
+      - scene.master_bedroom_good_night
+      - scene.outdoors_bright
+      - scene.outdoors_default
+      - scene.outdoors_off
+      - scene.stairs_dim
+      - script.master_bedroom_fan_on_night
+      - script.set_alert_color

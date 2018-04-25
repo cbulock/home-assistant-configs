@@ -9,3 +9,7 @@ action:
   - service: input_boolean.turn_off
     data:
       entity_id: input_boolean.just_returned_home
+  - service: input_select.select_option
+    data:
+      entity_id: input_select.presence_status
+      option: Home

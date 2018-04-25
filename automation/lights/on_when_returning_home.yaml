@@ -1,8 +1,8 @@
 alias: "Turn on Lights When Arriving Home"
 trigger:
   - platform: state
-    entity_id: input_boolean.just_returned_home
-    to: 'on'
+    entity_id: input_select.presence_status
+    to: 'Just Returned'
 action:
   - service: scene.turn_on
     entity_id: scene.arrive_home

@@ -1,0 +1,36 @@
+- name: All lights off
+  entities:
+    light.breakfast_bar_lights:
+      state: off
+    light.bretts_ceiling:
+      state: off
+    light.bretts_lamp:
+      state: off
+    light.downstairs_bathroom_lights:
+      state: off
+    light.haileys_ceiling:
+      state: off
+    light.haileys_lamp:
+      state: off
+    light.hall_lights:
+      state: off
+    light.kids_bathroom_lights:
+      state: off
+    light.kitchen_cabinet:
+      state: off
+    light.kitchen_lights:
+      state: off
+    light.living_room_ceiling:
+      state: off
+    light.livingroom_lamp:
+      state: off
+    light.loft_lights:
+      state: off
+    light.master_bathroom:
+      state: off
+    light.master_bed_lamp:
+      state: off
+    light.stairs:
+      state: off
+    switch.fireplace_switch:
+      state: off

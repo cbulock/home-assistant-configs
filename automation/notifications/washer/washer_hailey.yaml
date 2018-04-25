@@ -13,3 +13,7 @@ action:
       message: "Your clothes are done being washed."
       target:
         - !secret SMS_HAILEY
+  - service: tts.google_say
+    entity_id: media_player.haileys_bedroom_speaker
+    data_template:
+      message: "Your clothes are done being washed."
