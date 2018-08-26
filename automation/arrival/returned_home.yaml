@@ -3,6 +3,10 @@ trigger:
   - platform: state
     entity_id: group.all_devices
     to: 'home'
+condition:
+  - condition: time
+    before: '05:15:00'
+    after: '05:20:00'
 action:
   - service: input_boolean.turn_off
     data:

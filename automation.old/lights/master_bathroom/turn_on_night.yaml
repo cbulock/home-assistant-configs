@@ -1,4 +1,4 @@
-alias: "Turn on Master Bathroom Light Overnight"
+alias: "Turn on Master Bathroom Light Night"
 trigger:
   - platform: state
     entity_id: binary_sensor.motion_sensor_158d0001e50edf
@@ -6,11 +6,11 @@ trigger:
     to: 'on'
 condition:
   - condition: state
-    entity_id: light.master_bathroom
+    entity_id: light.master_bathroom_light
     state: 'off'
   - condition: time
-    after: '1:00:00'
-    before: '8:00:00'
+    after: '22:00:00'
+    before: '1:00:00'
 action:
   - service: scene.turn_on
-    entity_id: scene.master_bathroom_overnight
+    entity_id: scene.master_bathroom_night

@@ -4,6 +4,7 @@ entities:
  - group.loft
  - group.kids_bathroom
  - group.master_bathroom
+ - group.master_bedroom_closet
  - group.haileys_bedroom
  - group.bretts_bedroom
  - group.washing_machine

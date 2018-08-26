@@ -1,4 +1,0 @@
-- name: Vacuum downstairs
-  entities:
-    vacuum.roomba:
-      state: on

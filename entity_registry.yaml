@@ -1,0 +1,520 @@
+binary_sensor.stairs_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076463104
+sensor.downstairs_bathroom_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528065
+sensor.downstairs_bathroom_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528081
+sensor.downstairs_bathroom_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528097
+sensor.downstairs_bathroom_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528225
+switch.loft_decorations_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093060096
+switch.loft_decorations_switch_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-144115188130988032
+switch.loft_decorations_switch_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-216172782168915968
+switch.christmas_decorations_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594109837312
+switch.fireplace_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 5-72057594126614528
+switch.christmas_tree_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143391744
+binary_sensor.basement_window_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160349184
+sensor.basement_window_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414145
+sensor.basement_window_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414161
+sensor.basement_window_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414177
+sensor.basement_window_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 7-72057594161414305
+switch.outdoor_holiday_lights_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 8-72057594176946176
+switch.washing_machine_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210500608
+sensor.washing_machine_energy:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210713602
+sensor.washing_machine_previous_reading:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210713618
+sensor.washing_machine_power:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210713730
+sensor.washing_machine_voltage:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210713858
+sensor.washing_machine_previous_reading_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210713874
+sensor.washing_machine_current:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210713922
+sensor.washing_machine_previous_reading_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210713938
+binary_sensor.washing_machine_door_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594227458048
+sensor.washing_machine_door_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523009
+sensor.washing_machine_door_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523025
+sensor.washing_machine_door_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523041
+sensor.washing_machine_door_access_control:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523153
+sensor.washing_machine_door_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523169
+sensor.washing_machine_door_power_management:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 11-72057594228523185
+binary_sensor.christmas_tree_water_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594294566912
+sensor.christmas_tree_water_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594295631873
+sensor.christmas_tree_water_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594295631889
+sensor.christmas_tree_water_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594295631905
+sensor.christmas_tree_water_flood:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 15-72057594295632001
+lock.front_door_lock:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594412826624
+sensor.front_door_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594413072385
+sensor.front_door_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594413072401
+sensor.front_door_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594413072417
+sensor.front_door_access_control:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594413072529
+sensor.front_door_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594413072545
+sensor.front_door_power_management:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594413072561
+sensor.front_door_system:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 22-72057594413072577
+binary_sensor.rear_door_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594445561856
+sensor.rear_door_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594446626817
+sensor.rear_door_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594446626833
+sensor.rear_door_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594446626849
+sensor.rear_door_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 24-72057594446626977
+binary_sensor.front_door_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 25-72057594462339072
+sensor.front_door_alarm_type_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 25-72057594463404033
+sensor.front_door_alarm_level_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 25-72057594463404049
+sensor.front_door_sourcenodeid_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 25-72057594463404065
+sensor.front_door_burglar_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 25-72057594463404193
+media_player.haileys_bedroom_speaker:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 1269adb7-cfdd-98ee-d223-ef514e094d86
+media_player.haileys_room:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 92cd1ece-3591-e63f-d647-fcbd3fd99e7b
+media_player.master_bedroom:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 3b5f1a6e-28a6-f28d-1c53-b91892c0b9b6
+media_player.downstairs_speaker:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 914c2e45-1c05-af4f-4606-7d6cb24a9a12
+media_player.living_room:
+  config_entry_id: 75ca605f6e1440ab9815691c825dc187
+  name:
+  platform: cast
+  unique_id: 0a606fae-9660-2dc7-d1c3-28887a290568
+sensor.temperature_158d0001b952f4:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: temperature158d0001b952f4
+sensor.illumination_7811dc64f587:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: illumination7811dc64f587
+sensor.pressure_158d0001b952f4:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: pressure158d0001b952f4
+sensor.humidity_158d0001b952f4:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d0001b952f4
+media_player.loft:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: ce5ad8bd-6411-af67-91ea-bf4ba5e8e646
+media_player.bretts_bedroom_speaker:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 0443c1ae-5ab5-29fe-0a9f-67afbd6905e9
+media_player.basement_speaker:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: cd3ea17d-7811-31fc-86d7-7a3d02a98a2b
+media_player.basement:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: bd666739-ee7f-cfad-c280-08edfb8a4215
+media_player.bretts_room:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 7a4207f8-98c9-ded6-e860-23422a4e2842
+media_player.living_room_audio:
+  config_entry_id: 75ca605f6e1440ab9815691c825dc187
+  name:
+  platform: cast
+  unique_id: d95b3581-2540-073c-f08b-45e5365eab91
+media_player.patio_audio:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: aa4aff80-00fe-a298-fa0c-85f1477a7a8e
+media_player.master_bedroom_speaker:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 38cca971-3c92-d33b-d0d2-1972789a92a9
+light.gateway_light_7811dc64f587:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: rgb7811dc64f587
+binary_sensor.motion_sensor_158d0001e50edf:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d0001e50edf
+sensor.illumination_158d0001e50edf:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: lux158d0001e50edf
+binary_sensor.motion_sensor_158d00022516f7:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d00022516f7
+sensor.illumination_158d00022516f7:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: lux158d00022516f7
+binary_sensor.motion_sensor_158d000222e10a:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000222e10a
+sensor.illumination_158d000222e10a:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: lux158d000222e10a
+sensor.humidity_158d0002273e5a:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d0002273e5a
+sensor.pressure_158d0002273e5a:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: pressure158d0002273e5a
+sensor.temperature_158d0002273e5a:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: temperature158d0002273e5a
+sensor.washing_machine_previous_reading_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 10-72057594210713746
+zwave.aeotec_zstick_gen5:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.stairs:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-2
+zwave.loft_decorations:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-3
+zwave.christmas_decorations:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-4
+zwave.fireplace:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-5
+zwave.christmas_tree:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-6
+zwave.basement_window:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-7
+zwave.outdoor_holiday_lights:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-8
+zwave.washing_machine:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-10
+zwave.washing_machine_door:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-11
+zwave.christmas_tree_water:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-15
+zwave.front_door:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-22
+zwave.rear_door:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-24
+zwave.front_door_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-25
+binary_sensor.motion_sensor_158d000222e0d2:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000222e0d2
+sensor.illumination_158d000222e0d2:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: lux158d000222e0d2
+media_player.living_room_roku:
+  config_entry_id:
+  name:
+  platform: roku
+  unique_id: YH003S137588
+binary_sensor.switch_158d0002132898:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d0002132898
+binary_sensor.door_window_sensor_158d0002045b90:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d0002045b90
+binary_sensor.door_window_sensor_158d0002045b78:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d0002045b78
+binary_sensor.door_window_sensor_158d00020b5367:
+  config_entry_id:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d00020b5367

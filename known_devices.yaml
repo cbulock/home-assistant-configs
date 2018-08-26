@@ -848,3 +848,331 @@ cc2db7f3a931:
   name: cc2db7f3a931
   picture:
   track: false
+
+basementdocker:
+  hide_if_away: false
+  icon:
+  mac: 96:24:A1:9E:E3:F8
+  name: basement-docker
+  picture:
+  track: false
+
+stephanies_phone:
+  hide_if_away: false
+  icon:
+  mac: A0:CC:2B:9F:F7:A2
+  name: Stephanie's Phone
+  picture:
+  track: false
+
+0242ac110002:
+  hide_if_away: false
+  icon:
+  mac: 02:42:AC:11:00:02
+  name: 0242ac110002
+  picture:
+  track: false
+
+basementdocker_2:
+  hide_if_away: false
+  icon:
+  mac: 00:13:3B:0F:E3:B9
+  name: basement-docker
+  picture:
+  track: false
+
+haileys_echo:
+  hide_if_away: false
+  icon:
+  mac: 68:54:FD:75:F5:28
+  name: Hailey's Echo
+  picture:
+  track: false
+
+samsungsmg920v:
+  hide_if_away: false
+  icon:
+  mac: FC:DB:B3:BD:DD:5F
+  name: SAMSUNG-SM-G920V
+  picture:
+  track: false
+
+alainasiphone:
+  hide_if_away: false
+  icon:
+  mac: 00:56:CD:34:B8:16
+  name: Alainas-iPhone
+  picture:
+  track: false
+
+000033118e24:
+  hide_if_away: false
+  icon:
+  mac: 00:00:33:11:8E:24
+  name: 000033118e24
+  picture:
+  track: false
+
+404e3623b833:
+  hide_if_away: false
+  icon:
+  mac: 40:4E:36:23:B8:33
+  name: 404e3623b833
+  picture:
+  track: false
+
+10f1f282f026:
+  hide_if_away: false
+  icon:
+  mac: 10:F1:F2:82:F0:26
+  name: 10f1f282f026
+  picture:
+  track: false
+
+laurasiphone:
+  hide_if_away: false
+  icon:
+  mac: 54:33:CB:5A:29:6A
+  name: Lauras-iPhone
+  picture:
+  track: false
+
+lisap:
+  hide_if_away: false
+  icon:
+  mac: 4C:66:41:64:90:F8
+  name: LISA-P
+  picture:
+  track: false
+
+amandasipad:
+  hide_if_away: false
+  icon:
+  mac: F0:DB:F8:55:C7:76
+  name: Amandas-iPad
+  picture:
+  track: false
+
+hsphone:
+  hide_if_away: false
+  icon:
+  mac: 00:56:CD:81:C4:30
+  name: Hs-Phone
+  picture:
+  track: false
+
+alliesiphone:
+  hide_if_away: false
+  icon:
+  mac: 0C:D7:46:77:90:AF
+  name: Allies-iPhone
+  picture:
+  track: false
+
+hannah:
+  hide_if_away: false
+  icon:
+  mac: 88:66:A5:31:44:84
+  name: Hannah
+  picture:
+  track: false
+
+williamsiphone2:
+  hide_if_away: false
+  icon:
+  mac: D4:61:9D:AC:C2:0F
+  name: WilliamsiPhone2
+  picture:
+  track: false
+
+nintendo_wii_u:
+  hide_if_away: false
+  icon:
+  mac: 40:F4:07:A7:40:D3
+  name: Nintendo Wii U
+  picture:
+  track: false
+
+d4tk95l2:
+  hide_if_away: false
+  icon:
+  mac: 9C:30:5B:B2:66:05
+  name: D4TK95L2
+  picture:
+  track: false
+
+40005906fd44:
+  hide_if_away: false
+  icon:
+  mac: 40:00:59:06:FD:44
+  name: 40005906fd44
+  picture:
+  track: false
+
+40005906fd43:
+  hide_if_away: false
+  icon:
+  mac: 40:00:59:06:FD:43
+  name: 40005906fd43
+  picture:
+  track: false
+
+iphone_3:
+  hide_if_away: false
+  icon:
+  mac: A4:5E:60:38:0C:21
+  name: iPhone
+  picture:
+  track: false
+
+androidd4a1939ab2a61b77:
+  hide_if_away: false
+  icon:
+  mac: 0C:72:D9:24:F7:D8
+  name: android-d4a1939ab2a61b77
+  picture:
+  track: false
+
+samsunggalaxys7edge:
+  hide_if_away: false
+  icon:
+  mac: A4:08:EA:26:89:96
+  name: Samsung-Galaxy-S7-edge
+  picture:
+  track: false
+
+androide56dc5ee4d82e2f1:
+  hide_if_away: false
+  icon:
+  mac: DC:0B:34:C7:7B:59
+  name: android-e56dc5ee4d82e2f1
+  picture:
+  track: false
+
+rachaels_phone:
+  hide_if_away: false
+  icon:
+  mac: 60:F1:89:4A:BE:62
+  name: Rachael's Phone
+  picture:
+  track: false
+
+788a20b3741c:
+  hide_if_away: false
+  icon:
+  mac: 78:8A:20:B3:74:1C
+  name: 788a20b3741c
+  picture:
+  track: false
+
+chromecastaudio:
+  hide_if_away: false
+  icon:
+  mac: E8:C7:4F:05:22:F5
+  name: Chromecast-Audio
+  picture:
+  track: false
+
+taylorsiphone:
+  hide_if_away: false
+  icon:
+  mac: 5C:1D:D9:B0:4E:5B
+  name: Taylors-iPhone
+  picture:
+  track: false
+
+imac:
+  hide_if_away: false
+  icon:
+  mac: 98:9E:63:41:66:26
+  name: iMac
+  picture:
+  track: false
+
+hailey_laundry_button:
+  hide_if_away: false
+  icon:
+  mac: FC:A6:67:F1:7A:CC
+  name: Hailey Laundry Button
+  picture:
+  track: false
+
+f22f69de6293:
+  hide_if_away: false
+  icon:
+  mac: F2:2F:69:DE:62:93
+  name: f22f69de6293
+  picture:
+  track: false
+
+72cdad8058f9:
+  hide_if_away: false
+  icon:
+  mac: 72:CD:AD:80:58:F9
+  name: 72cdad8058f9
+  picture:
+  track: false
+
+188a8b01dd67:
+  hide_if_away: false
+  icon:
+  mac: 18:8A:8B:01:DD:67
+  name: 188a8b01dd67
+  picture:
+  track: false
+
+androidfb740878b9d8601b:
+  hide_if_away: false
+  icon:
+  mac: F8:E0:79:80:5A:5E
+  name: android-fb740878b9d8601b
+  picture:
+  track: false
+
+e6bb491ffc1c:
+  hide_if_away: false
+  icon:
+  mac: E6:BB:49:1F:FC:1C
+  name: e6bb491ffc1c
+  picture:
+  track: false
+
+a81515512816:
+  hide_if_away: false
+  icon:
+  mac: A8:15:15:51:28:16
+  name: a81515512816
+  picture:
+  track: false
+
+e0319e4ad093:
+  hide_if_away: false
+  icon:
+  mac: E0:31:9E:4A:D0:93
+  name: e0319e4ad093
+  picture:
+  track: false
+
+1c08db234b9a:
+  hide_if_away: false
+  icon:
+  mac: 1C:08:DB:23:4B:9A
+  name: 1c08db234b9a
+  picture:
+  track: false
+
+localhost:
+  hide_if_away: false
+  icon:
+  mac: 54:BD:79:54:11:AD
+  name: localhost
+  picture:
+  track: false
+
+8878730743f1:
+  hide_if_away: false
+  icon:
+  mac: 88:78:73:07:43:F1
+  name: 8878730743f1
+  picture:
+  track: false

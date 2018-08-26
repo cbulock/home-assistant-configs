@@ -5,6 +5,10 @@ trigger:
     to: 'off'
     for:
       minutes: 20
+condition:
+  - condition: numeric_state
+    entity_id: sensor.master_bathroom_humidity_diff
+    below: 15
 action:
   - service: light.turn_off
-    entity_id: light.master_bathroom
+    entity_id: light.master_bathroom_light

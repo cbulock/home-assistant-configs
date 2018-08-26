@@ -1,8 +1,10 @@
 alias: "Toogle Pasta Part Reminder Off"
 trigger:
-  platform: mqtt
-  topic: reminder/pasta_part
-  payload: "active"
+  platform: event
+  event_type: click
+  event_data:
+    entity_id: binary_sensor.switch_158d0002132898
+    click_type: single
 condition:
   - condition: state
     entity_id: input_boolean.alert_pasta_part

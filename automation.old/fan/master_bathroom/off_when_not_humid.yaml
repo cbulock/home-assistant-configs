@@ -1,0 +1,8 @@
+alias: "Turn off Master Bathroom Fan When Not umid"
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.master_bathroom_humidity_diff
+    below: 13
+action:
+  - service: switch.turn_off
+    entity_id: switch.master_bathroom_exhaust_fan

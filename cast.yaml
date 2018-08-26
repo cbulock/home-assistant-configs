@@ -1,0 +1,15 @@
+media_player:
+- host: living.chromecast
+- host: master.chromecast
+- host: loft.chromecast
+- host: basement.chromecast
+- host: hailey.chromecast
+- host: brett.chromecast
+- host: living.audio.chromecast
+- host: hottub.audio.chromecast
+- host: pergola.audio.chromecast
+- host: downstairs.gh
+- host: master.gh
+- host: hailey.gh
+- host: brett.gh
+- host: basement.gh

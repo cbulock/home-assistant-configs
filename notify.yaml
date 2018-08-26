@@ -2,6 +2,38 @@
   name: sms
   from_number: !secret SMS_FROM
 - platform: group
+  name: cameron
+  services:
+    - service: sms
+      data:
+        target:
+          - !secret SMS_CAMERON
+- platform: group
+  name: rachael
+  services:
+    - service: sms
+      data:
+        target:
+          - !secret SMS_RACHAEL
+- platform: group
+  name: hailey
+  services:
+    - service: sms
+      data:
+        target:
+          - !secret SMS_HAILEY
+- platform: group
+  name: brett
+  services:
+    - service: sms
+      data:
+        target:
+          - !secret SMS_BRETT
+    - service: sms
+      data:
+        target:
+          - !secret SMS_RACHAEL
+- platform: group
   name: cameron_rachael
   services:
     - service: sms
@@ -12,3 +44,33 @@
       data:
         target:
           - !secret SMS_RACHAEL
+- platform: group
+  name: hailey_brett
+  services:
+    - service: sms
+      data:
+        target:
+          - !secret SMS_HAILEY
+    - service: sms
+      data:
+        target:
+          - !secret SMS_BRETT
+- platform: group
+  name: all
+  services:
+    - service: sms
+      data:
+        target:
+          - !secret SMS_CAMERON
+    - service: sms
+      data:
+        target:
+          - !secret SMS_RACHAEL
+    - service: sms
+      data:
+        target:
+          - !secret SMS_HAILEY
+    - service: sms
+      data:
+        target:
+          - !secret SMS_BRETT

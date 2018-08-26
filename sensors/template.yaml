@@ -16,8 +16,8 @@
 
         {{ (sensors|sum / sensors|length)|round(1) }}
 
-    downstairs_bathroom_motion_batt:
-      value_template: '{{ states.zwave.downstairs_bathroom.attributes.battery_level }}'
+    stairs_motion_batt:
+      value_template: '{{ states.zwave.stairs.attributes.battery_level }}'
       friendly_name: 'Downstairs Bathroom Motion'
       unit_of_measurement: '%'
     breakfast_bar_motion_batt:
@@ -50,7 +50,11 @@
       unit_of_measurement: '%'
     master_bathroom_sensor_batt:
       value_template: '{{ states.sensor.humidity_158d0001b952f4.attributes.battery_level }}'
-      friendly_name: 'Master Bathroom Humidity Sensor'
+      friendly_name: Master Bathroom Humidity Sensor
+      unit_of_measurement: '%'
+    kids_bathroom_sensor_batt:
+      value_template: '{{ states.sensor.humidity_158d0002273e5a.attributes.battery_level }}'
+      friendly_name: Kid's Bathroom Humidity Sensor
       unit_of_measurement: '%'
     master_bathroom_motion_batt:
       value_template: '{{ states.binary_sensor.motion_sensor_158d0001e50edf.attributes.battery_level }}'
@@ -59,6 +63,14 @@
     kids_bathroom_motion_batt:
       value_template: '{{ states.binary_sensor.motion_sensor_158d00022516f7.attributes.battery_level }}'
       friendly_name: Kid's Bathroom Motion Sensor
+      unit_of_measurement: '%'
+    downstairs_bathroom_motion_batt:
+      value_template: '{{ states.binary_sensor.motion_sensor_158d000222e10a.attributes.battery_level }}'
+      friendly_name: Downstairs Bathroom Motion Sensor
+      unit_of_measurement: '%'
+    pasta_part_button_batt:
+      value_template: '{{ states.binary_sensor.switch_158d0002132898.attributes.battery_level }}'
+      friendly_name: Pasta Part Button
       unit_of_measurement: '%'
 
     washing_machine_status:
@@ -69,6 +81,10 @@
     master_bathroom_humidity_diff:
       value_template: '{{float(states.sensor.humidity_158d0001b952f4.state) - float(states.sensor.main_floor_humidity.state)}}'
       friendly_name: Master Bedroom Humidity Difference
+      unit_of_measurement: '%'
+    kids_bathroom_humidity_diff:
+      value_template: '{{float(states.sensor.humidity_158d0002273e5a.state) - float(states.sensor.main_floor_humidity.state)}}'
+      friendly_name: Kid's Bedroom Humidity Difference
       unit_of_measurement: '%'
 
     front_door_lock_action:

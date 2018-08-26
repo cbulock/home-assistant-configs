@@ -1,16 +1,12 @@
 sensor.black_ink:
   icon: mdi:water
-  templates:
-    rgb_color: "return [0,0,0];"
+  icon_color: rgb(0,0,0)
 sensor.cyan_ink:
   icon: mdi:water
-  templates:
-    rgb_color: "return [0,255,255];"
+  icon_color: rgb(0,255,255)
 sensor.magenta_ink:
   icon: mdi:water
-  templates:
-    rgb_color: "return [255,0,255];"
+  icon_color: rgb(255,0,255)
 sensor.yellow_ink:
   icon: mdi:water
-  templates:
-    rgb_color: "return [255,255,0];"
+  icon_color: rgb(255,255,0)

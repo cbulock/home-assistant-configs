@@ -1,6 +1,6 @@
 google_actions:
   entity_config:
-    light.master_bathroom:
+    light.master_bathroom_light:
       name: Master Bathroom
     light.breakfast_bar_lights:
       name: Breakfast Bar
@@ -20,10 +20,18 @@ google_actions:
       name: Living Room Ceiling
     light.haileys_lamp:
       name: Hailey's Lamp
+      aliases:
+       - Hailey's Lamp
+       - Hailey Lamp
+       - Haley's Lamp
     light.bretts_lamp:
       name: Brett's Lamp
     light.haileys_ceiling:
       name: Hailey's Ceiling
+      aliases: 
+       - Hailey's Ceiling
+       - Hailey Ceiling
+       - Haley's Ceiling
     light.bretts_ceiling:
       name: Brett's Ceiling
     light.loft_lights:

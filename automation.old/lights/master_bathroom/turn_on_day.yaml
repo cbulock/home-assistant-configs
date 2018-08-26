@@ -6,7 +6,7 @@ trigger:
     to: 'on'
 condition:
   - condition: state
-    entity_id: light.master_bathroom
+    entity_id: light.master_bathroom_light
     state: 'off'
   - condition: time
     after: '8:00:00'

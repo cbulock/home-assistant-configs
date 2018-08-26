@@ -1,3 +1,4 @@
+- sensor.stairs_motion_batt
 - sensor.downstairs_bathroom_motion_batt
 - sensor.breakfast_bar_motion_batt
 - sensor.basement_window_batt
@@ -6,10 +7,12 @@
 - sensor.rear_door_batt
 - sensor.siren_batt
 - sensor.cameron_phone_batt
-- sensor.living_room_plant_battery
+- sensor.living_room_battery
 - sensor.aloe_plant_battery
-- sensor.master_bedroom_plant_battery
+- sensor.master_bedroom_battery
 - sensor.bathroom_plant_battery
 - sensor.master_bathroom_sensor_batt
+- sensor.kids_bathroom_sensor_batt
 - sensor.master_bathroom_motion_batt
 - sensor.kids_bathroom_motion_batt
+- sensor.pasta_part_button_batt

@@ -6,4 +6,3 @@
   track_new_devices: no
   interval_seconds: 30
   verify_ssl: false
-- platform: owntracks

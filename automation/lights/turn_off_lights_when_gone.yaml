@@ -1,0 +1,8 @@
+alias: "Turn off Lights When Gone"
+trigger:
+  - platform: state
+    entity_id: input_select.presence_status
+    to: 'Away'
+action:
+  - service: scene.turn_on
+    entity_id: scene.all_lights_off

@@ -1,5 +1,0 @@
-- name: Downstairs bathroom night
-  entities:
-    light.downstairs_bathroom_lights:
-      state: on
-      brightness: 80

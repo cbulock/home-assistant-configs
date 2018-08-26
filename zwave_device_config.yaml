@@ -1,0 +1,9 @@
+switch.washing_machine_power_switch:
+  ignored: true
+  polling_intensity: 0
+sensor.washing_machine_power:
+  ignored: false
+  polling_intensity: 2
+switch.washing_machine_switch:
+  ignored: true
+  polling_intensity: 0
