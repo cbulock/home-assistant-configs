@@ -58,7 +58,6 @@ script: !include_dir_named scripts
 sensor: !include_dir_merge_list sensors
 switch: !include_dir_merge_list switches
 weblink: !include weblink.yaml
-wink: !include wink.yaml
 xiaomi_aqara: !include xiaomi_aqara.yaml
 zone: !include_dir_merge_list zones
 
