@@ -1,13 +1,2 @@
-switch.christmas_tree_switch:
-  friendly_name: Christmas Tree
-  icon: mdi:pine-tree
-switch.christmas_decorations_switch:
-  friendly_name: Christmas Decorations
-  icon: mdi:ornament
-switch.outdoor_holiday_lights_switch:
-  friendly_name: Outdoor Holiday Lights
-  icon: mdi:lightbulb
 binary_sensor.christmas_tree_water_sensor:
-  friendly_name: Christmas Tree Water
-  icon: mdi:water
   device_class: moisture

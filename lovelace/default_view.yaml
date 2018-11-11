@@ -1,0 +1,74 @@
+title: default_view
+icon: mdi:home
+cards:
+  - type: glance
+    entities:
+      - device_tracker.brett
+      - device_tracker.cameron
+      - device_tracker.hailey
+      - device_tracker.rachael
+      - input_select.presence_status
+  - type: vertical-stack
+    cards:
+      - type: thermostat
+        entity: climate.main_floor
+      - type: entities
+        entities:
+          - entity: sensor.main_floor_humidity
+            name: Humidity
+            icon: mdi:water-percent
+  - type: entity-filter
+    state_filter: 
+      - "playing"
+      - "paused"
+    card:
+      title: Media
+    entities:
+      - entity: media_player.living_room
+        type: "custom:mini-media-player"
+        name: Living Room Chromecast
+        group: true
+      - entity: media_player.living_room_audio
+        type: "custom:mini-media-player"
+        name: Living Room Chromecast Audio
+        group: true
+      - entity: media_player.living_room_tv
+        type: "custom:mini-media-player"
+        name: Living Room TV
+        group: true
+      - entity: media_player.downstairs_speaker
+        type: "custom:mini-media-player"
+        name: Downstairs Google Home
+        group: true
+      - entity: media_player.bretts_room
+        type: "custom:mini-media-player"
+        name: Brett's Chromecast
+        group: true
+      - entity: media_player.bretts_bedroom_speaker
+        type: "custom:mini-media-player"
+        name: Brett's Google Home
+        group: true
+      - entity: media_player.haileys_room
+        type: "custom:mini-media-player"
+        name: Hailey's Chromecast
+        group: true
+      - entity: media_player.haileys_bedroom_speaker
+        type: "custom:mini-media-player"
+        name: Hailey's Google Home
+        group: true
+      - entity: media_player.master_bedroom
+        type: "custom:mini-media-player"
+        name: Master Bedroom Chromecast
+        group: true
+      - entity: media_player.master_bedroom_speaker
+        type: "custom:mini-media-player"
+        name: Master Bedroom Google Home
+        group: true
+      - entity: media_player.patio_audio
+        type: "custom:mini-media-player"
+        name: Hot Tub Chromecast Audio
+        group: true
+      - entity: media_player.pergola_audio
+        type: "custom:mini-media-player"
+        name: Pergola Chromecast Audio
+        group: true

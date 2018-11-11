@@ -13,6 +13,8 @@ tts
 custom_components
 .HA_VERSION
 .uuid
-.ring_cache.pickle
+.cloud
+.storage
+.vscode
 OZW_Log.txt
 

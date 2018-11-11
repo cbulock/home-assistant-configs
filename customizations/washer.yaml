@@ -1,5 +1,4 @@
 binary_sensor.washing_machine_door_sensor:
-  friendly_name: Door
   device_class: door
 sensor.washing_machine_status:
   extra_data_template: "${entities['sensor.washing_machine_power'].state}W"

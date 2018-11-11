@@ -1,24 +1,2 @@
 binary_sensor.front_door_status:
   device_class: door
-light.living_room_ceiling:
-  friendly_name: Ceiling
-  haaska_name: Living Room Ceiling
-light.livingroom_lamp:
-  friendly_name: Lamp
-  haaska_name: Living Room Lamp
-media_player.living_room:
-  friendly_name: Chromecast
-media_player.living_room_2:
-  friendly_name: Roku
-media_player.living_room_audio:
-  friendly_name: Chromecast Audio
-media_player.directv_receiver:
-  friendly_name: DirecTV
-switch.fireplace_switch:
-  icon: mdi:fire
-  friendly_name: Fireplace
-media_player.living_room_tv:
-  haaska_name: Living Room TV
-switch.playstation4:
-  icon: mdi:playstation
-  haaska_name: Playstation 4

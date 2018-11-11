@@ -1,0 +1,5 @@
+title: Basement
+cards:
+  - type: entities
+    entities:
+      - binary_sensor.basement_window_status

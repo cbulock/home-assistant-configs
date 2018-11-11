@@ -1,26 +1,4 @@
 binary_sensor.rear_door_status:
   device_class: door
-binary_sensor.breakfast_bar_motion:
-  friendly_name: Breakfast Bar
+binary_sensor.breakfast_bar_sensor:
   device_class: motion
-light.breakfast_bar_lights:
-  friendly_name: Pendant Lights
-  emulated_hue_name: Breakfast Bar Lights
-  haaska_name: Breakfast Bar Lights
-light.kitchen_lights:
-  friendly_name: Ceiling
-  emulated_hue_name: Kitchen Ceiling
-  haaska_name: Kitchen Ceiling
-light.kitchen_cabinet:
-  friendly_name: Cabinets
-  emulated_hue_name: Kitchen Cabinets
-  haaska_name: Kitchen Cabinets
-climate.main_floor:
-  friendly_name: Thermostat
-light.hall_lights:
-  friendly_name: Hall
-light.gateway_light_7811dc64f587:
-  friendly_name: Alert Light
-  icon: mdi:alert-decagram
-sensor.illumination_7811dc64f587:
-  friendly_name: Light Level

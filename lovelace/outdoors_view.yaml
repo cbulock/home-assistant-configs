@@ -1,0 +1,52 @@
+title: Outdoors
+cards:
+  - type: entities
+    entities:
+      - cover.garage_door
+      - entity: binary_sensor.front_door_camera_person_detected
+        name: Person Detected
+  - type: picture-entity
+    title: Front Door
+    entity: camera.front_door
+    camera_image: camera.front_door
+    show_state: false
+    tap_action: dialog
+  - type: entities
+    title: Front Lighting
+    show_header_toggle: true
+    entities:
+      - entity: light.front_porch
+        name: Front Porch
+        type: custom:slider-entity-row
+      - entity: light.garage_left
+        name: Garage Left
+        type: custom:slider-entity-row
+      - entity: light.garage_right
+        name: Garage Right
+        type: custom:slider-entity-row
+      - entity: switch.outdoor_holiday_lights_switch
+        name: Outdoor Holiday Lights
+        icon: mdi:lightbulb
+  - type: entities
+    title: Scenes
+    show_header_toggle: true
+    entities:
+      - scene.outdoors_default
+      - scene.outdoors_dim
+      - scene.outdoors_off
+      - scene.outdoors_halloween
+      - scene.outdoors_christmas
+      - scene.outdoors_st_patricks_day
+      - scene.outdoors_usa
+      - scene.outdoors_valentines_day
+  - type: entities
+    title: Backyard Media
+    entities:
+      - entity: media_player.patio_audio
+        type: "custom:mini-media-player"
+        name: Hot Tub Chromecast Audio
+        group: true
+      - entity: media_player.pergola_audio
+        type: "custom:mini-media-player"
+        name: Pergola Chromecast Audio
+        group: true

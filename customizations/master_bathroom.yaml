@@ -1,22 +1,4 @@
-light.master_bathroom_light:
-  friendly_name: Lights
-switch.master_bathroom_exhaust_fan:
-  name: Exhaust Fan
-  icon: mdi:fan
 binary_sensor.motion_sensor_158d0001e50edf:
-  friendly_name: Motion
   device_class: motion
 binary_sensor.door_window_sensor_158d0002045b78:
-  friendly_name: Door
   device_class: door
-sensor.humidity_158d0001b952f4:
-  friendly_name: Humidity
-  icon: mdi:water-percent
-sensor.illumination_158d0001e50edf:
-  friendly_name: Light Level
-sensor.temperature_158d0001b952f4:
-  friendly_name: Temp
-sensor.pressure_158d0001b952f4:
-  friendly_name: Pressure
-
-

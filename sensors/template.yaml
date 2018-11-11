@@ -21,7 +21,7 @@
       friendly_name: 'Downstairs Bathroom Motion'
       unit_of_measurement: '%'
     breakfast_bar_motion_batt:
-      value_template: '{{ states.binary_sensor.breakfast_bar_motion.attributes.battery_level }}'
+      value_template: '{{ states.zwave.breakfast_bar.attributes.battery_level }}'
       friendly_name: 'Breakfast Bar Motion'
       unit_of_measurement: '%'
     basement_window_batt:
@@ -41,12 +41,8 @@
       friendly_name: 'Rear Door Sensor'
       unit_of_measurement: '%'
     siren_batt:
-      value_template: '{{ states.wink.siren__strobe.attributes.battery_level }}'
+      value_template: '{{ states.zwave.siren.attributes.battery_level }}'
       friendly_name: 'Siren'
-      unit_of_measurement: '%'
-    cameron_phone_batt:
-      value_template: '{{ states.device_tracker.cbulock_oneplus3t.attributes.battery }}'
-      friendly_name: Cameron's Phone
       unit_of_measurement: '%'
     master_bathroom_sensor_batt:
       value_template: '{{ states.sensor.humidity_158d0001b952f4.attributes.battery_level }}'

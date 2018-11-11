@@ -1,0 +1,29 @@
+title: Automation
+icon: mdi:robot
+cards:
+  - type: entities
+    title: Automation Controls
+    show_header_toggle: false
+    entities:
+      - input_boolean.guest_mode
+      - automation.keep_doors_locked_overnight
+      - automation.lock_doors_at_night
+      - automation.media_player_playing
+  - type: entities
+    title: Light Automation
+    show_header_toggle: true
+    entities:
+      - automation.indoor_holiday_lights_on
+      - input_select.outdoor_lights
+  - type: entities
+    title: Alerts
+    show_header_toggle: true
+    entities:
+      - input_boolean.alert_living_room_plant
+      - input_boolean.alert_master_bedroom_plant
+      - input_boolean.alert_bathroom_plant
+      - input_boolean.alert_washer
+      - input_boolean.alert_front_door
+      - input_boolean.alert_back_door
+      - input_boolean.alert_pasta_part
+      - input_boolean.alert_roomba_full

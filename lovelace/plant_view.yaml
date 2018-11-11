@@ -1,0 +1,15 @@
+title: Plants
+icon: mdi:flower-tulip
+cards:
+  - type: plant-status
+    entity: plant.living_room
+    name: Living Room Plant
+  - type: plant-status
+    entity: plant.bathroom_plant
+    name: Bathroom Plant
+  - type: plant-status
+    entity: plant.aloe_plant
+    name: Aloe Plant
+  - type: plant-status
+    entity: plant.master_bedroom
+    name: Master Bedroom Plant

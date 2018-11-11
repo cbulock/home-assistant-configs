@@ -1,7 +1,0 @@
-alias: "Outdoor Light Switch On"
-trigger:
-  - platform: template
-    value_template: "{{ is_state_attr('binary_sensor.outdoor_light_switch', 'button_on_pressed', true) }}"
-action:
-  - service: scene.turn_on
-    entity_id: scene.outdoors_bright

@@ -1,4 +1,0 @@
-view: yes
-entities:
- - binary_sensor.basement_window_status
- - media_player.basement

@@ -1,0 +1,18 @@
+title: Bulock Home
+views:
+  - !include default_view.yaml
+  - !include basement_view.yaml
+  - !include main_floor_view.yaml
+  - !include upstairs_view.yaml
+  - !include outdoors_view.yaml
+  - !include other_view.yaml
+  - !include weather_view.yaml
+  - !include plant_view.yaml
+  - !include nass_view.yaml
+  - !include automation_view.yaml
+
+resources:
+  - url: /local/lovelace/mini-media-player/mini-media-player.js?v=0.8.7
+    type: module
+  - url: /local/lovelace/lovelace-slider-entity-row/slider-entity-row.js?v=1
+    type: js

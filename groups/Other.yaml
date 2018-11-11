@@ -1,6 +1,0 @@
-view: yes
-entities:
- - group.battery_levels
- - group.internet
- - group.printer
- - group.3d_printer

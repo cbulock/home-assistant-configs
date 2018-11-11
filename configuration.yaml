@@ -34,7 +34,7 @@ history:
 logbook:
 recorder:
   db_url: !secret db_path
-  purge_interval: 7
+  purge_interval: 3
   purge_keep_days: 90
 influxdb:
   host: nuc
@@ -61,6 +61,9 @@ weblink: !include weblink.yaml
 wink: !include wink.yaml
 xiaomi_aqara: !include xiaomi_aqara.yaml
 zone: !include_dir_merge_list zones
+
+shell_command:
+  lovelace_gen: 'cd /config && python /config/lovelace-gen.py'
 
 mqtt:
   broker: mqtt
@@ -93,9 +96,12 @@ twilio:
   account_sid: !secret TWILIO_SID
   auth_token: !secret TWILIO_TOKEN
 
-ring:
-  username: !secret ring_user
-  password: !secret ring_pass
+nest:
+  client_id: !secret nest_client
+  client_secret: !secret nest_secret
+  binary_sensors:
+    monitored_conditions:
+      - 'person_detected'
 
 octoprint:
   host: 3dprinter

@@ -1,7 +1,2 @@
-light.master_closet_lights:
-  friendly_name: Lights
 binary_sensor.motion_sensor_158d000222e0d2:
-  friendly_name: Motion
   device_class: motion
-sensor.illumination_158d000222e0d2:
-  friendly_name: Light Level

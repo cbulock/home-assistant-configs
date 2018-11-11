@@ -1,0 +1,94 @@
+title: Main Floor
+cards:
+  - type: entities
+    entities:
+      - entity: binary_sensor.main_floor_occupancy
+        name: Occupancy
+      - entity: media_player.downstairs_speaker
+        type: "custom:mini-media-player"
+        name: Google Home
+        group: true
+      - vacuum.roomba
+  - type: entities
+    title: Living Room
+    show_header_toggle: true
+    entities:
+      - binary_sensor.front_door_status
+      - lock.front_door_lock
+      - entity: light.living_room_ceiling
+        name: Ceiling
+        type: custom:slider-entity-row
+      - entity: light.livingroom_lamp
+        name: Lamp
+        type: custom:slider-entity-row
+      - entity: switch.fireplace_switch
+        name: Fireplace
+        icon: mdi:fire
+      - entity: switch.playstation4
+        icon: mdi:playstation
+      - entity: media_player.living_room
+        type: "custom:mini-media-player"
+        name: Chromecast
+        group: true
+      - entity: media_player.living_room_audio
+        type: "custom:mini-media-player"
+        name: Chromecast Audio
+        group: true
+      - entity: media_player.living_room_tv
+        type: "custom:mini-media-player"
+        name: TV
+        group: true
+  - type: entities
+    title: Kitchen
+    show_header_toggle: true
+    entities:
+      - entity: binary_sensor.rear_door_status
+        name: Rear Door
+      - entity: binary_sensor.breakfast_bar_sensor
+        name: Breakfast Bar
+      - entity: light.breakfast_bar_lights
+        name: Pendant Lights
+        type: custom:slider-entity-row
+      - entity: light.kitchen_lights
+        name: Ceiling
+        type: custom:slider-entity-row
+      - entity: light.kitchen_cabinet
+        name: Cabinets
+        type: custom:slider-entity-row
+      - entity: light.hall_lights
+        name: Hall
+        type: custom:slider-entity-row
+      - entity: sensor.illumination_7811dc64f587
+        name: Light Level
+      - entity: light.gateway_light_7811dc64f587
+        name: Alert Light
+        icon: mdi:alert-decagram
+      - entity: climate.main_floor
+        name: Thermostat
+  - type: entities
+    title: Downstairs Bathroom
+    show_header_toggle: true
+    entities:
+      - entity: light.downstairs_bathroom_lights
+        name: Lights
+        type: custom:slider-entity-row
+      - entity: binary_sensor.motion_sensor_158d000222e10a
+        name: Downstairs Bathroom
+      - entity: binary_sensor.door_window_sensor_158d0002045b90
+        name: Door
+  - type: entities
+    title: Christmas
+    show_header_toggle: true
+    entities:
+      - entity: switch.christmas_tree_switch
+        name: Christmas Tree
+        icon: mdi:pine-tree
+      - entity: binary_sensor.christmas_tree_water_sensor
+        name: Christmas Tree Water
+        icon: mdi:water
+      - entity: switch.christmas_decorations_switch
+        name: Christmas Decorations
+        icon: mdi:ornament
+      - entity: switch.outdoor_holiday_lights_switch
+        name: Outdoor Holiday Lights
+        icon: mdi:lightbulb

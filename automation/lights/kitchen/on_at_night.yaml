@@ -1,7 +1,7 @@
 alias: "Turn on Kitchen Lighting at Night"
 trigger:
   - platform: state
-    entity_id: binary_sensor.breakfast_bar_motion
+    entity_id: binary_sensor.breakfast_bar_sensor
     from: 'off'
     to: 'on'
 condition:

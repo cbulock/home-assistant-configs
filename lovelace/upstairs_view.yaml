@@ -1,0 +1,140 @@
+title: Upstairs
+cards:
+  - type: entities
+    entities:
+      - entity: binary_sensor.upstairs_occupancy
+        name: Occupancy
+  - type: entities
+    title: Master Bedroom
+    show_header_toggle: true
+    entities:
+      - entity: light.master_bed_lamp
+        name: Lamp
+        type: custom:slider-entity-row
+      - entity: switch.master_bedroom_tv
+        name: TV
+        icon: mdi:television
+      - entity: switch.master_bedroom_fan
+        name: Fan
+        icon: mdi:fan
+      - entity: media_player.master_bedroom
+        type: "custom:mini-media-player"
+        name: Chromecast
+        group: true
+      - entity: media_player.master_bedroom_speaker
+        type: "custom:mini-media-player"
+        name: Google Home
+        group: true
+  - type: entities
+    title: Loft
+    show_header_toggle: true
+    entities:
+      - entity: light.loft_lights
+        name: Ceiling
+        type: custom:slider-entity-row
+      - entity: light.stairs
+        name: Stairs
+        type: custom:slider-entity-row
+      - entity: switch.loft_decorations_switch
+        name: Decorations
+        icon: mdi:pine-tree
+  - type: entities
+    title: Kid's Bathroom
+    show_header_toggle: true
+    entities:
+      - entity: light.kids_bathroom_lights
+        name: Lights
+        type: custom:slider-entity-row
+      - entity: binary_sensor.motion_sensor_158d00022516f7
+        name: Motion
+      - entity: binary_sensor.door_window_sensor_158d00020b5367
+        name: Door
+      - entity: sensor.temperature_158d0002273e5a
+        name: Temp
+      - entity: sensor.humidity_158d0002273e5a
+        name: Humidity
+        icon: mdi:water-percent
+      - entity: sensor.illumination_158d00022516f7
+        name: Light Level
+      - entity: sensor.pressure_158d0002273e5a
+        name: Pressure
+  - type: entities
+    title: Master Bathroom
+    show_header_toggle: true
+    entities:
+      - entity: light.master_bathroom_light
+        name: Lights
+        type: custom:slider-entity-row
+      - entity: switch.master_bathroom_exhaust_fan
+        name: Exhaust Fan
+        icon: mdi:fan
+      - entity: binary_sensor.motion_sensor_158d0001e50edf
+        name: Motion
+      - entity: binary_sensor.door_window_sensor_158d0002045b78
+        name: Door
+      - entity: sensor.temperature_158d0001b952f4
+        name: Temp
+      - entity: sensor.humidity_158d0001b952f4
+        name: Humidity
+        icon: mdi:water-percent
+      - entity: sensor.illumination_158d0001e50edf
+        name: Light Level
+      - entity: sensor.pressure_158d0001b952f4
+        name: Pressure
+  - type: entities
+    title: Master Bedroom Closet
+    show_header_toggle: true
+    entities:
+      - entity: light.master_closet_lights
+        name: Lights
+        type: custom:slider-entity-row
+      - entity: binary_sensor.motion_sensor_158d000222e0d2
+        name: Motion
+      - entity: sensor.illumination_158d000222e0d2
+        name: Light Level
+  - type: entities
+    title: Hailey's Bedroom
+    show_header_toggle: true
+    entities:
+      - entity: light.haileys_lamp
+        name: Lamp
+        type: custom:slider-entity-row
+      - entity: light.haileys_ceiling
+        name: Ceiling
+        type: custom:slider-entity-row
+      - entity: media_player.haileys_room
+        type: "custom:mini-media-player"
+        name: Chromecast
+        group: true
+      - entity: media_player.haileys_bedroom_speaker
+        type: "custom:mini-media-player"
+        name: Google Home
+        group: true
+  - type: entities
+    title: Brett's Bedroom
+    show_header_toggle: true
+    entities:
+      - entity: light.bretts_lamp
+        name: Lamp
+        type: custom:slider-entity-row
+      - entity: light.bretts_ceiling
+        name: Ceiling
+        type: custom:slider-entity-row
+      - entity: media_player.bretts_room
+        type: "custom:mini-media-player"
+        name: Chromecast
+        group: true
+      - entity: media_player.bretts_bedroom_speaker
+        type: "custom:mini-media-player"
+        name: Google Home
+        group: true
+  - type: entities
+    title: Washing Machine
+    show_header_toggle: true
+    entities:
+      - entity: sensor.washing_machine_status
+        name: Status
+      - entity: input_select.washer_user
+        name: Whose Clothes
+      - entity: binary_sensor.washing_machine_door_sensor
+        name: Door

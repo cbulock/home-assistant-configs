@@ -1,6 +1,0 @@
-automation.holiday__halloween__outdoor_lights_on_at_dark:
-  friendly_name: Halloween Lighting
-automation.holiday__christmas__outdoor_lights_on_at_dark:
-  friendly_name: Christmas Lighting
-automation.indoor_holiday_lights_on:
-  friendly_name: Indoor Holiday Lights

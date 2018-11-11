@@ -1,7 +1,0 @@
-alias: "Living Room Light Switch On"
-trigger:
-  - platform: template
-    value_template: "{{ is_state_attr('binary_sensor.living_room_lamp_switch', 'button_on_pressed', true) }}"
-action:
-  - service: light.turn_on
-    entity_id: light.livingroom_lamp

@@ -1,0 +1,112 @@
+title: Other
+cards:
+  - type: entities
+    title: Battery Levels
+    show_header_toggle: true
+    entities:
+      - entity: sensor.living_room_battery
+        name: Living Room Plant
+        icon: mdi:battery
+      - entity: sensor.aloe_plant_battery
+        name: Aloe Plant
+        icon: mdi:battery
+      - entity: sensor.master_bedroom_battery
+        name: Master Bedroom Plant
+        icon: mdi:battery
+      - entity: sensor.bathroom_plant_battery
+        name: Bathroom Plant
+        icon: mdi:battery
+      - entity: sensor.stairs_motion_batt
+        name: Stairs Motion
+        icon: mdi:battery
+      - entity: sensor.downstairs_bathroom_motion_batt
+        name: Downstairs Bathroom Motion
+        icon: mdi:battery
+      - entity: sensor.breakfast_bar_motion_batt
+        name: Breakfast Bar Motion
+        icon: mdi:battery
+      - entity: sensor.basement_window_batt
+        name: Basement Window
+        icon: mdi:battery
+      - entity: sensor.front_door_batt
+        name: Front Door
+        icon: mdi:battery
+      - entity: sensor.front_door_lock_batt
+        name: Front Door Lock
+        icon: mdi:battery
+      - entity: sensor.rear_door_batt
+        name: Rear Door
+        icon: mdi:battery
+      - entity: sensor.siren_batt
+        name: Siren
+        icon: mdi:battery
+      - entity: sensor.master_bathroom_sensor_batt
+        name: Master Bathroom
+        icon: mdi:battery
+      - entity: sensor.master_bathroom_motion_batt
+        name: Master Bathroom Motion
+        icon: mdi:battery
+      - entity: sensor.kids_bathroom_sensor_batt
+        name: Kid's Bathroom
+        icon: mdi:battery
+      - entity: sensor.kids_bathroom_motion_batt
+        name: Kid's Bathroom Motion
+        icon: mdi:battery
+      - entity: sensor.pasta_part_button_batt
+        name: Pasta Part Button
+        icon: mdi:battery
+  - type: entities
+    title: Internet
+    show_header_toggle: true
+    entities:
+      - entity: sensor.speedtest_ping
+        name: Ping
+        icon: mdi:pulse
+      - entity: sensor.speedtest_download
+        name: Download
+        icon: mdi:arrow-down-bold
+      - entity: sensor.speedtest_upload
+        name: Upload
+        icon: mdi:arrow-up-bold
+      - entity: weblink.router_admin
+      - entity: weblink.wifi_admin
+  - type: entities
+    title: Printer
+    show_header_toggle: true
+    entities:
+      - entity: sensor.black_ink
+        icon: mdi:water
+      - entity: sensor.cyan_ink
+        icon: mdi:water
+      - entity: sensor.magenta_ink
+        icon: mdi:water
+      - entity: sensor.yellow_ink
+        icon: mdi:water
+  - type: entities
+    title: 3D Printer
+    show_header_toggle: true
+    entities:
+      - entity: sensor.octoprint_current_state
+        name: State
+        icon: mdi:printer-3d
+      - entity: sensor.octoprint_job_percentage
+        name: Percent Complete
+        icon: mdi:percent
+      - entity: sensor.octoprint_target_bed_temp
+        name: Target Bed Temp
+        icon: mdi:thermometer
+      - entity: sensor.octoprint_actual_bed_temp
+        name: Bed Temp
+        icon: mdi:thermometer
+      - entity: sensor.octoprint_target_tool0_temp
+        name: Target Hotend Temp
+        icon: mdi:thermometer
+      - entity: sensor.octoprint_actual_tool0_temp
+        name: Hotend Temp
+        icon: mdi:thermometer
+  - type: picture-entity
+    title: 3D Printer
+    entity: camera.3d_printer
+    camera_image: camera.3d_printer
+    show_info: true
+    tap_action: dialog

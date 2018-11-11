@@ -1,10 +1,6 @@
 guest_mode:
   name: Guest Mode
   icon: mdi:account-multiple
-just_returned_home:
-  name: Just Returned Home
-just_left:
-  name: Just Left
 alert_living_room_plant:
   name: Living Room Plant
   icon: mdi:alert-decagram

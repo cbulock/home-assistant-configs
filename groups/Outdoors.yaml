@@ -1,8 +1,0 @@
-view: yes
-entities:
- - group.outdoor_lighting
- - group.outdoor_scenes
- - binary_sensor.ring_front_door_motion
- - media_player.patio_audio
- - cover.garage_door
- - camera.front_door

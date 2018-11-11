@@ -1,19 +1,4 @@
-light.kids_bathroom_lights:
-  friendly_name: Lights
-  emulated_hue_name: Kid's Bathroom
-  haaska_name: Kid's Bathroom
 binary_sensor.motion_sensor_158d00022516f7:
-  friendly_name: Motion
   device_class: motion
 binary_sensor.door_window_sensor_158d00020b5367:
-  friendly_name: Door
   device_class: door
-sensor.humidity_158d0002273e5a:
-  friendly_name: Humidity
-  icon: mdi:water-percent
-sensor.illumination_158d00022516f7:
-  friendly_name: Light Level
-sensor.temperature_158d0002273e5a:
-  friendly_name: Temp
-sensor.pressure_158d0002273e5a:
-  friendly_name: Pressure
