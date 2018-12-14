@@ -1,5 +1,0 @@
-- name: Downtown
-  latitude: !secret HA_DOWNTOWN_LATITUDE
-  longitude: !secret HA_DOWNTOWN_LONGITUDE
-  radius: 200
-  icon: mdi:city

@@ -1,5 +1,0 @@
-- name: Liquid Web
-  latitude: !secret HA_CAMERON_WORK_LATITUDE
-  longitude: !secret HA_CAMERON_WORK_LONGITUDE
-  radius: 250
-  icon: mdi:briefcase

@@ -1,5 +1,0 @@
-- name: Emergent
-  latitude: !secret HA_RACHAEL_WORK_LATITUDE
-  longitude: !secret HA_RACHAEL_WORK_LONGITUDE
-  radius: 250
-  icon: mdi:briefcase

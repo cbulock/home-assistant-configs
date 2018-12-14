@@ -1,0 +1,12 @@
+- platform: statistics
+  name: Master Bathroom Humidity Diff Average
+  entity_id: sensor.master_bathroom_humidity_diff
+  sampling_size: 300
+  max_age:
+    days: 14
+- platform: statistics
+  name: Kid's Bathroom Humidity Diff Average
+  entity_id: sensor.kids_bathroom_humidity_diff
+  sampling_size: 300
+  max_age:
+    days: 14

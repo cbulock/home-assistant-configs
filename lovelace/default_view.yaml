@@ -2,12 +2,16 @@ title: default_view
 icon: mdi:home
 cards:
   - type: glance
+    columns: 6
     entities:
       - device_tracker.brett
       - device_tracker.cameron
       - device_tracker.hailey
       - device_tracker.rachael
       - input_select.presence_status
+      - entity: input_boolean.guest_mode
+        tap_action: toggle
+
   - type: vertical-stack
     cards:
       - type: thermostat
@@ -64,11 +68,23 @@ cards:
         type: "custom:mini-media-player"
         name: Master Bedroom Google Home
         group: true
-      - entity: media_player.patio_audio
+      - entity: media_player.hot_tub_audio
         type: "custom:mini-media-player"
         name: Hot Tub Chromecast Audio
         group: true
       - entity: media_player.pergola_audio
         type: "custom:mini-media-player"
         name: Pergola Chromecast Audio
+        group: true
+      - entity: media_player.kids_bathroom_speaker
+        type: "custom:mini-media-player"
+        name: Kid's Bathroom Google Home
+        group: true
+      - entity: media_player.master_bathroom_speaker
+        type: "custom:mini-media-player"
+        name: Master Bathroom Google Home
+        group: true
+      - entity: media_player.kitchen_display
+        type: "custom:mini-media-player"
+        name: Kitchen Google Home Hub
         group: true

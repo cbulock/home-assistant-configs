@@ -1,4 +1,2 @@
-binary_sensor.motion_sensor_158d00022516f7:
-  device_class: motion
-binary_sensor.door_window_sensor_158d00020b5367:
+binary_sensor.kids_bathroom_door:
   device_class: door

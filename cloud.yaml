@@ -8,7 +8,7 @@ google_actions:
       name: Kitchen Ceiling
     light.kitchen_cabinet:
       name: Kitchen Cabinets
-    switch.guest_mode:
+    input_boolean.guest_mode:
       name: Guest mode
     light.kids_bathroom_lights:
       name: Kid's Bathroom
@@ -48,6 +48,24 @@ google_actions:
       name: Master Bedroom Fan
     switch.bretts_tv:
       name: Brett's TV
+    switch.fireplace_switch:
+      name: Fireplace
+      room: Living Room
+    switch.master_bathroom_exhaust_fan:
+      name: Master Bathroom Exhaust Fan
+      aliases:
+       - Master Bathroom Fan
+    switch.christmas_snowman:
+      name: Snowman
+    light.christmas_tree_lights:
+      name: Christmas Tree
+      room: Living Room
+    lock.front_door_lock:
+      name: Front Door
+      room: Living Room
+    fan.master_bedroom:
+      name: Master Bedroom Fan
+      room: Master Bedroom
   filter:
     exclude_entities:
       - scene.arrive_home
@@ -76,4 +94,14 @@ google_actions:
       - scene.outdoors_off
       - scene.stairs_dim
       - script.master_bedroom_fan_on_night
-      - script.set_alert_color
+      - switch.master_bedroom_fan
+      - switch.master_bedroom_fan_rotate
+      - group.all_automations
+      - group.all_covers
+      - group.all_devices
+      - group.all_lights
+      - group.all_locks
+      - group.all_plants
+      - group.all_scripts
+      - group.all_switches
+      - group.all_vacuum_cleaners

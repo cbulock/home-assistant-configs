@@ -37,9 +37,6 @@ cards:
       - entity: sensor.rear_door_batt
         name: Rear Door
         icon: mdi:battery
-      - entity: sensor.siren_batt
-        name: Siren
-        icon: mdi:battery
       - entity: sensor.master_bathroom_sensor_batt
         name: Master Bathroom
         icon: mdi:battery
@@ -51,6 +48,9 @@ cards:
         icon: mdi:battery
       - entity: sensor.kids_bathroom_motion_batt
         name: Kid's Bathroom Motion
+        icon: mdi:battery
+      - entity: sensor.laundry_motion_sensor_batt
+        name: Laundry Motion
         icon: mdi:battery
       - entity: sensor.pasta_part_button_batt
         name: Pasta Part Button
@@ -68,8 +68,6 @@ cards:
       - entity: sensor.speedtest_upload
         name: Upload
         icon: mdi:arrow-up-bold
-      - entity: weblink.router_admin
-      - entity: weblink.wifi_admin
   - type: entities
     title: Printer
     show_header_toggle: true

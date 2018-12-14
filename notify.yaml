@@ -29,10 +29,6 @@
       data:
         target:
           - !secret SMS_BRETT
-    - service: sms
-      data:
-        target:
-          - !secret SMS_RACHAEL
 - platform: group
   name: cameron_rachael
   services:

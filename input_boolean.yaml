@@ -1,6 +1,8 @@
 guest_mode:
   name: Guest Mode
   icon: mdi:account-multiple
+playback_alerts:
+  name: Playback Alerts
 alert_living_room_plant:
   name: Living Room Plant
   icon: mdi:alert-decagram

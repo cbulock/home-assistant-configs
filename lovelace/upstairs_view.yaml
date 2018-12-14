@@ -14,9 +14,8 @@ cards:
       - entity: switch.master_bedroom_tv
         name: TV
         icon: mdi:television
-      - entity: switch.master_bedroom_fan
+      - entity: fan.master_bedroom
         name: Fan
-        icon: mdi:fan
       - entity: media_player.master_bedroom
         type: "custom:mini-media-player"
         name: Chromecast
@@ -35,6 +34,10 @@ cards:
       - entity: light.stairs
         name: Stairs
         type: custom:slider-entity-row
+      - entity: media_player.loft_2
+        type: "custom:mini-media-player"
+        name: Chromecast
+        group: true
       - entity: switch.loft_decorations_switch
         name: Decorations
         icon: mdi:pine-tree
@@ -45,19 +48,23 @@ cards:
       - entity: light.kids_bathroom_lights
         name: Lights
         type: custom:slider-entity-row
-      - entity: binary_sensor.motion_sensor_158d00022516f7
+      - entity: binary_sensor.kids_bathroom_motion
         name: Motion
-      - entity: binary_sensor.door_window_sensor_158d00020b5367
+      - entity: binary_sensor.kids_bathroom_door
         name: Door
-      - entity: sensor.temperature_158d0002273e5a
+      - entity: sensor.kids_bathroom_temp
         name: Temp
-      - entity: sensor.humidity_158d0002273e5a
+      - entity: sensor.kids_bathroom_humidity
         name: Humidity
         icon: mdi:water-percent
       - entity: sensor.illumination_158d00022516f7
         name: Light Level
       - entity: sensor.pressure_158d0002273e5a
         name: Pressure
+      - entity: media_player.kids_bathroom_speaker
+        type: "custom:mini-media-player"
+        name: Google Home
+        group: true
   - type: entities
     title: Master Bathroom
     show_header_toggle: true
@@ -70,7 +77,7 @@ cards:
         icon: mdi:fan
       - entity: binary_sensor.motion_sensor_158d0001e50edf
         name: Motion
-      - entity: binary_sensor.door_window_sensor_158d0002045b78
+      - entity: binary_sensor.master_bathroom_door
         name: Door
       - entity: sensor.temperature_158d0001b952f4
         name: Temp
@@ -81,6 +88,10 @@ cards:
         name: Light Level
       - entity: sensor.pressure_158d0001b952f4
         name: Pressure
+      - entity: media_player.master_bathroom_speaker
+        type: "custom:mini-media-player"
+        name: Google Home
+        group: true
   - type: entities
     title: Master Bedroom Closet
     show_header_toggle: true
@@ -129,9 +140,13 @@ cards:
         name: Google Home
         group: true
   - type: entities
-    title: Washing Machine
+    title: Laundry
     show_header_toggle: true
     entities:
+      - entity: light.laundry_room_lights
+        name: Lights
+      - entity: binary_sensor.laundry_motion_sensor
+        name: Motion
       - entity: sensor.washing_machine_status
         name: Status
       - entity: input_select.washer_user

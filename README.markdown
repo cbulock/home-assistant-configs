@@ -1,21 +1,17 @@
 # Home Assistant Configs
 
-### Devices connected to Wink Hub
-
- * 2 Lutron Connected Bulb remotes
- * GoControl motion sensor in kitchen
- * GoControl siren
-
 ### Devices connected to RPi over Aeotec Z-Stick Gen5
 
  * Schlage Connect lock
  * Ecolink Motion Sensor in bathroom
+ * GoControl motion sensor in kitchen
  * Remotec Zwave Switch to control fireplace
  * Two GE smart plugs, Leviton smart plug, and Inovelli smart plug to control outdoor Christmas lights, Christmas trees and some decorations during the holidays
  * Three GoControl sensors on an exterior window and two doors
  * Ecolink Door Sensor for washing machine door
  * Aeotec Power Switch to monitor washing machine usage
  * Aeotec Water Sensor to monitor Christmas tree water levels
+ * GoControl siren
 
 ### Devices connected over Bluetooth to RPi
 
@@ -29,15 +25,13 @@
 
 ### Devices connected via Xiaomi Gateway
 
- * Temp/Humidity sensor in Master Bathroom
+ * 2 Temp/Humidity sensors in master bathroom and kid's bathroom
+ * 3 doors sensors in all bathrooms
+ * 4 motion sensors in all bathrooms and laundry room
 
 ### Devices connected via Lutron Bridge
 
- * 11 Lutron Casetea switches to control most of the interior lighting and four Pico switches 
-
-### Data gathered through MQTT
-
- * Owntracks location
+ * 12 Lutron Casetea switches to control most of the interior lighting and six Pico switches 
 
 ### Data gathered through SNMP
 
@@ -47,7 +41,7 @@
 
  * ecobee3 Thermostat
  * Five Chromecasts and two Chromecast Audios
- * Four Google Home Minis and one regular Google Home
+ * Four Google Home Minis, one regular Google Home, and a Google Home Hub
  * Unifi device tracking
  * Vizio SmartCast TV
  * Monoprice Select Mini v2 3D Printer via Octoprint

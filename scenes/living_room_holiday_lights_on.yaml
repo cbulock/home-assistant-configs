@@ -1,6 +1,8 @@
 - name: Living room holiday lights on
   entities:
-    switch.christmas_tree_switch:
+    light.christmas_tree_lights:
+      state: on
+    switch.christmas_snowman:
       state: on
     switch.christmas_decorations_switch:
       state: on

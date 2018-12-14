@@ -42,7 +42,7 @@ cards:
   - type: entities
     title: Backyard Media
     entities:
-      - entity: media_player.patio_audio
+      - entity: media_player.hot_tub_audio
         type: "custom:mini-media-player"
         name: Hot Tub Chromecast Audio
         group: true

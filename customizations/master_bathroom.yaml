@@ -1,4 +1,2 @@
-binary_sensor.motion_sensor_158d0001e50edf:
-  device_class: motion
-binary_sensor.door_window_sensor_158d0002045b78:
+binary_sensor.master_bathroom_door:
   device_class: door

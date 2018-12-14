@@ -1,0 +1,11 @@
+- platform: mqtt
+  name: "Christmas Tree Lights"
+  state_topic: "home/lights/christmastree/POWER"
+  command_topic: "home/lights/christmastree/cmnd/Power1"
+  availability_topic: "home/lights/christmastree/LWT"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  retain: true

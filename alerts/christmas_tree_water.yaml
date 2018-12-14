@@ -1,9 +1,0 @@
-christmas_tree_water:
-  name: Christmas tree needs water
-  entity_id: binary_sensor.christmas_tree_water_sensor
-  state: 'off'
-  skip_first: False
-  repeat:
-    - 480
-  notifiers:
-    - cameron_rachael

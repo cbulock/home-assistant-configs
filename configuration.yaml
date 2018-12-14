@@ -8,8 +8,6 @@ homeassistant:
   customize_glob:
     "*.*":
       custom_ui_state_card: state-card-custom-ui
-    "light.*":
-      state_card_mode: break-slider-toggle
   customize: !include_dir_merge_named customizations
 
 http:
@@ -24,11 +22,11 @@ sun:
 updater:
 frontend:
   javascript_version: latest
-conversation:
 zeroconf:
 alexa:
-map:
 config:
+lovelace:
+  mode: yaml
 
 history:
 logbook:
@@ -39,17 +37,18 @@ recorder:
 influxdb:
   host: nuc
 
-alert: !include_dir_merge_named alerts
 automation: !include_dir_list automation
 binary_sensor: !include_dir_merge_list binary_sensors
 camera: !include_dir_merge_list cameras
 cast: !include cast.yaml
 cloud: !include cloud.yaml
 device_tracker: !include device_tracker.yaml
+fan: !include_dir_merge_list fans
 group: !include_dir_named groups
 input_boolean: !include input_boolean.yaml
 input_select: !include_dir_merge_named input_selects
 intent_script: !include_dir_merge_named intent_scripts
+light: !include_dir_merge_list lights
 media_player: !include_dir_merge_list media_players
 notify: !include notify.yaml
 plant: !include_dir_merge_named plants
@@ -57,60 +56,6 @@ scene: !include_dir_merge_list scenes
 script: !include_dir_named scripts
 sensor: !include_dir_merge_list sensors
 switch: !include_dir_merge_list switches
-weblink: !include weblink.yaml
-xiaomi_aqara: !include xiaomi_aqara.yaml
-zone: !include_dir_merge_list zones
-
-shell_command:
-  lovelace_gen: 'cd /config && python /config/lovelace-gen.py'
-
-mqtt:
-  broker: mqtt
-  client_id: home-assistant
-
-ecobee:
-  api_key: !secret ecobee_key
-
-light:
-  - platform: osramlightify
-    host: osram
-  - platform: mqtt
-    name: "Christmas Tree Lights"
-    state_topic: "home/lights/christmastree/POWER"
-    command_topic: "home/lights/christmastree/cmnd/Power1"
-    availability_topic: "home/lights/christmastree/LWT"
-    qos: 1
-    payload_on: "ON"
-    payload_off: "OFF"
-    payload_available: "Online"
-    payload_not_available: "Offline"
-    retain: true
-
-lutron_caseta_pro:
-  bridges:
-    - host: lutron
-      switch: [ 17 ]
-
-twilio:
-  account_sid: !secret TWILIO_SID
-  auth_token: !secret TWILIO_TOKEN
-
-nest:
-  client_id: !secret nest_client
-  client_secret: !secret nest_secret
-  binary_sensors:
-    monitored_conditions:
-      - 'person_detected'
-
-octoprint:
-  host: 3dprinter
-  api_key: !secret octoprint_key
-
-vacuum:
-  - platform: roomba
-    host: roomba
-    username: !secret roomba_user
-    password: !secret roomba_pw
 
 cover:
   platform: opengarage
@@ -120,15 +65,35 @@ cover:
         device_key: !secret opengarage_key
         name:  Garage Door
 
-tts:
-  - platform: google
-
-timer:
-  pasta_part:
-    duration: '02:00:00'
-
 customizer:
   custom_ui: local
+
+ecobee:
+  api_key: !secret ecobee_key
+
+lutron_caseta_pro:
+  bridges:
+    - host: lutron
+      switch: [ 17 ]
+
+#mqtt:
+#  broker: mqtt
+#  client_id: home-assistant
+
+nest:
+  client_id: !secret nest_client
+  client_secret: !secret nest_secret
+  binary_sensors:
+    monitored_conditions:
+      - 'person_detected'
+
+octoprint:
+  - host: select_mini.3dprinter
+    name: Select Mini
+    api_key: !secret select_mini_octoprint_key
+  - host: mini_delta.3dprinter
+    name: Mini Delta
+    api_key: !secret mini_delta_octoprint_key
 
 panel_iframe:
   nodered:
@@ -136,7 +101,26 @@ panel_iframe:
     url: !secret node_red_url
     icon: mdi:cogs
 
-zwave:
-  usb_path: /dev/zwave
-  polling_interval: 20000
-  network_key: !secret zwave_network_key
+tts:
+  - platform: google
+
+twilio:
+  account_sid: !secret TWILIO_SID
+  auth_token: !secret TWILIO_TOKEN
+
+vacuum:
+  - platform: roomba
+    host: roomba
+    username: !secret roomba_user
+    password: !secret roomba_pw
+
+xiaomi_aqara:
+  discovery_retry: 5
+  gateways:
+    - key: !secret xiaomi_key
+      host: xiaomi
+
+#zwave:
+#  usb_path: /dev/zwave
+#  polling_interval: 20000
+#  network_key: !secret zwave_network_key

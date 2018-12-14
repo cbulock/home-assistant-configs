@@ -1,9 +1,0 @@
-washer:
-  name: Clean clothes left in washer
-  entity_id: input_select.washer
-  state: 'Clean'
-  skip_first: True
-  repeat:
-    - 120
-  notifiers:
-    - cameron_rachael

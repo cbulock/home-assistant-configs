@@ -49,3 +49,6 @@ sensor.kids_bathroom_motion_batt:
 sensor.pasta_part_button_batt:
   templates:
     icon_color: if (state > 40) return 'rgb(0,255,0)'; else if (state > 15) return 'rgb(255,255,0)'; else return 'rgb(255,0,0)';
+sensor.laundry_motion_sensor_batt:
+  templates:
+    icon_color: if (state > 40) return 'rgb(0,255,0)'; else if (state > 15) return 'rgb(255,255,0)'; else return 'rgb(255,0,0)';

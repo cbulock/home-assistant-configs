@@ -1,5 +1,0 @@
-- name: Stairs dim
-  entities:
-    light.stairs:
-      state: on
-      brightness: 150

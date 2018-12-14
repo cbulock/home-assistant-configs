@@ -58,13 +58,17 @@ cards:
       - entity: light.hall_lights
         name: Hall
         type: custom:slider-entity-row
-      - entity: sensor.illumination_7811dc64f587
+      - entity: sensor.kitchen_gateway_illumination
         name: Light Level
-      - entity: light.gateway_light_7811dc64f587
+      - entity: light.alert_light
         name: Alert Light
         icon: mdi:alert-decagram
       - entity: climate.main_floor
         name: Thermostat
+      - entity: media_player.kitchen_display
+        type: "custom:mini-media-player"
+        name: Google Home Hub
+        group: true
   - type: entities
     title: Downstairs Bathroom
     show_header_toggle: true
@@ -72,20 +76,20 @@ cards:
       - entity: light.downstairs_bathroom_lights
         name: Lights
         type: custom:slider-entity-row
-      - entity: binary_sensor.motion_sensor_158d000222e10a
+      - entity: binary_sensor.downstairs_bathroom_motion
         name: Downstairs Bathroom
-      - entity: binary_sensor.door_window_sensor_158d0002045b90
+      - entity: binary_sensor.downstairs_bathroom_door
         name: Door
   - type: entities
     title: Christmas
     show_header_toggle: true
     entities:
-      - entity: switch.christmas_tree_switch
+      - entity: light.christmas_tree_lights
         name: Christmas Tree
         icon: mdi:pine-tree
-      - entity: binary_sensor.christmas_tree_water_sensor
-        name: Christmas Tree Water
-        icon: mdi:water
+      - entity: switch.christmas_snowman
+        name: Snowman
+        icon: mdi:snowman
       - entity: switch.christmas_decorations_switch
         name: Christmas Decorations
         icon: mdi:ornament

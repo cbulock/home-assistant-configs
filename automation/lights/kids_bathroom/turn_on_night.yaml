@@ -1,7 +1,7 @@
 alias: "Turn on Kid's Bathroom Light Night"
 trigger:
   - platform: state
-    entity_id: binary_sensor.motion_sensor_158d00022516f7
+    entity_id: binary_sensor.kids_bathroom_motion
     from: 'off'
     to: 'on'
 condition:

@@ -1,0 +1,17 @@
+- platform: template
+  fans:
+    master_bedroom:
+      friendly_name: "Master Bedroom"
+      value_template: "{{ states('switch.master_bedroom_fan') }}"
+      turn_on:
+        service: switch.turn_on
+        data:
+          entity_id: switch.master_bedroom_fan
+      turn_off:
+        service: switch.turn_off
+        data:
+          entity_id: switch.master_bedroom_fan
+      set_oscillating:
+        service: switch.turn_on
+        data:
+          entity_id: switch.master_bedroom_fan_rotate

@@ -12,7 +12,8 @@ media_player:
 #- host: master.gh
 #- host: hailey.gh
 #- host: brett.gh
-#- host: basement.gh
+#- host: master.bathroom.gh
+#- host: kids.bathroom.gh
 #- host: kitchen.ghh
 - host: 10.0.2.10
 - host: 10.0.2.11
@@ -28,4 +29,5 @@ media_player:
 - host: 10.0.3.42
 - host: 10.0.3.43
 - host: 10.0.3.44
+- host: 10.0.3.45
 - host: 10.0.3.50
