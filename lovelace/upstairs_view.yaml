@@ -72,9 +72,8 @@ cards:
       - entity: light.master_bathroom_light
         name: Lights
         type: custom:slider-entity-row
-      - entity: switch.master_bathroom_exhaust_fan
+      - entity: fan.master_bathroom_exhaust_fan
         name: Exhaust Fan
-        icon: mdi:fan
       - entity: binary_sensor.motion_sensor_158d0001e50edf
         name: Motion
       - entity: binary_sensor.master_bathroom_door

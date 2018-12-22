@@ -21,6 +21,7 @@ http:
 sun:
 updater:
 frontend:
+  themes: !include_dir_named themes
   javascript_version: latest
 zeroconf:
 alexa:
@@ -37,7 +38,6 @@ recorder:
 influxdb:
   host: nuc
 
-automation: !include_dir_list automation
 binary_sensor: !include_dir_merge_list binary_sensors
 camera: !include_dir_merge_list cameras
 cast: !include cast.yaml
@@ -74,11 +74,7 @@ ecobee:
 lutron_caseta_pro:
   bridges:
     - host: lutron
-      switch: [ 17 ]
-
-#mqtt:
-#  broker: mqtt
-#  client_id: home-assistant
+      fan: [ 17 ]
 
 nest:
   client_id: !secret nest_client
@@ -119,8 +115,3 @@ xiaomi_aqara:
   gateways:
     - key: !secret xiaomi_key
       host: xiaomi
-
-#zwave:
-#  usb_path: /dev/zwave
-#  polling_interval: 20000
-#  network_key: !secret zwave_network_key

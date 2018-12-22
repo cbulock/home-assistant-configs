@@ -3,13 +3,13 @@ icon: mdi:robot
 cards:
   - type: entities
     title: Light Automation
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - automation.indoor_holiday_lights_on
       - input_select.outdoor_lights
   - type: entities
     title: Alerts
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - input_boolean.alert_living_room_plant
       - input_boolean.alert_master_bedroom_plant

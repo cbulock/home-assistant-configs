@@ -84,22 +84,3 @@
       value_template: '{{states.vacuum.roomba.attributes.bin_full}}'
       friendly_name: Vacuum Bin Full
 
-    front_door_lock_action:
-      friendly_name: 'Front Door Lock Action'
-      value_template: >-
-        {% if is_state('sensor.front_door_alarm_type', '18') %}
-          {% if is_state('sensor.front_door_alarm_level', '0') %}
-        Locked: Outside Keypad
-          {% else %}
-        Locked: User {{states('sensor.front_door_alarm_level')}}
-          {% endif %}
-        {% elif is_state('sensor.front_door_alarm_type', '19') %}
-          Unlocked: User Code {{states('sensor.front_door_alarm_level')}}
-        {% elif is_state('sensor.front_door_alarm_type', '21') %}
-          Locked: {{[ 'Outside Lock', 'Inside Deadbolt', 'Outside Keypad' ][states('sensor.front_door_alarm_level')|int]}}
-        {% elif is_state('sensor.front_door_alarm_type', '22') %}
-          Unlocked: Inside Deadbolt
-        {% else %}
-          Unknown: {{states('sensor.front_door_alarm_type')}}/{{states('sensor.front_door_alarm_level')}}
-        {% endif %}
-

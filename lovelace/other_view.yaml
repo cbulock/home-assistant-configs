@@ -2,7 +2,7 @@ title: Other
 cards:
   - type: entities
     title: Battery Levels
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - entity: sensor.living_room_battery
         name: Living Room Plant
@@ -57,7 +57,7 @@ cards:
         icon: mdi:battery
   - type: entities
     title: Internet
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - entity: sensor.speedtest_ping
         name: Ping
@@ -70,7 +70,7 @@ cards:
         icon: mdi:arrow-up-bold
   - type: entities
     title: Printer
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - entity: sensor.black_ink
         icon: mdi:water
@@ -82,7 +82,7 @@ cards:
         icon: mdi:water
   - type: entities
     title: 3D Printer
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - entity: sensor.octoprint_current_state
         name: State

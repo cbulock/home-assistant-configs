@@ -34,3 +34,515 @@ louis:
   picture:
   track: true
   vendor: unknown
+
+lutron_hub:
+  hide_if_away: false
+  icon:
+  mac: 60:64:05:53:0D:D3
+  name: Lutron Hub
+  picture:
+  track: false
+
+xiaomi_gateway:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:64:F5:87
+  name: Xiaomi Gateway
+  picture:
+  track: false
+
+select_mini_octoprint_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:1D:9A:8C
+  name: Select Mini Octoprint Server
+  picture:
+  track: false
+
+master_bedroom_google_home:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:D4:DE:F5
+  name: Master Bedroom Google Home
+  picture:
+  track: false
+
+unificloudkey:
+  hide_if_away: false
+  icon:
+  mac: F0:9F:C2:18:5D:E0
+  name: UniFi-CloudKey
+  picture:
+  track: false
+
+osram_lightify_gateway:
+  hide_if_away: false
+  icon:
+  mac: 84:18:26:7D:72:F9
+  name: Osram Lightify Gateway
+  picture:
+  track: false
+
+app_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:A1:94:A5
+  name: App Server
+  picture:
+  track: false
+
+basementdocker:
+  hide_if_away: false
+  icon:
+  mac: 96:24:A1:9E:E3:F8
+  name: basement-docker
+  picture:
+  track: false
+
+camerons_nintendo_switch:
+  hide_if_away: false
+  icon:
+  mac: 64:B5:C6:17:97:C3
+  name: Cameron's Nintendo Switch
+  picture:
+  track: false
+
+android885a372bc2870023:
+  hide_if_away: false
+  icon:
+  mac: 68:C4:4D:46:A0:92
+  name: android-885a372bc2870023
+  picture:
+  track: false
+
+nagios_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:B2:5B:F7
+  name: Nagios Server
+  picture:
+  track: false
+
+home_assistant:
+  hide_if_away: false
+  icon:
+  mac: 02:42:0A:32:00:02
+  name: Home Assistant
+  picture:
+  track: false
+
+living_room_roku:
+  hide_if_away: false
+  icon:
+  mac: C8:3A:6B:56:A0:03
+  name: Living Room Roku
+  picture:
+  track: false
+
+bretts_chromecast:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:6A:4C:22
+  name: Brett's Chromecast
+  picture:
+  track: false
+
+living_room_chromecast_wifi:
+  hide_if_away: false
+  icon:
+  mac: A4:8D:3B:B3:A5:EF
+  name: Living Room Chromecast (Wifi)
+  picture:
+  track: false
+
+master_bedroom_remote_control:
+  hide_if_away: false
+  icon:
+  mac: 34:EA:34:40:7B:39
+  name: Master Bedroom Remote Control
+  picture:
+  track: false
+
+rachaelsipad:
+  hide_if_away: false
+  icon:
+  mac: 1C:AB:A7:91:53:20
+  name: Rachaels-iPad
+  picture:
+  track: false
+
+hot_tub_chromecast_audio:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:A0:C1
+  name: Hot Tub Chromecast Audio
+  picture:
+  track: false
+
+living_room_audio_chromecast:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:00:C2:AA
+  name: Living Room Audio Chromecast
+  picture:
+  track: false
+
+nuc:
+  hide_if_away: false
+  icon:
+  mac: 94:C6:91:19:3E:09
+  name: NUC
+  picture:
+  track: false
+
+nas:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:00:2A:82
+  name: NAS
+  picture:
+  track: false
+
+kitchen_google_home_hub:
+  hide_if_away: false
+  icon:
+  mac: 1C:F2:9A:31:54:3D
+  name: Kitchen Google Home Hub
+  picture:
+  track: false
+
+living_room_chromecast__vizio_tv:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:18:A2:13
+  name: Living Room Chromecast / Vizio TV
+  picture:
+  track: false
+
+bretts_room_google_home:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:77:7F:2F
+  name: Brett's Room Google Home
+  picture:
+  track: false
+
+mini_delta_octoprint_server:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:D4:41:F1
+  name: Mini Delta Octoprint Server
+  picture:
+  track: false
+
+master_bathroom_google_home:
+  hide_if_away: false
+  icon:
+  mac: 30:FD:38:A1:6C:F7
+  name: Master Bathroom Google Home
+  picture:
+  track: false
+
+opengarage:
+  hide_if_away: false
+  icon:
+  mac: 5C:CF:7F:59:F2:0D
+  name: OpenGarage
+  picture:
+  track: false
+
+kids_bathroom_google_home:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:64:32:F6
+  name: Kid's Bathroom Google Home
+  picture:
+  track: false
+
+living_room_rpi:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:E0:60:E4
+  name: Living Room rPi
+  picture:
+  track: false
+
+desktopcameron:
+  hide_if_away: false
+  icon:
+  mac: 18:31:BF:4E:DD:AF
+  name: Desktop-Cameron
+  picture:
+  track: false
+
+nesthello:
+  hide_if_away: false
+  icon:
+  mac: 64:16:66:6D:AB:B3
+  name: Nest-Hello
+  picture:
+  track: false
+
+roomba:
+  hide_if_away: false
+  icon:
+  mac: F0:03:8C:B6:0B:89
+  name: Roomba
+  picture:
+  track: false
+
+pergola_audio_chromecast:
+  hide_if_away: false
+  icon:
+  mac: E8:C7:4F:05:22:F5
+  name: Pergola Audio Chromecast
+  picture:
+  track: false
+
+living_room_audio_chromecast_wifi:
+  hide_if_away: false
+  icon:
+  mac: A4:8D:3B:BD:1C:C3
+  name: Living Room Audio Chromecast (Wifi)
+  picture:
+  track: false
+
+christmas_tree_light:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:14:E9:8C
+  name: Christmas Tree Light
+  picture:
+  track: false
+
+loft_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:B1:39
+  name: Loft Chromecast
+  picture:
+  track: false
+
+bretts_bedroom_remote_control:
+  hide_if_away: false
+  icon:
+  mac: 34:EA:34:51:23:62
+  name: Brett's Bedroom Remote Control
+  picture:
+  track: false
+
+cameronsmbp:
+  hide_if_away: false
+  icon:
+  mac: A0:99:9B:13:28:0D
+  name: Camerons-MBP
+  picture:
+  track: false
+
+downstairs_google_home:
+  hide_if_away: false
+  icon:
+  mac: D8:6C:63:47:95:62
+  name: Downstairs Google Home
+  picture:
+  track: false
+
+master_bedroom_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:36:B1:44
+  name: Master Bedroom Chromecast
+  picture:
+  track: false
+
+office_printer:
+  hide_if_away: false
+  icon:
+  mac: 64:EB:8C:84:63:04
+  name: Office Printer
+  picture:
+  track: false
+
+haileys_chromecast:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:6A:35:E6
+  name: Hailey's Chromecast
+  picture:
+  track: false
+
+nas2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:12:8B:35
+  name: NAS2
+  picture:
+  track: false
+
+haileys_room_google_home:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:0A:25:C8
+  name: Hailey's Room Google Home
+  picture:
+  track: false
+
+dns:
+  hide_if_away: false
+  icon:
+  mac: 02:42:0A:0A:0A:0A
+  name: DNS
+  picture:
+  track: false
+
+retropie:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:6B:15:2D
+  name: RetroPie
+  picture:
+  track: false
+
+dns__secondary:
+  hide_if_away: false
+  icon:
+  mac: 02:42:AC:11:00:02
+  name: DNS - secondary
+  picture:
+  track: false
+
+ecobee3:
+  hide_if_away: false
+  icon:
+  mac: 44:61:32:BA:10:00
+  name: ecobee3
+  picture:
+  track: false
+
+rubinsair:
+  hide_if_away: false
+  icon:
+  mac: B8:E8:56:21:BE:D8
+  name: Rubins-Air
+  picture:
+  track: false
+
+camerons_watch:
+  hide_if_away: false
+  icon:
+  mac: 24:00:BA:AF:0A:26
+  name: Cameron's Watch
+  picture:
+  track: false
+
+loft_tv:
+  hide_if_away: false
+  icon:
+  mac: 00:6B:9E:FA:49:3C
+  name: Loft TV
+  picture:
+  track: false
+
+0015c1cb34e0:
+  hide_if_away: false
+  icon:
+  mac: 00:15:C1:CB:34:E0
+  name: 0015c1cb34e0
+  picture:
+  track: false
+
+haileyspc:
+  hide_if_away: false
+  icon:
+  mac: 90:48:9A:AB:ED:AB
+  name: Haileys-PC
+  picture:
+  track: false
+
+master_bedroom_chromecast_wifi:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:35:EA:2B
+  name: Master Bedroom Chromecast (Wifi)
+  picture:
+  track: false
+
+samsungsmg920v:
+  hide_if_away: false
+  icon:
+  mac: FC:DB:B3:BD:DD:5F
+  name: SAMSUNG-SM-G920V
+  picture:
+  track: false
+
+xsiphone:
+  hide_if_away: false
+  icon:
+  mac: B8:41:A4:DF:FA:B9
+  name: Xs-iPhone
+  picture:
+  track: false
+
+rachael_laundry_button:
+  hide_if_away: false
+  icon:
+  mac: FC:A6:67:7F:5D:5A
+  name: Rachael Laundry Button
+  picture:
+  track: false
+
+brettspc:
+  hide_if_away: false
+  icon:
+  mac: 40:8D:5C:74:A0:F1
+  name: Bretts-PC
+  picture:
+  track: false
+
+3095e320b23f:
+  hide_if_away: false
+  icon:
+  mac: 30:95:E3:20:B2:3F
+  name: 3095e320b23f
+  picture:
+  track: false
+
+rachaels_work_laptop:
+  hide_if_away: false
+  icon:
+  mac: 28:16:AD:89:90:B3
+  name: Rachael's Work Laptop
+  picture:
+  track: false
+
+kellysiphone:
+  hide_if_away: false
+  icon:
+  mac: CC:44:63:2F:57:FE
+  name: Kellys-iPhone
+  picture:
+  track: false
+
+android73c841ea23f32c9:
+  hide_if_away: false
+  icon:
+  mac: 08:D4:6A:D3:31:43
+  name: android-73c841ea23f32c9
+  picture:
+  track: false
+
+chloesiphone:
+  hide_if_away: false
+  icon:
+  mac: 5C:1D:D9:5B:5B:07
+  name: Chloes-iPhone
+  picture:
+  track: false
+
+iansapplewatch:
+  hide_if_away: false
+  icon:
+  mac: 24:5B:A7:A1:CD:93
+  name: Ians-AppleWatch
+  picture:
+  track: false

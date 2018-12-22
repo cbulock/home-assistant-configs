@@ -6,18 +6,24 @@ google_actions:
       name: Breakfast Bar
     light.kitchen_lights:
       name: Kitchen Ceiling
+      room: Kitchen
     light.kitchen_cabinet:
       name: Kitchen Cabinets
+      room: Kitchen
     input_boolean.guest_mode:
       name: Guest mode
     light.kids_bathroom_lights:
       name: Kid's Bathroom
+      room: Kid's Bathroom
     media_player.living_room_tv:
       name: Living Room TV
+      room: Living Room
     light.livingroom_lamp:
       name: Living Room Lamp
+      room: Living Room
     light.living_room_ceiling:
       name: Living Room Ceiling
+      room: Living Room
     light.haileys_lamp:
       name: Hailey's Lamp
       aliases:
@@ -36,12 +42,14 @@ google_actions:
       name: Brett's Ceiling
     light.loft_lights:
       name: Loft Ceiling
+      room: Loft
     switch.loft_decorations_switch:
       name: Loft Decorations
     light.downstairs_bathroom_lights:
       name: Downstairs Bathroom
     light.master_bed_lamp:
       name: Master Bedroom Lamp
+      room: Master Bedroom
     switch.master_bedroom_tv:
       name: Master Bedroom TV
     switch.master_bedroom_fan:
@@ -51,12 +59,14 @@ google_actions:
     switch.fireplace_switch:
       name: Fireplace
       room: Living Room
-    switch.master_bathroom_exhaust_fan:
+    fan.master_bathroom_exhaust_fan:
       name: Master Bathroom Exhaust Fan
       aliases:
        - Master Bathroom Fan
+      room: Master Bathroom
     switch.christmas_snowman:
       name: Snowman
+      room: Living Room
     light.christmas_tree_lights:
       name: Christmas Tree
       room: Living Room
@@ -67,41 +77,17 @@ google_actions:
       name: Master Bedroom Fan
       room: Master Bedroom
   filter:
+    exclude_domains:
+      - scene
+      - group
+      - input_boolean
+      - script
+      - media_player
     exclude_entities:
-      - scene.arrive_home
-      - scene.brett_lamp_night
-      - scene.brett_lamp_off
-      - scene.close_garage
-      - scene.downstairs_bathroom_day
-      - scene.downstairs_bathroom_night
-      - scene.downstairs_movie
-      - scene.downstairs_normal
-      - scene.outdoors_christmas
-      - scene.outdoors_halloween
-      - scene.outdoors_st_patricks_day
-      - scene.outdoors_usa
-      - scene.outdoors_valentines_day
-      - scene.kitchen_dim
-      - scene.kitchen_off
-      - scene.living_room_holiday_lights_off
-      - scene.living_room_holiday_lights_on
-      - scene.lock_door
-      - scene.loft_dim
-      - scene.loft_off
-      - scene.master_bedroom_good_night
-      - scene.outdoors_bright
-      - scene.outdoors_default
-      - scene.outdoors_off
-      - scene.stairs_dim
-      - script.master_bedroom_fan_on_night
       - switch.master_bedroom_fan
       - switch.master_bedroom_fan_rotate
-      - group.all_automations
-      - group.all_covers
-      - group.all_devices
-      - group.all_lights
-      - group.all_locks
-      - group.all_plants
-      - group.all_scripts
-      - group.all_switches
-      - group.all_vacuum_cleaners
+    include_entities:
+      - input_boolean.guest_mode
+      - input_boolean.playback_alerts
+      - scene.good_night
+      - media_player.living_room_tv

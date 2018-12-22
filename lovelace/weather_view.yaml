@@ -8,9 +8,11 @@ cards:
         ## Indoors
     - type: sensor
       entity: sensor.main_floor_temperature
+      graph: line
     - type: sensor
       entity: sensor.main_floor_humidity
-      line_color: "#3498db"
+      graph: line
+      theme: humidity-sensor
   - type: vertical-stack
     cards:
     - type: markdown

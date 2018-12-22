@@ -29,7 +29,7 @@ cards:
         icon: mdi:lightbulb
   - type: entities
     title: Scenes
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - scene.outdoors_default
       - scene.outdoors_dim
@@ -41,6 +41,7 @@ cards:
       - scene.outdoors_valentines_day
   - type: entities
     title: Backyard Media
+    show_header_toggle: false
     entities:
       - entity: media_player.hot_tub_audio
         type: "custom:mini-media-player"

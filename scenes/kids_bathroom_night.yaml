@@ -1,5 +1,0 @@
-- name: Kid's bathroom night
-  entities:
-    light.kids_bathroom_lights:
-      state: on
-      brightness: 80

@@ -3,7 +3,7 @@ icon: mdi:harddisk
 cards:
   - type: entities
     title: NAS
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - sensor.nas_status
       - sensor.nas_cpu_temperature
@@ -23,7 +23,7 @@ cards:
       - sensor.nas_temperature_drive_04
   - type: entities
     title: NAS2
-    show_header_toggle: true
+    show_header_toggle: false
     entities:
       - sensor.nas2_status
       - sensor.nas2_cpu_usage
