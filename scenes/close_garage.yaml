@@ -1,4 +1,0 @@
-- name: Close garage
-  entities:
-    cover.garage_door_opener:
-      state: closed

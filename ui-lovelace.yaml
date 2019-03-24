@@ -12,7 +12,9 @@ views:
   - !include lovelace/automation_view.yaml
 
 resources:
-  - url: /local/lovelace/mini-media-player/mini-media-player.js?v=0.8.7
+  - url: /local/lovelace/mini-media-player/mini-media-player-bundle.js?v=0.9.8
     type: module
   - url: /local/lovelace/lovelace-slider-entity-row/slider-entity-row.js?v=1
+    type: js
+  - url: /local/lovelace/cbulock/battery-entity/battery-entity.js?v=0.0.4zzzl
     type: js

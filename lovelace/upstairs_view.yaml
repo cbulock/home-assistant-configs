@@ -20,10 +20,7 @@ cards:
         type: "custom:mini-media-player"
         name: Chromecast
         group: true
-      - entity: media_player.master_bedroom_speaker
-        type: "custom:mini-media-player"
-        name: Google Home
-        group: true
+
   - type: entities
     title: Loft
     show_header_toggle: true
@@ -45,7 +42,7 @@ cards:
     title: Kid's Bathroom
     show_header_toggle: true
     entities:
-      - entity: light.kids_bathroom_lights
+      - entity: light.kid_s_bathroom_lights
         name: Lights
         type: custom:slider-entity-row
       - entity: binary_sensor.kids_bathroom_motion
@@ -106,10 +103,7 @@ cards:
     title: Hailey's Bedroom
     show_header_toggle: true
     entities:
-      - entity: light.haileys_lamp
-        name: Lamp
-        type: custom:slider-entity-row
-      - entity: light.haileys_ceiling
+      - entity: light.hailey_s_ceiling
         name: Ceiling
         type: custom:slider-entity-row
       - entity: media_player.haileys_room
@@ -124,10 +118,7 @@ cards:
     title: Brett's Bedroom
     show_header_toggle: true
     entities:
-      - entity: light.bretts_lamp
-        name: Lamp
-        type: custom:slider-entity-row
-      - entity: light.bretts_ceiling
+      - entity: light.brett_s_ceiling
         name: Ceiling
         type: custom:slider-entity-row
       - entity: media_player.bretts_room

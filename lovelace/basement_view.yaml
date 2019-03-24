@@ -3,3 +3,10 @@ cards:
   - type: entities
     entities:
       - binary_sensor.basement_window_status
+      - entity: light.basement_lamp
+        name: Lamp
+        type: custom:slider-entity-row
+      - entity: media_player.basement_speaker
+        type: "custom:mini-media-player"
+        name: Google Home
+        group: true

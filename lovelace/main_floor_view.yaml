@@ -81,6 +81,13 @@ cards:
       - entity: binary_sensor.downstairs_bathroom_door
         name: Door
   - type: entities
+    title: Office
+    show_header_toggle: true
+    entities:
+      - entity: light.office
+        name: Lights
+        type: custom:slider-entity-row
+  - type: entities
     title: Christmas
     show_header_toggle: true
     entities:

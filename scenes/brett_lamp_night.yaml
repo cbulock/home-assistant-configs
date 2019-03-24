@@ -1,6 +1,0 @@
-- name: Brett lamp night
-  entities:
-    light.bretts_lamp:
-      state: on
-      brightness: 220
-      color_temp: 370

@@ -546,3 +546,507 @@ iansapplewatch:
   name: Ians-AppleWatch
   picture:
   track: false
+
+bretts_nintendo_switch:
+  hide_if_away: false
+  icon:
+  mac: 04:03:D6:79:F9:7D
+  name: Brett's Nintendo Switch
+  picture:
+  track: false
+
+20b5741c64a2:
+  hide_if_away: false
+  icon:
+  mac: 20:B5:74:1C:64:A2
+  name: 20b5741c64a2
+  picture:
+  track: false
+
+brett_laundry_button:
+  hide_if_away: false
+  icon:
+  mac: AC:63:BE:B4:CD:BE
+  name: Brett Laundry Button
+  picture:
+  track: false
+
+cameron_laundry_button:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:2D:B2:D9
+  name: Cameron Laundry Button
+  picture:
+  track: false
+
+a8151551d86c:
+  hide_if_away: false
+  icon:
+  mac: A8:15:15:51:D8:6C
+  name: a8151551d86c
+  picture:
+  track: false
+
+kurtsiphone:
+  hide_if_away: false
+  icon:
+  mac: 54:33:CB:8F:7C:D5
+  name: Kurts-iPhone
+  picture:
+  track: false
+
+40003406fb99:
+  hide_if_away: false
+  icon:
+  mac: 40:00:34:06:FB:99
+  name: 40003406fb99
+  picture:
+  track: false
+
+iantowndsiphone:
+  hide_if_away: false
+  icon:
+  mac: 68:EF:43:3C:7C:3A
+  name: IanTowndsiPhone
+  picture:
+  track: false
+
+stephanies_phone:
+  hide_if_away: false
+  icon:
+  mac: A0:CC:2B:9F:F7:A2
+  name: Stephanie's Phone
+  picture:
+  track: false
+
+0605f4af9830:
+  hide_if_away: false
+  icon:
+  mac: 06:05:F4:AF:98:30
+  name: 0605f4af9830
+  picture:
+  track: false
+
+localhost:
+  hide_if_away: false
+  icon:
+  mac: 54:BD:79:54:11:AD
+  name: localhost
+  picture:
+  track: false
+
+playstation_4:
+  hide_if_away: false
+  icon:
+  mac: 0C:FE:45:0F:0D:E4
+  name: PlayStation 4
+  picture:
+  track: false
+
+ipad:
+  hide_if_away: false
+  icon:
+  mac: 90:B9:31:EE:27:B5
+  name: iPad
+  picture:
+  track: false
+
+cameronsmbp_2:
+  hide_if_away: false
+  icon:
+  mac: E4:CE:8F:29:73:5C
+  name: Camerons-MBP
+  picture:
+  track: false
+
+a815155164a2:
+  hide_if_away: false
+  icon:
+  mac: A8:15:15:51:64:A2
+  name: a815155164a2
+  picture:
+  track: false
+
+living_room_tv_remote:
+  hide_if_away: false
+  icon:
+  mac: C4:1C:FF:03:45:57
+  name: Living Room TV Remote
+  picture:
+  track: false
+
+iansimac:
+  hide_if_away: false
+  icon:
+  mac: 28:F0:76:6D:24:0A
+  name: Ians-iMac
+  picture:
+  track: false
+
+rachaels_kindle:
+  hide_if_away: false
+  icon:
+  mac: F0:4F:7C:D3:C3:B6
+  name: Rachael's Kindle
+  picture:
+  track: false
+
+1604c4182bf0:
+  hide_if_away: false
+  icon:
+  mac: 16:04:C4:18:2B:F0
+  name: 1604c4182bf0
+  picture:
+  track: false
+
+sandiesiphone4:
+  hide_if_away: false
+  icon:
+  mac: 68:EF:43:7B:25:BC
+  name: SandiesiPhone4
+  picture:
+  track: false
+
+fc183cbe2aee:
+  hide_if_away: false
+  icon:
+  mac: FC:18:3C:BE:2A:EE
+  name: fc183cbe2aee
+  picture:
+  track: false
+
+kellensiphone:
+  hide_if_away: false
+  icon:
+  mac: 48:3B:38:05:98:9F
+  name: Kellens-iPhone
+  picture:
+  track: false
+
+laundry_room_tablet:
+  hide_if_away: false
+  icon:
+  mac: 10:BF:48:EA:8D:95
+  name: Laundry Room Tablet
+  picture:
+  track: false
+
+galaxytaba:
+  hide_if_away: false
+  icon:
+  mac: E4:58:E7:44:F5:D2
+  name: Galaxy-Tab-A
+  picture:
+  track: false
+
+nas2_2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:12:8B:36
+  name: NAS2
+  picture:
+  track: false
+
+androidcc7d87ab01cdec60:
+  hide_if_away: false
+  icon:
+  mac: 64:BC:0C:43:7C:FC
+  name: android-cc7d87ab01cdec60
+  picture:
+  track: false
+
+bcffeb1751fe:
+  hide_if_away: false
+  icon:
+  mac: BC:FF:EB:17:51:FE
+  name: bcffeb1751fe
+  picture:
+  track: false
+
+404e3623b833:
+  hide_if_away: false
+  icon:
+  mac: 40:4E:36:23:B8:33
+  name: 404e3623b833
+  picture:
+  track: false
+
+10f1f282f026:
+  hide_if_away: false
+  icon:
+  mac: 10:F1:F2:82:F0:26
+  name: 10f1f282f026
+  picture:
+  track: false
+
+galaxyj7crown:
+  hide_if_away: false
+  icon:
+  mac: 58:B1:0F:D2:0D:88
+  name: Galaxy-J7-Crown
+  picture:
+  track: false
+
+lisap:
+  hide_if_away: false
+  icon:
+  mac: 4C:66:41:64:90:F8
+  name: LISA-P
+  picture:
+  track: false
+
+angiesiphone:
+  hide_if_away: false
+  icon:
+  mac: 88:19:08:D8:95:CD
+  name: Angies-iPhone
+  picture:
+  track: false
+
+'881908187397':
+  hide_if_away: false
+  icon:
+  mac: 88:19:08:18:73:97
+  name: '881908187397'
+  picture:
+  track: false
+
+b4f7a1e979b4:
+  hide_if_away: false
+  icon:
+  mac: B4:F7:A1:E9:79:B4
+  name: b4f7a1e979b4
+  picture:
+  track: false
+
+b4f7a1e975eb:
+  hide_if_away: false
+  icon:
+  mac: B4:F7:A1:E9:75:EB
+  name: b4f7a1e975eb
+  picture:
+  track: false
+
+7047fb496f58:
+  hide_if_away: false
+  icon:
+  mac: 70:47:FB:49:6F:58
+  name: 7047fb496f58
+  picture:
+  track: false
+
+a8151551f4f5:
+  hide_if_away: false
+  icon:
+  mac: A8:15:15:51:F4:F5
+  name: a8151551f4f5
+  picture:
+  track: false
+
+amazon_d456fff65:
+  hide_if_away: false
+  icon:
+  mac: 24:4C:E3:8C:81:97
+  name: amazon-d456fff65
+  picture:
+  track: false
+
+nas_2:
+  hide_if_away: false
+  icon:
+  mac: 24:5E:BE:00:2A:84
+  name: NAS
+  picture:
+  track: false
+
+marys_iphone:
+  hide_if_away: false
+  icon:
+  mac: 5C:AD:CF:07:0F:11
+  name: Marys-iPhone
+  picture:
+  track: false
+
+hailey_s_echo:
+  hide_if_away: false
+  icon:
+  mac: 68:54:FD:75:F5:28
+  name: Hailey's Echo
+  picture:
+  track: false
+
+a8_15_15_51_20_df:
+  hide_if_away: false
+  icon:
+  mac: A8:15:15:51:20:DF
+  name: a8 15 15 51 20 df
+  picture:
+  track: false
+
+desktop_gr4micq:
+  hide_if_away: false
+  icon:
+  mac: 9C:30:5B:B2:66:05
+  name: DESKTOP-GR4MICQ
+  picture:
+  track: false
+
+10_ce_a9_09_5e_3b:
+  hide_if_away: false
+  icon:
+  mac: 10:CE:A9:09:5E:3B
+  name: 10 ce a9 09 5e 3b
+  picture:
+  track: false
+
+taylors_iphone:
+  hide_if_away: false
+  icon:
+  mac: 5C:1D:D9:B0:4E:5B
+  name: Taylors-iPhone
+  picture:
+  track: false
+
+b0_10_41_c6_5f_b3:
+  hide_if_away: false
+  icon:
+  mac: B0:10:41:C6:5F:B3
+  name: b0 10 41 c6 5f b3
+  picture:
+  track: false
+
+oliviaspodtouch:
+  hide_if_away: false
+  icon:
+  mac: FC:D8:48:1D:5C:55
+  name: OliviasPodtouch
+  picture:
+  track: false
+
+ipod_touch:
+  hide_if_away: false
+  icon:
+  mac: F0:76:6F:2C:F2:74
+  name: iPod-touch
+  picture:
+  track: false
+
+amies_ipad:
+  hide_if_away: false
+  icon:
+  mac: 8C:FE:57:51:CA:35
+  name: Amies-iPad
+  picture:
+  track: false
+
+40_00_2e_06_1e_bc:
+  hide_if_away: false
+  icon:
+  mac: 40:00:2E:06:1E:BC
+  name: 40 00 2e 06 1e bc
+  picture:
+  track: false
+
+40_00_2f_06_ff_e6:
+  hide_if_away: false
+  icon:
+  mac: 40:00:2F:06:FF:E6
+  name: 40 00 2f 06 ff e6
+  picture:
+  track: false
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: 64:5A:ED:31:83:43
+  name: iPhone
+  picture:
+  track: false
+
+lottie_laptop:
+  hide_if_away: false
+  icon:
+  mac: E4:A7:A0:09:04:39
+  name: Lottie-Laptop
+  picture:
+  track: false
+
+basement_chromecast:
+  hide_if_away: false
+  icon:
+  mac: 6C:AD:F8:95:CF:34
+  name: Basement Chromecast
+  picture:
+  track: false
+
+f8_c1_0a_00_01_28:
+  hide_if_away: false
+  icon:
+  mac: F8:C1:0A:00:01:28
+  name: f8 c1 0a 00 01 28
+  picture:
+  track: false
+
+iphone_2:
+  hide_if_away: false
+  icon:
+  mac: 20:AB:37:08:9A:59
+  name: iPhone
+  picture:
+  track: false
+
+android_739e9ebd33a3695a:
+  hide_if_away: false
+  icon:
+  mac: 48:C7:96:59:99:E7
+  name: android-739e9ebd33a3695a
+  picture:
+  track: false
+
+daynadoysiphone:
+  hide_if_away: false
+  icon:
+  mac: 24:F6:77:54:12:46
+  name: DaynaDoysiPhone
+  picture:
+  track: false
+
+68_c9_0b_d9_de_db:
+  hide_if_away: false
+  icon:
+  mac: 68:C9:0B:D9:DE:DB
+  name: 68 c9 0b d9 de db
+  picture:
+  track: false
+
+0e_b0_9e_5b_4b_ea:
+  hide_if_away: false
+  icon:
+  mac: 0E:B0:9E:5B:4B:EA
+  name: 0e b0 9e 5b 4b ea
+  picture:
+  track: false
+
+64_a2_00_00_00_00:
+  hide_if_away: false
+  icon:
+  mac: 64:A2:00:00:00:00
+  name: 64 a2 00 00 00 00
+  picture:
+  track: false
+
+rachaellaptop:
+  hide_if_away: false
+  icon:
+  mac: 74:E5:0B:0A:91:DC
+  name: RachaelLaptop
+  picture:
+  track: false
+
+nintendo_wii_u:
+  hide_if_away: false
+  icon:
+  mac: 40:F4:07:A7:40:D3
+  name: Nintendo Wii U
+  picture:
+  track: false

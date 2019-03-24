@@ -2,6 +2,7 @@ washer:
   name: Washer Status
   options:
     - Idle
+    - Starting
     - Running
     - Finishing
     - Clean

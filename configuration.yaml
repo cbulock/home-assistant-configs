@@ -19,6 +19,7 @@ http:
   login_attempts_threshold: 10
 
 sun:
+system_health:
 updater:
 frontend:
   themes: !include_dir_named themes
@@ -26,6 +27,7 @@ frontend:
 zeroconf:
 alexa:
 config:
+person:
 lovelace:
   mode: yaml
 
@@ -34,7 +36,7 @@ logbook:
 recorder:
   db_url: !secret db_path
   purge_interval: 3
-  purge_keep_days: 90
+  purge_keep_days: 30
 influxdb:
   host: nuc
 
@@ -50,12 +52,15 @@ input_select: !include_dir_merge_named input_selects
 intent_script: !include_dir_merge_named intent_scripts
 light: !include_dir_merge_list lights
 media_player: !include_dir_merge_list media_players
-notify: !include notify.yaml
 plant: !include_dir_merge_named plants
 scene: !include_dir_merge_list scenes
 script: !include_dir_named scripts
 sensor: !include_dir_merge_list sensors
 switch: !include_dir_merge_list switches
+
+ambient_station:
+  api_key: !secret ambient_api_key
+  app_key: !secret ambient_app_key
 
 cover:
   platform: opengarage
@@ -76,6 +81,16 @@ lutron_caseta_pro:
     - host: lutron
       fan: [ 17 ]
 
+mqtt:
+  discovery: true
+  broker: mqtt
+  birth_message:
+    topic: 'hass/status'
+    payload: 'online'
+  will_message:
+    topic: 'hass/status'
+    payload: 'offline'
+
 nest:
   client_id: !secret nest_client
   client_secret: !secret nest_secret
@@ -84,10 +99,10 @@ nest:
       - 'person_detected'
 
 octoprint:
-  - host: select_mini.3dprinter
+  - host: kirk.3dprinter
     name: Select Mini
     api_key: !secret select_mini_octoprint_key
-  - host: mini_delta.3dprinter
+  - host: picard.3dprinter
     name: Mini Delta
     api_key: !secret mini_delta_octoprint_key
 
@@ -97,12 +112,7 @@ panel_iframe:
     url: !secret node_red_url
     icon: mdi:cogs
 
-tts:
-  - platform: google
-
-twilio:
-  account_sid: !secret TWILIO_SID
-  auth_token: !secret TWILIO_TOKEN
+speedtestdotnet:
 
 vacuum:
   - platform: roomba
@@ -115,3 +125,7 @@ xiaomi_aqara:
   gateways:
     - key: !secret xiaomi_key
       host: xiaomi
+
+
+
+

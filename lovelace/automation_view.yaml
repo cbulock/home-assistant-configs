@@ -5,7 +5,6 @@ cards:
     title: Light Automation
     show_header_toggle: false
     entities:
-      - automation.indoor_holiday_lights_on
       - input_select.outdoor_lights
   - type: entities
     title: Alerts

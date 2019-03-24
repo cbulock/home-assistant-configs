@@ -9,7 +9,7 @@ media_player:
 #- host: hottub.audio.chromecast
 #- host: pergola.audio.chromecast
 #- host: downstairs.gh
-#- host: master.gh
+#- host: basement.gh
 #- host: hailey.gh
 #- host: brett.gh
 #- host: master.bathroom.gh

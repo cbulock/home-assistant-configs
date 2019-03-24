@@ -20,6 +20,8 @@ cards:
         ## Outdoors
     - type: weather-forecast
       entity: weather.main_floor
+  - type: vertical-stack
+    cards:
     - type: picture-entity
       title: Radar
       entity: camera.radar

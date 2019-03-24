@@ -40,9 +40,12 @@ cards:
       - scene.outdoors_usa
       - scene.outdoors_valentines_day
   - type: entities
-    title: Backyard Media
+    title: Patio
     show_header_toggle: false
     entities:
+      - entity: light.kitchen_backyard
+        name: Backyard
+        type: custom:slider-entity-row
       - entity: media_player.hot_tub_audio
         type: "custom:mini-media-player"
         name: Hot Tub Chromecast Audio
@@ -51,3 +54,4 @@ cards:
         type: "custom:mini-media-player"
         name: Pergola Chromecast Audio
         group: true
+      - entity: sensor.hot_tub_temp

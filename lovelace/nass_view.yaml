@@ -13,14 +13,14 @@ cards:
       - sensor.nas_memory_usage
       - sensor.nas_memory_used
       - sensor.nas_network_down_eth1
-      - sensor.nas_smart_status_drive_01
-      - sensor.nas_smart_status_drive_02
-      - sensor.nas_smart_status_drive_03
-      - sensor.nas_smart_status_drive_04
-      - sensor.nas_temperature_drive_01
-      - sensor.nas_temperature_drive_02
-      - sensor.nas_temperature_drive_03
-      - sensor.nas_temperature_drive_04
+      - sensor.nas_smart_status_drive_0_1
+      - sensor.nas_smart_status_drive_0_2
+      - sensor.nas_smart_status_drive_0_3
+      - sensor.nas_smart_status_drive_0_4
+      - sensor.nas_temperature_drive_0_1
+      - sensor.nas_temperature_drive_0_2
+      - sensor.nas_temperature_drive_0_3
+      - sensor.nas_temperature_drive_0_4
   - type: entities
     title: NAS2
     show_header_toggle: false
@@ -32,11 +32,11 @@ cards:
       - sensor.nas2_memory_usage
       - sensor.nas2_memory_used
       - sensor.nas2_network_down_eth1
-      - sensor.nas2_smart_status_drive_01
-      - sensor.nas2_smart_status_drive_02
-      - sensor.nas2_smart_status_drive_03
-      - sensor.nas2_smart_status_drive_04
-      - sensor.nas2_temperature_drive_01
-      - sensor.nas2_temperature_drive_02
-      - sensor.nas2_temperature_drive_03
-      - sensor.nas2_temperature_drive_04
+      - sensor.nas2_smart_status_drive_0_1
+      - sensor.nas2_smart_status_drive_0_2
+      - sensor.nas2_smart_status_drive_0_3
+      - sensor.nas2_smart_status_drive_0_4
+      - sensor.nas2_temperature_drive_0_1
+      - sensor.nas2_temperature_drive_0_2
+      - sensor.nas2_temperature_drive_0_3
+      - sensor.nas2_temperature_drive_0_4

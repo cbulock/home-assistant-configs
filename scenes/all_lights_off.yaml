@@ -17,13 +17,15 @@
     light.kids_bathroom_lights:
       state: off
     light.kitchen_cabinet:
-      state: off
+      state: on
+      brightness: 30
     light.kitchen_lights:
       state: off
     light.living_room_ceiling:
       state: off
     light.livingroom_lamp:
-      state: off
+      state: on
+      brightness: 30
     light.loft_lights:
       state: off
     light.master_bathroom_light:

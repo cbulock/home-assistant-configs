@@ -5,6 +5,7 @@ cards:
     show_header_toggle: false
     entities:
       - entity: sensor.living_room_battery
+        type: "custom:battery-entity"
         name: Living Room Plant
         icon: mdi:battery
       - entity: sensor.aloe_plant_battery

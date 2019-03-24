@@ -1,6 +1,0 @@
-- name: Kitchen dim
-  entities:
-    light.kitchen_cabinet:
-      state: on
-      brightness: 50
-      color_temp: 285

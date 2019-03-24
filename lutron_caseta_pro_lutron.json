@@ -538,6 +538,30 @@
             "Number": 6
           }
         ]
+      },
+      {
+        "Name": "Cabinet Remote",
+        "ID": 22,
+        "Area": {
+          "Name": "Kitchen"
+        },
+        "Buttons": [
+          {
+            "Number": 2
+          },
+          {
+            "Number": 3
+          },
+          {
+            "Number": 4
+          },
+          {
+            "Number": 5
+          },
+          {
+            "Number": 6
+          }
+        ]
       }
     ],
     "Zones": [
@@ -581,11 +605,11 @@
         "ID": 12
       },
       {
-        "Name": "Hailey's Ceiling",
+        "Name": "Brett's Ceiling",
         "ID": 13
       },
       {
-        "Name": "Brett's Ceiling",
+        "Name": "Hailey's Ceiling",
         "ID": 14
       },
       {
@@ -607,6 +631,13 @@
         "ID": 21,
         "Area": {
           "Name": "Laundry Room"
+        }
+      },
+      {
+        "Name": "Backyard",
+        "ID": 23,
+        "Area": {
+          "Name": "Kitchen"
         }
       }
     ]

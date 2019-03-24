@@ -1,6 +1,0 @@
-- name: Kitchen off
-  entities:
-    light.kitchen_cabinet:
-      state: off
-    light.kitchen_lights:
-      state: off
